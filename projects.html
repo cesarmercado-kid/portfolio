@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Cesar Mercado</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/page-projects.css" />
+
+  <meta http-equiv="refresh" content="3; url=/index.html">
+  
+</head>
+
+
+
+<body>
+
+  
+
+ <!-- top menu -->
+<header class="top-menu">
+    <a href="index.html" class="items">Home</a>
+    <a href="about.html" class="items">About</a>
+    <a href="projects.html" class="items">Projects</a>
+    <a href="resume.html" class="items">Resume</a>
+    <a href="contact.html" class="items">Contact</a>
+
+    
+<!-- navbar --> 
+</header>
+
+
+  <nav class="navbar">
+
+    <div class="nav-left">    
+      <a href="contact.html" class="nav-logo">
+        <img src="../assets/images/undraw_man.svg" alt="Logo" />
+      </a>          
+    
+
+    </div>
+
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active" >Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+
+<!-- navbar --> 
+
+  <section class="projects-hero">
+
+    <div class="redirect-box">
+    <h2>Redirecting you…</h2>
+    <p>
+          
+      This page is currently being updated.  
+      You'll be redirected to the homepage in a few seconds.
+      <br/><br/>
+      
+   
+      
+    </p>
+  </div>
+
+
+    <h1 class="section-title">Professional <span class="accent">Projects</span></h1>
+    <p>A selection of data science and ML projects — from exploratory analysis to production pipelines.</p>
+  </section>
+
+  <section>
+    <div class="projects-grid">
+
+      <!-- PROJECT 1 -->
+      <div class="project-card">
+        <h3 class="project-title">Customer Churn Prediction</h3>
+        <p class="project-desc">End-to-end ML pipeline to predict customer churn for a subscription business. Includes feature engineering, model selection, and a REST API for real-time inference.</p>
+        <ul class="project-bullets">
+          <li>Achieved 91% AUC-ROC on holdout set</li>
+          <li>Deployed as FastAPI microservice</li>
+          <li>Automated retraining with cron jobs</li>
+        </ul>
+        <p class="stack-label">Tech Stack</p>
+        <div class="project-stack">
+          <span class="stack-chip">Python</span>
+          <span class="stack-chip">Scikit-learn</span>
+          <span class="stack-chip">XGBoost</span>
+          <span class="stack-chip">FastAPI</span>
+          <span class="stack-chip">Docker</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">GitHub ↗</a>
+          <a href="#" class="project-link nb">Notebook ↗</a>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="project-card">
+        <h3 class="project-title">Sales Forecasting Dashboard</h3>
+        <p class="project-desc">Time series forecasting model for retail sales with an interactive Plotly dashboard to visualize predictions vs actuals across product categories.</p>
+        <ul class="project-bullets">
+          <li>SARIMA + Prophet models compared</li>
+          <li>Interactive dashboard with filters</li>
+          <li>Automated weekly report generation</li>
+        </ul>
+        <p class="stack-label">Tech Stack</p>
+        <div class="project-stack">
+          <span class="stack-chip">Python</span>
+          <span class="stack-chip">Prophet</span>
+          <span class="stack-chip">Plotly</span>
+          <span class="stack-chip">Pandas</span>
+          <span class="stack-chip">SQL</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">GitHub ↗</a>
+          <a href="#" class="project-link nb">Notebook ↗</a>
+        </div>
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="project-card">
+        <h3 class="project-title">NLP Sentiment Analyzer</h3>
+        <p class="project-desc">Sentiment analysis pipeline for product reviews using transformer models. Fine-tuned BERT on domain-specific data with a simple web interface.</p>
+        <ul class="project-bullets">
+          <li>Fine-tuned on 50k+ labeled reviews</li>
+          <li>88% accuracy on test set</li>
+          <li>REST API with batch processing</li>
+        </ul>
+        <p class="stack-label">Tech Stack</p>
+        <div class="project-stack">
+          <span class="stack-chip">Python</span>
+          <span class="stack-chip">HuggingFace</span>
+          <span class="stack-chip">PyTorch</span>
+          <span class="stack-chip">FastAPI</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">GitHub ↗</a>
+          <a href="#" class="project-link nb">Notebook ↗</a>
+        </div>
+      </div>
+
+      <!-- PROJECT 4 -->
+      <div class="project-card">
+        <h3 class="project-title">Exploratory Data Analysis — Berlin Housing</h3>
+        <p class="project-desc">Comprehensive EDA of Berlin's housing market using open data. Visualizes price trends by Bezirk, building age, and proximity to public transport.</p>
+        <ul class="project-bullets">
+          <li>Scraped and cleaned 15k+ listings</li>
+          <li>Geospatial analysis with Folium maps</li>
+          <li>Published as interactive notebook</li>
+        </ul>
+        <p class="stack-label">Tech Stack</p>
+        <div class="project-stack">
+          <span class="stack-chip">Python</span>
+          <span class="stack-chip">Pandas</span>
+          <span class="stack-chip">Folium</span>
+          <span class="stack-chip">Seaborn</span>
+          <span class="stack-chip">BeautifulSoup</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">GitHub ↗</a>
+          <a href="#" class="project-link nb">Notebook ↗</a>
+        </div>
+      </div>
+
+      <!-- PROJECT 5 -->
+      <div class="project-card">
+        <h3 class="project-title">Anomaly Detection — IoT Sensor Data</h3>
+        <p class="project-desc">Unsupervised anomaly detection on industrial sensor streams using Isolation Forest and LSTM autoencoders. Built for real-time alerting.</p>
+        <ul class="project-bullets">
+          <li>Processes 10k events/second</li>
+          <li>Reduced false positives by 40%</li>
+          <li>Alerting via webhook integration</li>
+        </ul>
+        <p class="stack-label">Tech Stack</p>
+        <div class="project-stack">
+          <span class="stack-chip">Python</span>
+          <span class="stack-chip">TensorFlow</span>
+          <span class="stack-chip">Scikit-learn</span>
+          <span class="stack-chip">Kafka</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">GitHub ↗</a>
+          <a href="#" class="project-link nb">Notebook ↗</a>
+        </div>
+      </div>
+
+      <!-- PROJECT 6 -->
+      <div class="project-card">
+        <h3 class="project-title">Portfolio Website — VPS Deployment</h3>
+        <p class="project-desc">This portfolio site — built with pure HTML/CSS, deployed on Oracle Cloud Free Tier with nginx, HTTPS via Let's Encrypt, and DNS on Cloudflare.</p>
+        <ul class="project-bullets">
+          <li>Zero framework — HTML/CSS/JS only</li>
+          <li>Self-hosted on Ubuntu 24.04 VPS</li>
+          <li>Automated SSL renewal with Certbot</li>
+        </ul>
+        <p class="stack-label">Tech Stack</p>
+        <div class="project-stack">
+          <span class="stack-chip">HTML/CSS</span>
+          <span class="stack-chip">nginx</span>
+          <span class="stack-chip">Oracle Cloud</span>
+          <span class="stack-chip">Cloudflare</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/cesarmercado-kid/portfolio" class="project-link">GitHub ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>Copyright © 2026 César Mercado</span>
+    <div class="footer-links">
+      <a href="https://github.com/cesarmercado-kid" target="_blank">
+        <img src="assets/images/github-black.svg" alt="GitHub" width="40" height="40" />
+      </a>
+      <a href="https://linkedin.com/in/cesarmercado-kid" target="_blank">
+        <img src="assets/images/in-black.png" alt="LinkedIn" width="40" height="40" />
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
