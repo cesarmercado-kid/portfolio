@@ -171,3 +171,19 @@
       }
     }
 
+    /* when there is only who-text (without photo), all text is centered */
+.who-grid {
+  grid-template-columns: 1fr;
+  max-width: 720px;
+  margin: 0 auto 80px;
+}
+
+.who-text {
+  text-align: center;
+}
+
+.who-text ul {
+  text-align: left;
+  display: inline-block;
+}
+

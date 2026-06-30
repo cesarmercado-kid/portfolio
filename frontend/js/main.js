@@ -1,3 +1,49 @@
+/* feature flags */
+const PAGE_FLAGS = {
+  projects: false,
+  contact:  true,
+  about:    true,
+  resume:   true
+};
+
+/* Detects the current page filename */
+function getCurrentPageKey() {
+  const path = window.location.pathname;
+  const file = path.substring(path.lastIndexOf('/') + 1);
+  const name = file.replace('.html', '');
+  return name === '' || name === 'index' ? 'index' : name;
+}
+
+/* Hides every link pointing to a disabled page (data-feature attribute) */
+function applyFeatureFlags() {
+  document.querySelectorAll('[data-feature]').forEach(el => {
+    const flag = el.getAttribute('data-feature');
+    if (PAGE_FLAGS[flag] === false) {
+      const li = el.closest('li');
+      if (li) {
+        li.style.display = 'none';
+      } else {
+        el.style.display = 'none';
+      }
+    }
+  });
+}
+
+/* If the current page itself is disabled, redirect to home */
+function guardCurrentPage() {
+  const key = getCurrentPageKey();
+  if (key !== 'index' && PAGE_FLAGS[key] === false) {
+    const isInPagesFolder = window.location.pathname.includes('/pages/');
+    window.location.replace(isInPagesFolder ? '../index.html' : 'index.html');
+  }
+}
+
+applyFeatureFlags();
+guardCurrentPage();
+
+
+
+
 /* mobile nav toggle */
 (function () {
   const toggle = document.getElementById('navToggle');
@@ -49,8 +95,7 @@ window.addEventListener("scroll", () => {
 (function () {
   const words   = [
     'Databases',
-    'Data Analyst', 
-    'Storyteller', 
+    'Data Analyst',  
     'BI and Dashboards', 
     'Tech Enthusiast', 
     'Lifelong Learner', 

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,14 +19,14 @@
  <!-- top menu -->
 <header class="top-menu">
     <a href="../index.html" class="items">Home</a>
-    <a href="about.html" class="items">About</a>
-    <a href="projects.html" class="items">Projects</a>
-    <a href="resume.html" class="items">Resume</a>
-    <a href="contact.html" class="items">Contact</a>
+    <a href="about.html" class="items" data-feature="about">About</a>
+    <a href="projects.html" class="items" data-feature="projects">Projects</a>
+    <a href="resume.html" class="items" data-feature="resume">Resume</a>
+    <a href="contact.html" class="items" data-feature="contact">Contact</a>
 </header>
 
 
-<!-- navbar --> 
+<!-- navbar -->
   <nav class="navbar">
     
     <div class="nav-left">    
@@ -40,32 +41,31 @@
     </button>
 
     <ul class="nav-links" id="navLinks">
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="about.html" class="active" >About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="../index.html" >Home</a></li>
+      <li><a href="about.html" class="active" data-feature="about">About</a></li>
+      <li><a href="projects.html" data-feature="projects">Projects</a></li>
+      <li><a href="resume.html" data-feature="resume">Resume</a></li>
+      <li><a href="contact.html" data-feature="contact">Contact</a></li>
     </ul>
   </nav>
 
   <!-- hero section -->
   <section class="about-hero">
     <h1 class="section-title">Know Who <span class="accent">I'M</span></h1>
-    <p>Data & Business Analyst — working with teams to explore what is happening, why it’s happening, and what to do next..</p>
   </section>
 
   <!-- who i am -->
   <section>
     <div class="who-grid">
-      <div class="who-photo">
+        <!-- <div class="who-photo">
         <div class="photo-frame">
           <img src="../assets/images/headshot-suit.png" alt="Cesar Mercado" onerror="this.style.display='none'" />          
-        </div>
-      </div>
+        </div> 
+      </div> -->
       <div class="who-text">
         <h3>Hi, I'm Cesar Mercado</h3>
         <p>
-          I combine analytics, data, and business understanding to provide insights that guide decision-making across different functions.          
+          I engineer data models and analytics solutions that bridge technical infrastructure with business strategy to guide cross-functional decision-making.     
         </p>
         <p>
           I bring strong experience working with SQL, Python and BI tools to analyze data and create dashboards that drive impact. I have a track record of delivering actionable insights and building data products that solve real business problems across domains including insurance, finance and operations.
@@ -83,10 +83,11 @@
           Beyond the code, I care about clean documentation, and
           building solutions that are maintainable and understandable by everyone.
         </p>
-        <blockquote class="quote">
+        
+        <!--<blockquote class="quote">
           "Was man nicht messen kann, kann man nicht lenken."
           <cite> Peter F. Drucker, considered the father of modern management.</cite>
-        </blockquote>
+        </blockquote> -->
       </div>
     </div>
 
@@ -136,24 +137,6 @@
         <span class="tool-chip">☁️ Oracle Cloud Infrastructure</span>
       </div>
     </div>
-  </section>
-
-  <!-- find me section -->
-  <section class="find-me">
-    <h2 class="section-title">Find Me <span class="accent">On</span></h2>
-    
-    <div class="social-links">
-      <a href="https://github.com/cesarmercado-kid" target="_blank" class="social-btn" aria-label="GitHub">
-        <img src="../assets/images/github-black.svg" alt="GitHub" width="40" height="40" />
-      </a>
-      <a href="https://linkedin.com/in/cesarmercado-kid" target="_blank" class="social-btn" aria-label="LinkedIn">
-        <img src="../assets/images/in-black.png" alt="LinkedIn" width="30" height="28" />
-      </a>
-      
-      
-    </div>
-    <br />
-    <p class="find-sub"><span class="accent-link">Connect</span> with me</p>
   </section>
 
   <!-- FOOTER -->
