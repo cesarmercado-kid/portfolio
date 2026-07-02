@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Work Authorization | César Mercado</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/navbar.css" />
+  <style>
+    /* Custom page-specific styling that integrates with your core style.css */
+    .visa-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .visa-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    .visa-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    }
+
+    .visa-card h3 {
+      font-family: var(--font-ui);
+      color: var(--primary);
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 2px solid rgba(77, 60, 255, 0.1);
+      padding-bottom: 0.5rem;
+    }
+
+    .status-badge {
+      display: inline-block;
+      background: rgba(77, 60, 255, 0.1);
+      color: var(--primary);
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      font-weight: 600;
+      font-family: var(--font-ui);
+      margin-bottom: 1.5rem;
+    }
+
+    .legal-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    .legal-list li {
+      position: relative;
+      padding-left: 1.8rem;
+      line-height: 1.6;
+    }
+
+    .legal-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #10b981; /* Success Green */
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .legal-list li.negative::before {
+      content: "×";
+      color: #ef4444; /* Error Red */
+      font-size: 1.4rem;
+      top: -2px;
+    }
+
+    .law-code {
+      font-family: monospace;
+      background: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      color: #475569;
+    }
+
+    .hr-notice {
+      background: linear-gradient(135deg, rgba(77, 60, 255, 0.05) 0%, rgba(225, 222, 208, 0.2) 100%);
+      border-left: 4px solid var(--primary);
+      padding: 1.5rem;
+      border-radius: 0 8px 8px 0;
+      margin-top: 1.5rem;
+    }
+
+    .hr-notice h4 {
+      font-family: var(--font-ui);
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .visa-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+
+
+    <!-- top menu -->
+  <header class="top-menu">
+    <a href="../index.html" class="items">Home</a>
+    <a href="about.html" class="items" data-feature="about">About</a>
+    <a href="projects.html" class="items" data-feature="projects">Projects</a>
+    <a href="resume.html" class="items" data-feature="resume">Resume</a>
+    <a href="contact.html" class="items" data-feature="contact">Contact</a>
+  </header>
+
+  <!-- navbar --> 
+  <nav class="navbar">
+    
+    <div class="nav-left">    
+      <a href="contact.html" class="nav-logo">
+        <img src="../assets/images/undraw_man.svg" alt="Logo" />
+      </a>          
+    
+    </div>
+        
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html" class="active">Home</a></li>
+      <li><a href="about.html" data-feature="about">About</a></li>
+      <li><a href="projects.html" data-feature="projects">Projects</a></li>
+      <li><a href="resume.html" data-feature="resume">Resume</a></li>
+      <li><a href="contact.html" data-feature="contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <section style="padding-top: 120px;">
+    <div class="visa-header">
+      <h2 class="section-title">WORK <span class="accent">AUTHORIZATION</span></h2>
+      <div class="status-badge">Current Status: Registered Resident in Berlin, Germany</div>
+    </div>
+
+    <div class="visa-container">
+      
+      <div class="visa-card">
+        <h3>Immediate Legal Permissions</h3>
+        <ul class="legal-list">
+          <li>
+            <strong>Part-Time Employment Allowed:</strong> Fully authorized to work up to **20 hours per week** in *any* type of professional role right now[cite: 8]. 
+            <br><span class="law-code">§ 20a Abs. 5 Satz 1 AufenthG</span> [cite: 8]
+          </li>
+          <li>
+            <strong>Two-Week Job Trials:</strong> Legally eligible to perform standard full-time or part-time trial employment (*Probebeschäftigung*) for up to 2 weeks per company to test professional fit[cite: 9]. 
+            <br><span class="law-code">§ 20a Abs. 2 Nummer 2 AufenthG</span> [cite: 9]
+          </li>
+          <li>
+            <strong>No Relocation Risks:</strong> Already physically located, registered (*Anmeldung*), and established within Berlin. Available for immediate onboarding.
+          </li>
+          <li class="negative">
+            <strong>Self-Employment:</strong> Freelancing or running an independent commercial business is not permitted under this framework[cite: 9].
+          </li>
+        </ul>
+      </div>
+
+      <div class="visa-card">
+        <h3>Fast-Track Transition to Full-Time</h3>
+        <p style="margin-bottom: 1rem; line-height: 1.6;">
+          For long-term, full-time positions, my current status acts as a direct bridge. The administrative process to convert my status is optimized for domestic applicants.
+        </p>
+        
+        <ul class="legal-list">
+          <li>
+            <strong>EU Blue Card Eligibility:</strong> Because I hold an advanced academic degree (MBA) [cite: 42, 53, 54] and an engineering degree [cite: 40, 53, 54], I qualify for direct transition into a full-time professional employment permit[cite: 60].
+          </li>
+          <li>
+            <strong>No Domestic Agency Delays:</strong> Because I am already in Germany on an approved residency track, your company does not have to deal with complex foreign embassies or visa-processing protocols abroad[cite: 12].
+          </li>
+          <li>
+            <strong>Open Contracts:</strong> I am actively targeting Full-Time, Part-Time (*Teilzeit*), or Strategic Corporate Project Contracts.
+          </li>
+        </ul>
+
+        <div class="hr-notice">
+          <h4>💡 Information for Recruiters</h4>
+          <p style="font-size: 0.9rem; line-height: 1.5; color: var(--text);">
+            Hiring me full-time does not require complex international sponsorship. Once a draft contract or a formal employment offer is generated, my legal status transitions swiftly via the local Berlin immigration office (*Ausländerbehörde*).
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>Copyright © 2026 César Mercado</span>
+    <div class="footer-links">
+      <a href="https://github.com/cesarmercado-kid" target="_blank">
+        <img src="../assets/images/github-black.svg" alt="GitHub" width="40" height="40" />
+      </a>
+      <a href="https://linkedin.com/in/cesarmercado-kid" target="_blank">
+        <img src="../assets/images/in-black.png" alt="LinkedIn" width="40" height="40" />
+      </a>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

@@ -3,7 +3,9 @@ const PAGE_FLAGS = {
   projects: false,
   contact:  true,
   about:    true,
-  resume:   true
+  resume:   true,
+  visa:     true,
+
 };
 
 /* Detects the current page filename */
