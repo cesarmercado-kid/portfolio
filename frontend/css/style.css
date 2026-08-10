@@ -229,13 +229,15 @@ section {
   display: inline-block;
   font-family: var(--font-ui);
   font-weight: 500;
-  font-size: 0.8rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 12px 28px;
-  border-radius: 2px;
+  font-size: 1.05rem;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 18px 40px;
+  border-radius: 0;
+  text-align: center;
+  line-height: 1.25;
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
   cursor: pointer;
 }
 
@@ -246,21 +248,46 @@ section {
 }
 
 .btn-primary:hover {
-  background: #000080;
-  border-color: #000080;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0, 91, 172, 0.3);
+  background: #3A2BD6;
+  border-color: #3A2BD6;
 }
 
+/* Secondary action — same solid fill, matching the reference */
 .btn-outline {
-  background: transparent;
-  color: var(--primary);
+  background: var(--primary);
+  color: #fff;
   border: 1px solid var(--primary);
 }
 
 .btn-outline:hover {
-  background: rgba(232, 201, 109, 0.08);
-  transform: translateY(-2px);
+  background: #3A2BD6;
+  border-color: #3A2BD6;
+}
+
+/* Tertiary action — plain blue text, no box */
+.btn-link {
+  display: inline-block;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: var(--primary);
+  background: none;
+  border: none;
+  padding: 12px 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    font-size: 0.95rem;
+    padding: 15px 24px;
+    width: 100%;
+  }
 }
 
 
