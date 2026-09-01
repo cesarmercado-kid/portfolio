@@ -1,6 +1,6 @@
 /* feature flags */
 const PAGE_FLAGS = {
-  projects: false,
+  projects: true,
   contact:  true,
   about:    true,
   resume:   true,

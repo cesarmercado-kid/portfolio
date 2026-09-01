@@ -9,9 +9,6 @@
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="../css/navbar.css" />
   <link rel="stylesheet" href="../css/page-projects.css" />
-
-  <meta http-equiv="refresh" content="3; url=../index.html">
-  
 </head>
 
 
@@ -23,16 +20,14 @@
  <!-- top menu -->
 <header class="top-menu">
     <a href="../index.html" class="items">Home</a>
-    <a href="about.html" class="items">About</a>
-    <a href="projects.html" class="items">Projects</a>
-    <a href="resume.html" class="items">Resume</a>
-    <a href="contact.html" class="items">Contact</a>
-
-    
-<!-- navbar --> 
+    <a href="about.html" class="items" data-feature="about">About</a>
+    <a href="projects.html" class="items active" data-feature="projects">Projects</a>
+    <a href="resume.html" class="items" data-feature="resume">Resume</a>
+    <a href="contact.html" class="items" data-feature="contact">Contact</a>
 </header>
 
 
+  <!-- navbar -->
   <nav class="navbar">
 
     <div class="nav-left">    
@@ -50,32 +45,15 @@
     
     <ul class="nav-links" id="navLinks">
       <li><a href="../index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html" class="active" >Projects</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html" data-feature="about">About</a></li>
+      <li><a href="projects.html" class="active" data-feature="projects">Projects</a></li>
+      <li><a href="resume.html" data-feature="resume">Resume</a></li>
+      <li><a href="contact.html" data-feature="contact">Contact</a></li>
     </ul>
   </nav>
 
 
-<!-- navbar --> 
-
   <section class="projects-hero">
-
-    <div class="redirect-box">
-    <h2>Redirecting you…</h2>
-    <p>
-          
-      This page is currently being updated.  
-      You'll be redirected to the homepage in a few seconds.
-      <br/><br/>
-      
-   
-      
-    </p>
-  </div>
-
-
     <h1 class="section-title">Professional <span class="accent">Projects</span></h1>
     <p>A selection of data science and ML projects — from exploratory analysis to production pipelines.</p>
   </section>
@@ -214,6 +192,7 @@
         </div>
         <div class="project-links">
           <a href="https://github.com/cesarmercadokid/portfolio" class="project-link">GitHub ↗</a>
+          <a href="https://cesarmercadokid.github.io/portfolio/" class="project-link nb" target="_blank">Live Site ↗</a>
         </div>
       </div>
 
