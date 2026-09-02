@@ -1,11 +1,9 @@
 /* feature flags */
 const PAGE_FLAGS = {
-  projects: true,
-  contact:  true,
   about:    true,
-  resume:   true,
-  visa:     true,
-
+  projects: true,
+  cv:       true,
+  contact:  true,
 };
 
 /* Detects the current page filename */
@@ -97,6 +95,7 @@ window.addEventListener("scroll", () => {
 (function () {
   const words   = [
     'Databases',
+    'Data Scientist',
     'Data Analyst',  
     'BI and Dashboards', 
     'Tech Enthusiast', 

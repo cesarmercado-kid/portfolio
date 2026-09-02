@@ -1,0 +1,946 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mobile app engagement and dropout · Cesar Mercado</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#4D3CFF;
+  --primary-dark:#3A2BD6;
+  --primary-08:rgba(77,60,255,.08);
+  --primary-14:rgba(77,60,255,.14);
+  --primary-25:rgba(77,60,255,.25);
+  --sand:#e1ded0;
+  --page:#f4f2ea;
+  --card:#ffffff;
+  --text:#000080;
+  --ink:#101033;
+  --muted:#4a4a5e;
+  --border:#bdaaaa;
+  --border-soft:#e3dcd6;
+
+  --s1:#4D3CFF;   /* G1 / Main */
+  --s2:#EB6834;   /* G2 / Prom */
+  --s3:#1BAF7A;   /* G3 */
+  --s4:#EDA100;   /* Serv */
+
+  --font-head:'Bebas Neue',sans-serif;
+  --font-body:'DM Sans',sans-serif;
+  --font-ui:'Montserrat',sans-serif;
+  --font-mono:'DM Mono',ui-monospace,monospace;
+
+  --radius:4px;
+  --shadow:0 12px 40px rgba(77,60,255,.10);
+  --shadow-sm:0 2px 10px rgba(16,16,51,.06);
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{font-size:16px;scroll-behavior:smooth;scrollbar-gutter:stable}
+body{background:var(--page);color:var(--ink);font-family:var(--font-body);font-weight:400;line-height:1.55;-webkit-font-smoothing:antialiased}
+
+/* ---------- masthead ---------- */
+.masthead{background:var(--primary);color:#fff;padding:34px 0 30px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 24px}
+.mast-top{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:6px}
+.mast-kicker{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.72)}
+.mast-title{font-family:var(--font-head);font-size:clamp(2.1rem,5vw,3.3rem);letter-spacing:.04em;line-height:1.02}
+.mast-q{font-family:var(--font-ui);font-weight:300;font-size:clamp(.95rem,2vw,1.12rem);color:rgba(255,255,255,.9);max-width:70ch;margin-top:10px}
+.mast-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.chip{font-family:var(--font-mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;
+      padding:5px 11px;border-radius:2px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);color:#fff}
+
+/* ---------- filter bar ---------- */
+.filters{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.93);backdrop-filter:blur(12px);
+         border-bottom:1px solid var(--border-soft);box-shadow:0 2px 14px rgba(16,16,51,.05)}
+.filters-inner{display:flex;align-items:flex-end;gap:22px;flex-wrap:wrap;row-gap:12px;padding:13px 24px;max-width:1240px;margin:0 auto}
+.fgroup{display:flex;flex-direction:column;gap:6px}
+.flabel{font-family:var(--font-mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.seg{display:flex;gap:0;border:1px solid var(--border);border-radius:2px;overflow:hidden;background:#fff}
+.seg button{font-family:var(--font-ui);font-size:.78rem;font-weight:500;padding:7px 13px;border:0;background:#fff;
+            color:var(--muted);cursor:pointer;transition:background .15s,color .15s;white-space:nowrap}
+.seg button+button{border-left:1px solid var(--border-soft)}
+.seg button[aria-pressed="true"]{background:var(--primary);color:#fff}
+.seg button:hover:not([aria-pressed="true"]){background:var(--primary-08);color:var(--primary)}
+.freset{margin-left:auto;flex-shrink:0;font-family:var(--font-ui);font-size:.78rem;font-weight:500;color:var(--primary);
+        background:none;border:1px solid var(--primary-25);border-radius:2px;padding:7px 14px;cursor:pointer;transition:background .15s}
+.freset:hover{background:var(--primary-08)}
+.fcount{font-family:var(--font-mono);font-size:.74rem;color:var(--muted);align-self:center}
+.fcount b{color:var(--primary)}
+
+/* ---------- notice ---------- */
+.notice{max-width:1240px;margin:20px auto 0;padding:0 24px}
+.notice-inner .tag{font-family:var(--font-mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:#8a5f00;display:block;margin-bottom:4px}
+.notice-inner p{font-size:.84rem;color:var(--ink);line-height:1.6}
+
+/* ---------- grid ---------- */
+main{max-width:1240px;margin:0 auto;padding:20px 24px 70px}
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-bottom:24px}
+.kpi{background:var(--card);border:1px solid var(--border-soft);border-radius:var(--radius);padding:16px 16px 14px;position:relative;overflow:hidden;box-shadow:var(--shadow-sm)}
+.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--primary)}
+.kpi-label{font-family:var(--font-mono);font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:7px;line-height:1.35;min-height:2.2em}
+.kpi-value{font-family:var(--font-head);font-size:1.85rem;letter-spacing:.02em;color:var(--text);line-height:1}
+.kpi-sub{font-family:var(--font-ui);font-size:.72rem;color:var(--muted);margin-top:5px}
+.kpi.accent::before{background:var(--s2)}
+.kpi.accent .kpi-value{color:var(--s2)}
+
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--border-soft);border-radius:var(--radius);padding:20px 22px 18px;
+      box-shadow:var(--shadow-sm);transition:box-shadow .25s;position:relative}
+.card:hover{box-shadow:var(--shadow)}
+.col-6{grid-column:span 6}.col-4{grid-column:span 4}.col-8{grid-column:span 8}.col-12{grid-column:span 12}
+.card h3{font-family:var(--font-ui);font-weight:600;font-size:.98rem;color:var(--text);letter-spacing:.01em;margin-bottom:3px}
+.card .sub{font-family:var(--font-ui);font-weight:300;font-size:.8rem;color:var(--muted);margin-bottom:14px}
+.legend{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}
+.lg{display:flex;align-items:center;gap:7px;font-family:var(--font-ui);font-size:.78rem;color:var(--muted)}
+.lg i{width:11px;height:11px;border-radius:2px;display:block}
+svg{display:block;width:100%;height:auto;overflow:visible}
+.axis text{font-family:var(--font-mono);font-size:10px;fill:var(--muted)}
+.axis line{stroke:var(--border-soft);stroke-width:1}
+.gridline{stroke:var(--border-soft);stroke-width:1;stroke-dasharray:3 3}
+.bar-label{font-family:var(--font-ui);font-size:11px;font-weight:600;fill:var(--text)}
+.axis-title{font-family:var(--font-mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;fill:var(--muted)}
+
+/* ---------- readings ---------- */
+.insight{border-left:3px solid var(--primary);background:var(--primary-08);padding:13px 17px;border-radius:0 2px 2px 0;margin-top:14px}
+.insight .tag{font-family:var(--font-mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);display:block;margin-bottom:5px}
+.insight p{font-size:.86rem;color:var(--ink);line-height:1.6}
+.insight.warn{border-left-color:var(--s2);background:rgba(235,104,52,.07)}
+.insight.warn .tag{color:var(--s2)}
+
+/* ---------- table ---------- */
+.tbl-tools{display:flex;gap:10px;align-items:center;margin-bottom:12px;flex-wrap:wrap}
+.tbl-tools input{font-family:var(--font-ui);font-size:.8rem;padding:7px 11px;border:1px solid var(--border);border-radius:2px;width:210px;outline:none}
+.tbl-tools input:focus{border-color:var(--primary)}
+.tbl-scroll{overflow-x:auto;border:1px solid var(--border-soft);border-radius:2px}
+table{border-collapse:collapse;width:100%;font-size:.82rem}
+th{font-family:var(--font-mono);font-size:.68rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);
+   background:#faf9f5;padding:9px 12px;text-align:left;border-bottom:1px solid var(--border-soft);white-space:nowrap;cursor:pointer;user-select:none}
+th:hover{color:var(--primary)}
+td{padding:8px 12px;border-bottom:1px solid #f1eeea;font-family:var(--font-ui);font-weight:300;color:var(--ink);white-space:nowrap}
+tbody tr:hover{background:var(--primary-08)}
+.pill{font-family:var(--font-mono);font-size:.68rem;padding:2px 7px;border-radius:2px}
+.pill.g1{background:rgba(77,60,255,.12);color:var(--primary)}
+.pill.g2{background:rgba(235,104,52,.14);color:#b8481f}
+.pill.g3{background:rgba(27,175,122,.14);color:#0e7a53}
+.pill.on{background:rgba(27,175,122,.14);color:#0e7a53}
+.pill.off{background:rgba(16,16,51,.08);color:var(--muted)}
+.pager{display:flex;gap:8px;align-items:center;margin-top:12px;font-family:var(--font-mono);font-size:.76rem;color:var(--muted)}
+.pager button{font-family:var(--font-ui);font-size:.78rem;border:1px solid var(--border);background:#fff;color:var(--primary);
+              padding:5px 12px;border-radius:2px;cursor:pointer}
+.pager button:disabled{opacity:.4;cursor:default;color:var(--muted)}
+
+/* ---------- tooltip ---------- */
+#tip{position:fixed;pointer-events:none;opacity:0;transition:opacity .12s;background:#fff;border:1px solid var(--border);
+     border-radius:3px;box-shadow:0 8px 26px rgba(16,16,51,.18);padding:9px 12px;font-family:var(--font-ui);font-size:.78rem;
+     color:var(--ink);z-index:200;max-width:260px}
+#tip b{color:var(--primary);font-weight:600}
+#tip .tk{font-family:var(--font-mono);font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;display:block;margin-bottom:3px}
+
+/* ---------- footer ---------- */
+
+@media (max-width:1080px){
+  .kpis{grid-template-columns:repeat(3,1fr)}
+  .col-6,.col-4,.col-8{grid-column:span 12}
+}
+@media (max-width:620px){
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .filters-inner{gap:16px}
+  .freset{margin-left:0}
+}
+    /* ---------- top menu (identical to the rest of the site) ---------- */
+    .top-menu{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:2rem;
+      max-width:1240px;margin:0 auto;padding:26px 24px 22px}
+    .top-menu .items{position:relative;display:inline-block;font-family:var(--font-ui);
+      font-size:1rem;color:var(--primary);text-decoration:none}
+    .top-menu .items::after{content:"";position:absolute;bottom:-2px;left:50%;width:0;height:2px;
+      background-color:var(--primary);transform:translateX(-50%);transition:width .3s ease}
+    .top-menu .items:hover::after,.top-menu .items.active::after{width:100%}
+    @media(max-width:700px){.top-menu{justify-content:center;gap:1.1rem;padding:18px 16px 14px}
+      .top-menu .items{font-size:.92rem}}
+      /* ---------- narrow screens: nothing escapes the viewport ---------- */
+    .grid>*,.card,.joins>*,.recs>*,.jsrc>*{min-width:0}
+    .jt,.code,.tbl-scroll{max-width:100%;overflow-x:auto}
+    @media (max-width:620px){
+      .seg{flex-wrap:wrap}
+      .fgroup,.filters-inner{max-width:100%}
+    }
+      /* ---------- closing recommendation ---------- */
+    .recs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .rec{border:1px solid var(--border-soft);border-radius:3px;padding:16px 18px;
+      background:#faf9f5;position:relative}
+    .rec::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--primary)}
+    .rec:nth-child(2)::before{background:var(--s2)}
+    .rec:nth-child(3)::before{background:var(--s3)}
+    .rec .q{font-family:var(--font-mono);font-size:.64rem;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);display:block;margin-bottom:6px}
+    .rec .a{font-family:var(--font-ui);font-weight:600;font-size:1rem;color:var(--text);
+      margin-bottom:7px;display:block}
+    .rec p{font-size:.84rem;color:var(--ink);line-height:1.6}
+    @media (max-width:900px){.recs{grid-template-columns:1fr}}
+      .chip-link{text-decoration:none;transition:background .15s}
+    .chip-link:hover{background:rgba(255,255,255,.28)}
+    /* ---------- footer (identical to the rest of the site) ---------- */
+    .footer{position:relative;z-index:1;display:flex;justify-content:space-between;
+      align-items:flex-start;padding:24px 48px;border-top:1px solid #d6d2c6;
+      font-family:var(--font-ui);font-size:.75rem;letter-spacing:.04em;color:#fff;
+      background-color:var(--primary);min-height:13rem}
+    .footer-links{display:flex;gap:16px}
+    .footer-links a{color:#fff;text-decoration:none}
+    .footer-links a:hover{opacity:.75}
+    .footer-links svg{width:26px;height:26px;display:block;fill:currentColor}
+    @media (max-width:768px){
+      .footer{flex-direction:column;gap:12px;padding:24px;text-align:center;min-height:auto}
+      .footer-links{justify-content:center}
+    }
+  </style>
+</head>
+<body>
+
+<header class="top-menu">
+  <a href="../index.html" class="items">Home</a>
+  <a href="../pages/about.html" class="items">About</a>
+  <a href="../pages/projects.html" class="items active">Projects</a>
+  <a href="../pages/cv.html" class="items">CV</a>
+  <a href="../pages/contact.html" class="items">Contact</a>
+</header>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="mast-top">
+      <span class="mast-kicker">Product analytics · Retention</span>
+    </div>
+    <h1 class="mast-title">How a car app gets abandoned</h1>
+    <p class="mast-q">How do users interact with a car manufacturer’s mobile app, and how has that interaction changed over time? 105 customers followed through their first four weeks, where the data that is missing is worth as much as the data that is there.</p>
+    <div class="mast-chips">
+      <span class="chip">105 users</span>
+      <span class="chip">116 variables</span>
+      <span class="chip">28 days</span>
+      <span class="chip">Missing data</span>
+      <a class="chip chip-link" href="data/mobile-app-engagement-simulated.csv" download>Simulated dataset ↓</a>
+      <span class="chip">Cohorts · Parallel coordinates</span>
+    </div>
+  </div>
+</header>
+
+<div class="filters">
+  <div class="filters-inner">
+    <div class="fgroup">
+      <span class="flabel">Cohort</span>
+      <div class="seg" id="f-cohort">
+        <button data-v="all" aria-pressed="true">All</button>
+        <button data-v="1">G1</button>
+        <button data-v="2">G2</button>
+        <button data-v="3">G3</button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <span class="flabel">Vehicle</span>
+      <div class="seg" id="f-veh">
+        <button data-v="all" aria-pressed="true">All</button>
+        <button data-v="0">Luxury</button>
+        <button data-v="1">Standard</button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <span class="flabel">Device</span>
+      <div class="seg" id="f-dev">
+        <button data-v="all" aria-pressed="true">All</button>
+        <button data-v="0">Android</button>
+        <button data-v="1">OS X</button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <span class="flabel">Sex</span>
+      <div class="seg" id="f-sex">
+        <button data-v="all" aria-pressed="true">Both</button>
+        <button data-v="1">Male</button>
+        <button data-v="0">Female</button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <span class="flabel">Age</span>
+      <div class="seg" id="f-age">
+        <button data-v="all" aria-pressed="true">All</button>
+        <button data-v="1">≤25</button>
+        <button data-v="2">26–34</button>
+        <button data-v="3">35–50</button>
+        <button data-v="4">50+</button>
+      </div>
+    </div>
+    <span class="fcount"><b id="n-rows">105</b> of 105 users</span>
+    <button class="freset" id="reset">Clear filters</button>
+  </div>
+</div>
+
+
+<main>
+  <section class="kpis">
+    <div class="kpi"><div class="kpi-label">Users analyzed</div><div class="kpi-value" id="k-n">—</div><div class="kpi-sub" id="k-n-sub">—</div></div>
+    <div class="kpi"><div class="kpi-label">Still active on day 28</div><div class="kpi-value" id="k-ret">—</div><div class="kpi-sub" id="k-ret-sub">—</div></div>
+    <div class="kpi accent"><div class="kpi-label">With some missing value</div><div class="kpi-value" id="k-miss">—</div><div class="kpi-sub">dropped out and never returned</div></div>
+    <div class="kpi"><div class="kpi-label">Average days active</div><div class="kpi-value" id="k-days">—</div><div class="kpi-sub" id="k-days-sub">—</div></div>
+    <div class="kpi"><div class="kpi-label">Median dropout day</div><div class="kpi-value" id="k-med">—</div><div class="kpi-sub" id="k-med-sub">—</div></div>
+    <div class="kpi"><div class="kpi-label">Detected period</div><div class="kpi-value" id="k-per">—</div><div class="kpi-sub" id="k-per-sub">promotions every Friday</div></div>
+  </section>
+
+  <section class="grid">
+
+    <div class="card col-8">
+      <h3>Retention curve</h3>
+      <p class="sub">Percentage of users still active each day</p>
+      <svg id="c-ret" viewBox="0 0 700 260" role="img" aria-label="Day-by-day retention curve"></svg>
+      <div class="insight">
+        <span class="tag">Retention</span>
+        <p id="ins-ret">—</p>
+      </div>
+    </div>
+
+    <div class="card col-4">
+      <h3>Missingness map</h3>
+      <p class="sub">One row per user, one column per day · black = used the app, white = missing value</p>
+      <svg id="c-miss" viewBox="0 0 340 300" role="img" aria-label="Missingness map by user and day"></svg>
+      <div class="insight warn">
+        <span class="tag">Missing values</span>
+        <p>Once a usage variable turns missing, <b>every later day is missing too</b>. Nobody comes back. That is why the missingness is not imputed: it is the data that measures dropout.</p>
+      </div>
+    </div>
+
+    <div class="card col-6">
+      <h3>Page views per day</h3>
+      <p class="sub">Mean of the ordinal category (1–5) among the users active that day</p>
+      <svg id="c-pv" viewBox="0 0 520 270" role="img" aria-label="Daily mean of page views"></svg>
+      <div class="insight">
+        <span class="tag">Weekly cycle</span>
+        <p id="ins-pv">—</p>
+      </div>
+    </div>
+
+    <div class="card col-6">
+      <h3>Page views by cohort</h3>
+      <p class="sub">Daily mean of page views within each group detected by clustering</p>
+      <div class="legend">
+        <span class="lg"><i style="background:var(--s1)"></i>G1 · flat usage</span>
+        <span class="lg"><i style="background:var(--s2)"></i>G2 · spike and drop</span>
+        <span class="lg"><i style="background:var(--s3)"></i>G3 · weekly cycle</span>
+      </div>
+      <svg id="c-coh" viewBox="0 0 520 250" role="img" aria-label="Mean page views by cohort"></svg>
+      <div class="insight">
+        <span class="tag">Cohorts</span>
+        <p id="ins-coh">—</p>
+      </div>
+    </div>
+
+    <div class="card col-4">
+      <h3>Dropouts by day</h3>
+      <p class="sub">Number of users whose last day with data is each day</p>
+      <svg id="c-drop" viewBox="0 0 340 250" role="img" aria-label="Distribution of the dropout day"></svg>
+      <div class="insight">
+        <span class="tag">Dropout timing</span>
+        <p id="ins-drop">—</p>
+      </div>
+    </div>
+
+    <div class="card col-4">
+      <h3>Page type by cohort</h3>
+      <p class="sub">Breakdown of the majority page type across all active days</p>
+      <div class="legend">
+        <span class="lg"><i style="background:var(--s1)"></i>Main · maintenance</span>
+        <span class="lg"><i style="background:var(--s2)"></i>Prom · promotions</span>
+        <span class="lg"><i style="background:var(--s4)"></i>Serv · services</span>
+      </div>
+      <svg id="c-type" viewBox="0 0 340 214" role="img" aria-label="Page type breakdown by cohort"></svg>
+      <div class="insight">
+        <span class="tag">Page types</span>
+        <p id="ins-type">—</p>
+      </div>
+    </div>
+
+    <div class="card col-4">
+      <h3>Page views on the last active day</h3>
+      <p class="sub">Page views on the last day versus each user’s personal mean</p>
+      <svg id="c-sig" viewBox="0 0 340 250" role="img" aria-label="Page views before dropout by cohort"></svg>
+      <div class="insight">
+        <span class="tag">Early warning</span>
+        <p id="ins-sig">—</p>
+      </div>
+    </div>
+
+    <div class="card col-12">
+      <h3>Recommendation</h3>
+      <p class="sub">What the file supports, measured across all 105 users and 28 days</p>
+      <div class="recs">
+        <div class="rec">
+          <span class="q">When users are lost</span>
+          <span class="a">Between days 15 and 20</span>
+          <p>97 of the 105 users were still active on day 14. Only <b>4</b> leave during the first week, against <b>29</b> in the six days that follow, and the base ends at 44 users (42%) on day 28. Retention effort placed after day 20 arrives once most of the loss has happened.</p>
+        </div>
+        <div class="rec">
+          <span class="q">What sustains usage</span>
+          <span class="a">The weekly promotion cycle</span>
+          <p>Activity follows a seven-day period: page views average <b>3.59</b> on Fridays against <b>2.53</b> at the troughs. The cohort that tracks that cycle, G3, spends <b>48%</b> of its active days on promotion pages, against 27% for the other two.</p>
+        </div>
+        <div class="rec">
+          <span class="q">How to anticipate a dropout</span>
+          <span class="a">A fall in page views</span>
+          <p>In G2 and G3 the last active day sits well below each user's own average (<b>-1.54</b> and <b>-1.02</b> categories). In G1 the gap is 0.08, so for that cohort the trigger has to be the calendar rather than the behaviour.</p>
+        </div>
+      </div>
+      <div class="insight" style="margin-top:18px">
+        <span class="tag">Missing values</span>
+        <p>Once a usage variable turns missing, every later day is missing too and no user comes back. The missing values are not a defect to impute: they are the variable that measures dropout, and imputing them would erase the very thing being measured.</p>
+      </div>
+    </div>
+
+    <div class="card col-12">
+      <h3>User detail</h3>
+      <p class="sub">The rows left after applying the filters · click a header to sort</p>
+      <div class="tbl-tools">
+        <input type="search" id="tbl-q" placeholder="Search…" aria-label="Search the table">
+        <span class="fcount"><b id="tbl-n">0</b> rows</span>
+      </div>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr>
+            <th data-c="0">User</th><th data-c="1">Cohort</th><th data-c="2">Age</th><th data-c="3">Sex</th>
+            <th data-c="4">Device</th><th data-c="5">Vehicle</th><th data-c="6">Days active</th>
+            <th data-c="7">Last day</th><th data-c="8">Page views (mean)</th><th data-c="9">% of days driven</th>
+          </tr></thead>
+          <tbody id="tbl-body"></tbody>
+        </table>
+      </div>
+      <div class="pager">
+        <button id="pg-prev">Previous</button>
+        <span id="pg-info">—</span>
+        <button id="pg-next">Next</button>
+      </div>
+    </div>
+
+  </section>
+</main>
+
+<div id="tip" role="status"></div>
+
+<footer class="footer">
+  <span>Cesar Mercado · Industrial Engineer &amp; MBA · 2026</span>
+  <div class="footer-links">
+    <a href="https://github.com/cesarmercadokid" target="_blank" rel="noopener" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+    </a>
+    <a href="https://linkedin.com/in/cesarmercadokid" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+  </div>
+</footer>
+
+<script>
+const DATA = [[1,1,0,0,0,28,[2,3,3,3,3,2,3,3,3,4,2,3,3,4,3,2,3,4,4,4,3,3,3,2,2,3,3,3],[0,2,1,0,1,0,2,2,1,1,0,2,2,1,0,2,1,2,0,1,1,2,0,2,2,1,2,2],[2,3,3,2,2,2,3,3,2,3,1,3,3,3,3,2,3,4,4,3,3,3,3,2,2,3,3,2],[0,0,0,1,1,1,0,1,0,0,1,1,0,0,0,1,1,1,0,1,1,0,0,1,1,1,1,1]],[1,4,0,1,1,19,[4,4,3,3,4,3,3,3,4,4,3,2,4,4,3,3,3,3,3,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,1,1,0,0,1,2,0,1,2,0,0,2,2,2,0,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1],[4,4,2,3,3,2,3,2,4,3,2,1,3,4,3,3,2,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,0,1,0,1,1,1,1,0,0,0,1,0,0,1,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,2,0,0,1,28,[3,3,4,3,2,3,3,3,3,2,3,3,3,4,2,4,4,3,2,2,2,2,3,3,4,4,2,3],[2,0,2,1,2,2,1,0,1,0,0,2,2,2,0,2,0,2,0,2,0,2,1,0,2,1,2,2],[3,3,4,3,1,3,2,2,2,1,2,2,3,4,1,4,3,3,2,1,1,2,2,3,3,3,2,3],[0,1,0,1,0,0,1,1,0,1,1,1,1,0,0,1,1,1,1,1,0,1,1,0,1,1,1,1]],[1,3,1,0,1,13,[2,2,3,3,2,3,3,3,3,3,4,3,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,2,0,1,0,0,2,1,2,2,2,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,1,3,2,2,2,3,3,2,2,3,3,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,1,0,0,1,1,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,4,0,1,0,17,[3,3,3,2,2,3,3,4,3,2,3,3,3,3,3,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,2,2,1,2,0,2,2,1,0,0,0,0,1,2,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[3,2,2,1,1,2,2,4,3,2,2,3,3,2,3,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,0,1,0,1,1,1,0,1,1,1,0,0,0,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,2,1,0,1,23,[4,2,3,4,4,3,3,4,2,3,3,3,3,2,3,3,4,2,4,2,4,2,4,-1,-1,-1,-1,-1],[2,2,1,1,0,2,0,0,1,2,0,0,1,2,0,0,2,0,1,1,1,0,2,-1,-1,-1,-1,-1],[3,1,3,3,3,3,2,3,2,2,3,2,2,1,3,3,3,2,3,1,4,2,3,-1,-1,-1,-1,-1],[0,0,0,1,1,0,1,1,0,1,1,1,1,0,0,0,1,0,1,0,0,0,1,-1,-1,-1,-1,-1]],[1,2,0,0,1,28,[3,3,3,4,4,2,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,2,3,4,4,3,4,3],[2,2,1,2,2,1,0,1,1,1,1,1,0,2,2,1,2,0,2,2,2,0,2,2,1,2,2,1],[3,2,3,3,4,2,3,2,2,4,2,3,3,3,2,2,2,3,3,3,3,1,2,4,3,2,4,3],[0,0,1,0,1,0,1,0,1,0,1,0,0,0,1,1,0,1,1,1,1,1,1,1,0,1,1,1]],[1,3,0,0,0,28,[3,3,3,3,3,3,3,3,3,2,2,4,3,3,3,3,2,3,2,4,3,3,3,4,3,3,4,4],[2,2,1,2,0,2,2,1,2,1,1,2,2,0,1,0,2,1,2,0,1,0,0,2,2,0,2,1],[2,3,2,2,2,3,3,3,2,1,1,3,3,2,2,3,2,3,2,3,3,2,3,3,2,3,4,3],[1,0,1,1,1,0,1,0,0,0,0,1,1,1,0,0,0,1,0,1,1,1,0,1,0,1,0,1]],[1,4,0,1,0,13,[2,3,2,3,4,3,3,3,3,4,2,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,2,1,0,2,1,2,1,2,2,0,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,3,2,2,4,3,2,3,3,3,2,2,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,0,0,1,1,1,0,0,1,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,4,0,1,0,28,[2,2,3,3,3,4,2,2,2,4,4,2,3,3,3,3,4,3,4,2,3,2,4,2,3,2,3,4],[1,0,1,2,2,0,1,0,1,1,1,1,1,2,2,2,2,0,2,0,2,0,1,2,0,0,1,0],[2,1,2,3,2,3,2,1,2,4,3,2,2,2,3,3,4,3,4,1,3,2,4,1,3,1,3,4],[1,1,1,1,1,0,1,0,0,1,1,0,1,1,0,0,1,1,0,0,1,0,1,1,1,1,1,1]],[1,2,1,0,1,11,[3,3,4,3,3,2,2,3,4,3,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,2,2,0,0,1,2,2,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[3,2,4,3,2,2,2,3,3,2,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,0,1,1,0,1,1,1,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,1,0,1,0,6,[3,4,4,2,2,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,1,0,1,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[3,4,4,1,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,1,0,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,2,1,0,0,28,[3,3,2,4,4,3,4,3,3,3,3,3,2,2,3,3,3,3,4,3,2,3,4,4,2,3,3,2],[1,2,2,0,2,1,0,2,1,1,1,0,1,0,0,2,2,2,1,1,1,0,2,2,0,2,0,0],[2,2,1,3,3,3,4,2,3,3,2,3,2,1,2,3,3,2,3,3,1,2,3,4,1,3,3,1],[0,0,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,1,0,1,0,0,1,0,1,1,1,1]],[1,4,0,1,0,16,[2,4,2,2,3,2,3,3,3,3,2,3,4,2,2,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,1,2,2,2,2,1,2,2,0,2,2,0,1,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,4,2,2,3,2,3,2,3,3,2,2,4,2,2,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,1,0,0,1,0,1,0,0,1,0,0,1,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,2,0,0,1,17,[3,4,4,3,2,2,4,3,3,2,3,3,3,3,4,3,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,2,0,2,2,1,0,1,2,2,1,1,1,2,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,3,3,2,1,1,3,3,3,2,3,3,2,2,4,3,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,0,1,0,0,0,0,1,1,1,0,1,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,1,1,0,0,28,[3,3,3,2,2,3,3,4,3,3,2,3,3,3,3,3,3,2,2,3,2,4,3,3,3,4,2,3],[0,2,1,0,0,0,1,2,0,0,2,1,2,0,2,0,0,1,0,2,0,0,1,1,0,1,2,1],[3,3,2,2,2,2,2,4,3,3,1,2,2,3,3,3,2,2,2,2,2,4,2,2,3,3,2,3],[0,0,1,1,1,0,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,1,0,1,0,0]],[1,3,0,1,1,28,[2,3,2,4,3,2,3,4,2,3,3,3,3,3,3,3,3,3,2,3,4,3,3,2,3,3,4,3],[0,2,2,2,2,2,1,2,1,0,0,2,2,0,1,0,1,2,0,2,0,1,0,1,2,1,1,0],[1,3,2,4,3,2,3,4,2,3,2,2,3,3,3,2,2,2,2,3,3,2,2,1,2,3,4,3],[0,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,1,0,1,0,0,1,1,1,0,0,1,1]],[1,2,0,0,1,28,[2,2,3,3,4,3,3,3,2,3,4,3,4,2,2,3,3,3,3,2,3,4,4,3,2,3,3,3],[0,1,2,1,2,0,2,2,1,2,2,1,1,1,2,0,2,1,2,1,2,2,2,2,1,1,0,2],[2,1,3,2,4,3,3,2,2,3,4,3,3,1,2,2,2,2,2,2,3,3,4,3,1,3,3,2],[1,0,0,1,1,0,0,1,0,1,0,0,1,0,0,0,1,0,1,1,1,0,0,1,1,1,1,0]],[1,2,0,0,0,11,[3,4,3,3,3,3,2,3,3,3,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,1,0,2,2,1,0,2,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[3,4,2,2,3,2,2,3,3,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,1,0,1,1,1,0,0,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,3,0,1,1,22,[3,2,3,3,3,4,2,2,2,3,3,2,2,2,3,3,2,3,3,4,3,4,-1,-1,-1,-1,-1,-1],[1,0,0,0,1,1,2,0,2,1,0,1,1,0,1,2,2,1,1,0,2,2,-1,-1,-1,-1,-1,-1],[2,2,3,2,2,3,2,1,1,3,2,1,1,1,3,3,2,3,2,4,2,3,-1,-1,-1,-1,-1,-1],[1,1,1,0,1,1,0,1,1,1,0,1,1,0,0,1,1,0,0,0,1,0,-1,-1,-1,-1,-1,-1]],[1,4,1,0,0,14,[3,2,2,3,3,2,4,3,2,4,3,3,3,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,2,0,2,2,0,1,2,2,2,1,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[3,1,1,3,3,2,4,3,1,3,3,3,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,0,1,0,1,1,1,0,0,0,1,1,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,2,0,0,0,25,[2,3,3,3,4,3,3,2,2,2,3,4,3,3,4,4,3,3,4,3,3,4,2,3,2,-1,-1,-1],[2,2,2,1,0,0,1,0,0,2,1,2,1,2,1,1,2,0,1,0,0,0,2,2,1,-1,-1,-1],[1,2,3,3,3,2,2,1,1,1,2,4,2,3,4,4,2,3,3,3,3,4,2,2,1,-1,-1,-1],[0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,1,0,1,1,1,0,0,0,1,-1,-1,-1]],[1,3,0,0,1,19,[2,3,4,2,4,4,2,4,3,3,3,2,3,2,3,3,4,2,3,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,0,1,2,2,2,0,2,2,2,1,0,2,2,2,0,2,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,3,3,2,3,4,2,4,3,3,2,2,2,2,2,3,3,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,1,1,0,0,1,0,0,1,0,1,0,0,0,0,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,2,0,1,1,14,[4,4,2,4,4,3,3,3,3,2,4,4,3,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,0,0,1,1,0,2,1,0,1,2,0,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[3,3,2,4,3,2,3,2,2,1,3,3,3,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,1,0,1,1,1,1,0,0,1,1,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,4,0,0,1,18,[2,3,3,3,4,3,3,3,4,4,3,4,2,3,3,3,2,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,2,0,2,0,1,0,2,0,1,2,1,1,2,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,3,2,2,3,3,3,3,3,4,2,4,1,2,3,2,2,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,0,1,1,0,0,0,1,1,1,1,1,1,0,1,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,2,0,0,0,28,[2,3,3,3,3,2,4,3,3,2,2,3,2,3,2,4,2,2,3,2,3,3,2,3,3,3,3,3],[1,2,0,0,1,1,2,1,1,0,0,0,2,2,2,2,2,0,2,0,2,0,2,1,2,0,2,0],[2,2,3,2,3,2,3,2,2,1,1,3,2,3,1,3,1,1,3,1,2,3,1,3,2,2,3,2],[0,1,1,0,1,0,1,0,1,0,1,1,1,0,0,0,1,1,1,0,1,1,0,0,1,1,0,1]],[1,1,0,0,1,14,[4,2,4,3,2,4,3,3,3,3,3,2,4,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,1,1,0,0,2,0,0,1,0,2,2,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[4,2,3,3,2,3,2,2,3,2,2,2,3,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,1,0,1,1,1,0,1,1,1,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,1,1,0,1,22,[3,4,3,2,3,2,3,2,3,4,3,4,2,3,3,4,3,3,3,3,2,2,-1,-1,-1,-1,-1,-1],[0,0,0,0,2,1,1,0,0,2,0,1,1,2,2,2,1,2,0,2,2,1,-1,-1,-1,-1,-1,-1],[3,4,3,1,2,2,3,2,2,3,2,4,1,3,3,3,3,3,2,2,1,1,-1,-1,-1,-1,-1,-1],[1,1,1,1,0,0,0,0,0,1,0,1,0,1,1,0,1,0,0,0,1,0,-1,-1,-1,-1,-1,-1]],[1,4,0,1,1,17,[4,3,3,3,4,2,3,3,4,4,4,3,3,3,4,3,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,2,2,1,1,2,1,1,2,1,0,2,2,2,1,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[3,3,3,2,4,1,3,2,4,3,3,3,2,3,3,2,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,2,1,0,1,6,[3,3,3,3,3,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,0,0,0,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,2,2,2,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,0,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,2,0,0,1,26,[3,3,2,4,3,4,4,2,2,3,3,3,3,2,3,4,2,2,3,3,3,3,3,4,3,4,-1,-1],[1,2,0,0,1,0,2,0,2,1,0,2,1,2,1,2,1,2,2,1,0,0,0,0,0,1,-1,-1],[3,3,1,3,3,4,4,2,1,2,2,2,2,2,2,3,1,1,2,3,3,3,3,3,3,3,-1,-1],[1,0,1,0,1,1,0,1,0,1,1,1,0,1,1,0,0,0,1,1,0,0,1,1,1,1,-1,-1]],[1,3,1,1,1,6,[4,3,3,3,2,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,0,2,0,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[3,3,2,2,1,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,0,1,0,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,2,1,0,0,28,[4,4,3,2,3,3,3,3,4,3,4,3,3,4,3,4,3,3,3,2,2,3,2,2,2,2,3,4],[1,1,2,2,0,2,1,0,0,1,0,2,1,0,2,0,2,1,2,1,0,0,1,2,2,0,0,0],[3,4,2,2,3,2,3,3,3,3,3,3,2,3,2,4,2,3,2,2,2,2,2,1,1,1,3,3],[0,0,1,1,0,0,0,1,1,0,1,1,1,0,1,1,0,1,1,0,0,1,1,1,1,0,0,1]],[1,2,0,1,1,6,[3,3,3,3,4,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,2,2,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[3,2,3,3,3,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,0,0,1,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[1,4,1,1,0,28,[2,4,2,3,2,2,4,4,3,3,3,3,4,2,3,3,3,4,3,3,3,4,3,4,4,3,4,4],[2,2,1,2,1,2,2,1,2,1,2,1,0,2,2,2,0,2,1,0,2,0,0,2,2,1,2,1],[2,4,2,3,2,1,3,3,2,2,2,3,4,1,2,2,3,3,3,2,2,3,3,4,3,2,3,4],[1,1,0,1,1,0,1,0,0,1,1,0,1,0,0,1,0,0,0,0,1,0,1,1,1,1,0,1]],[2,2,1,0,1,15,[1,2,2,2,3,2,3,4,3,4,4,4,2,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,2,1,0,2,0,2,2,1,2,2,0,2,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,2,1,3,2,3,4,2,3,4,3,2,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,0,1,1,1,1,1,1,1,1,1,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,3,0,1,1,28,[2,2,2,2,2,2,2,3,4,4,3,4,5,4,3,3,3,2,2,2,2,2,2,2,2,2,2,2],[2,2,0,1,1,2,2,2,0,2,2,0,2,2,0,0,0,1,2,1,2,0,0,1,2,2,2,2],[2,1,2,1,2,2,2,3,3,3,2,3,5,4,2,3,3,2,2,2,2,2,2,1,1,1,2,1],[0,0,1,1,1,1,1,1,0,1,1,1,1,0,0,1,0,1,1,1,0,0,1,0,0,0,0,1]],[2,3,1,1,0,16,[2,2,2,2,2,2,3,3,3,4,4,4,4,2,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,0,2,1,2,2,2,1,1,1,2,0,1,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,2,2,1,1,2,2,2,3,4,3,4,4,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,1,1,0,1,1,1,1,0,1,0,1,1,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,2,0,1,0,20,[2,2,2,2,3,2,2,3,3,3,4,3,4,3,4,4,5,3,1,1,-1,-1,-1,-1,-1,-1,-1,-1],[2,2,0,2,1,1,1,2,0,2,2,0,2,2,2,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1],[2,1,1,1,3,2,2,3,2,3,4,3,3,3,3,3,4,3,1,0,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,0,1,0,0,-1,-1,-1,-1,-1,-1,-1,-1]],[2,2,0,0,0,18,[1,2,2,2,2,2,3,3,3,3,3,3,4,4,4,3,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,2,2,0,0,0,1,1,0,0,2,1,2,2,2,0,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,2,2,2,1,1,2,3,2,2,3,3,3,3,4,3,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,1,1,1,0,0,1,0,0,1,1,0,0,0,0,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,4,1,0,1,15,[2,2,2,2,3,2,3,3,3,3,4,5,2,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,2,0,0,2,2,2,2,0,0,2,2,1,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,1,1,2,3,2,3,3,2,2,4,5,2,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,0,1,0,1,0,0,0,1,1,1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,2,1,1,0,22,[2,1,2,2,2,2,3,2,2,2,3,4,4,3,4,4,4,4,4,2,2,1,-1,-1,-1,-1,-1,-1],[2,0,2,0,1,2,1,0,0,2,1,1,1,2,2,2,2,1,1,2,0,2,-1,-1,-1,-1,-1,-1],[1,0,1,2,1,1,2,1,2,1,2,4,3,3,3,3,3,4,4,2,2,0,-1,-1,-1,-1,-1,-1],[0,0,1,1,1,1,0,1,0,1,1,1,1,1,0,0,0,1,1,1,0,0,-1,-1,-1,-1,-1,-1]],[2,4,1,1,0,17,[2,1,2,2,2,2,3,3,4,3,3,4,4,5,2,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,1,1,2,1,2,2,1,0,2,0,1,2,1,1,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,1,1,2,2,2,3,2,3,3,2,4,4,5,2,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,1,1,1,1,1,1,0,1,1,1,1,1,0,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,1,1,0,0,18,[2,2,2,2,2,2,3,3,3,3,4,4,4,4,5,2,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,2,0,2,2,2,2,1,0,2,1,0,2,1,2,2,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,2,1,2,2,1,3,2,3,3,4,3,4,4,4,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,2,0,0,1,15,[2,1,2,2,3,2,3,4,4,4,4,5,2,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,0,1,2,0,2,0,2,0,1,0,2,2,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,1,1,2,2,2,4,3,3,4,5,1,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,0,1,0,1,1,1,0,0,1,1,1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,4,1,1,0,22,[1,2,2,2,2,3,2,2,3,2,3,3,3,4,3,3,4,4,5,2,2,1,-1,-1,-1,-1,-1,-1],[1,1,0,2,2,2,0,2,2,2,0,0,1,1,0,2,2,1,0,1,0,2,-1,-1,-1,-1,-1,-1],[1,1,1,1,1,2,1,1,3,2,2,3,2,4,3,2,4,3,5,1,1,0,-1,-1,-1,-1,-1,-1],[1,0,0,0,1,0,1,1,0,1,1,1,1,1,1,0,1,0,1,1,1,1,-1,-1,-1,-1,-1,-1]],[2,4,0,1,1,16,[2,2,2,2,2,2,3,3,4,4,4,4,4,2,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,2,1,0,1,1,2,1,2,2,2,0,2,1,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,2,1,2,2,2,2,3,4,4,4,4,4,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,0,1,0,0,1,1,1,1,0,0,0,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,1,1,0,1,15,[1,2,2,2,2,3,3,3,4,4,4,5,2,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,0,1,0,2,0,0,0,2,2,1,2,1,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,2,1,2,2,2,3,2,3,4,4,4,2,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,0,0,1,0,1,0,1,1,1,1,0,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,3,0,0,0,14,[2,2,2,2,3,3,3,4,4,4,4,2,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,0,0,0,2,2,2,2,2,2,2,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,2,2,2,2,3,3,4,4,4,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,1,0,1,1,0,1,0,0,1,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,3,1,1,0,17,[2,2,2,2,2,2,2,3,3,3,3,4,4,4,2,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,2,0,1,2,0,1,2,2,2,2,2,0,1,2,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,2,1,1,2,2,2,3,3,2,3,3,3,4,1,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,0,0,1,0,0,0,0,1,1,0,1,1,1,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,2,1,0,0,18,[2,1,2,2,2,2,2,3,3,3,3,4,4,4,4,2,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,0,1,1,2,1,2,1,1,2,1,0,1,0,1,2,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,2,1,2,2,1,2,2,3,2,3,3,3,3,2,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,0,1,0,0,0,1,0,0,0,1,0,0,1,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,2,1,1,0,17,[2,2,2,2,2,3,3,3,3,4,3,4,4,5,2,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,0,2,1,1,2,0,0,1,2,0,2,2,0,0,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,2,1,1,1,3,2,3,2,4,3,4,3,5,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,1,1,1,1,0,1,0,0,1,1,1,1,0,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,2,1,1,0,28,[1,2,2,2,3,2,3,3,3,3,4,4,4,4,4,3,2,2,2,2,2,2,2,2,2,2,2,2],[2,2,2,0,1,1,1,1,1,1,1,0,0,2,2,0,2,2,0,0,1,0,0,1,2,2,0,2],[1,2,2,2,3,1,3,2,2,3,3,4,3,4,4,2,2,1,2,2,1,1,2,2,2,1,2,1],[0,0,1,1,1,0,0,0,0,1,0,0,1,1,1,1,1,0,1,1,1,1,0,0,1,1,0,1]],[2,3,1,0,0,19,[1,1,2,2,2,2,3,3,3,4,3,4,3,4,4,4,2,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,1,2,2,0,0,2,2,2,2,1,1,1,2,0,2,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,2,1,1,2,3,2,2,4,3,4,2,4,4,4,2,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,0,0,1,0,0,1,0,0,0,1,1,1,0,0,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,4,1,0,0,18,[2,1,2,2,2,2,2,3,3,3,4,3,4,4,5,3,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,0,2,2,2,2,2,2,1,1,2,1,2,0,2,0,2,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,0,2,1,2,2,2,3,2,2,3,2,4,4,5,3,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,1,1,1,0,1,0,1,1,0,0,1,1,1,0,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,2,1,0,1,18,[2,2,2,2,3,3,3,3,3,3,4,3,4,4,4,2,2,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,0,0,2,1,2,0,2,2,0,2,2,1,0,1,2,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,2,2,3,3,2,3,3,3,4,3,3,3,3,2,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,3,0,1,0,16,[2,2,2,2,3,3,3,3,3,4,4,4,4,3,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,2,2,1,1,2,2,0,0,1,2,2,1,2,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,2,1,1,2,3,2,3,2,3,3,3,4,2,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,0,1,1,1,1,0,1,0,1,1,0,0,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[2,3,1,1,0,20,[2,2,2,2,2,2,3,2,2,3,3,3,4,4,4,5,5,2,2,1,-1,-1,-1,-1,-1,-1,-1,-1],[1,2,1,0,0,0,1,0,2,2,1,2,2,1,2,2,2,1,1,0,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,1,2,2,1,2,2,1,2,3,3,4,3,3,5,4,2,1,0,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,0,0,1,1,0,0,0,1,0,1,1,1,1,0,0,0,1,0,-1,-1,-1,-1,-1,-1,-1,-1]],[2,3,1,1,1,24,[2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,4,4,5,2,2,2,-1,-1,-1,-1],[0,0,2,2,1,0,1,2,0,1,2,1,2,0,2,0,1,0,2,2,0,2,1,2,-1,-1,-1,-1],[1,2,1,1,1,2,2,2,2,2,2,3,3,2,2,3,2,3,3,4,4,1,2,1,-1,-1,-1,-1],[1,0,1,1,1,1,0,0,0,1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,-1,-1,-1,-1]],[2,2,1,0,0,22,[2,2,2,2,2,2,2,2,3,3,3,4,4,3,4,4,4,4,5,2,1,1,-1,-1,-1,-1,-1,-1],[2,2,2,2,1,1,1,2,1,1,2,2,1,2,0,0,0,0,1,2,2,0,-1,-1,-1,-1,-1,-1],[2,1,2,2,1,2,2,2,2,3,3,4,3,2,3,3,4,3,5,1,0,1,-1,-1,-1,-1,-1,-1],[0,0,0,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,0,-1,-1,-1,-1,-1,-1]],[2,2,0,0,0,28,[1,1,1,2,3,3,3,3,4,4,4,4,5,4,3,2,2,2,2,2,2,2,2,2,2,2,2,2],[2,2,2,0,2,1,1,2,2,2,0,2,0,2,2,2,0,2,1,0,0,2,1,2,0,1,2,0],[1,1,1,2,3,3,3,2,4,4,3,3,5,4,2,1,2,1,2,1,2,1,1,1,1,1,2,1],[0,1,1,0,1,1,1,1,0,0,1,0,0,0,0,0,1,0,1,1,1,0,0,0,0,1,1,1]],[2,3,0,1,1,28,[2,2,2,2,2,3,3,3,3,3,4,4,5,4,3,3,2,2,3,2,2,2,1,2,2,2,2,2],[0,2,2,2,0,0,2,2,0,0,0,2,2,2,0,1,1,0,1,2,2,2,2,2,2,1,1,1],[2,1,1,2,1,2,2,3,2,2,4,4,5,4,3,2,2,2,3,2,1,1,0,1,1,2,1,1],[0,0,1,0,0,1,0,0,1,1,1,0,1,0,0,0,0,1,1,0,1,0,0,1,0,1,1,0]],[2,2,1,0,1,18,[2,2,2,2,2,2,3,3,3,3,4,4,4,4,5,2,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,1,2,2,1,1,0,0,2,2,2,2,1,2,0,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,1,1,1,1,3,3,2,2,3,3,3,3,5,1,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,0,1,0,1,0,0,1,0,1,1,1,0,0,0,0,1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[3,1,1,0,1,22,[2,2,3,4,4,4,3,2,3,3,4,5,4,3,2,2,3,4,4,2,2,1,-1,-1,-1,-1,-1,-1],[0,0,1,2,0,1,1,2,0,2,1,1,1,1,1,1,0,1,1,2,1,0,-1,-1,-1,-1,-1,-1],[2,2,3,3,4,4,3,2,2,3,3,5,3,2,2,2,2,3,4,1,1,0,-1,-1,-1,-1,-1,-1],[1,1,1,0,1,0,0,0,1,0,1,1,1,1,0,0,1,1,1,1,0,1,-1,-1,-1,-1,-1,-1]],[3,3,0,1,0,28,[3,2,3,4,4,4,3,3,2,3,3,5,4,3,2,2,3,4,4,4,3,3,2,3,4,4,3,3],[1,2,2,0,1,2,1,2,2,2,1,1,0,1,2,1,2,0,1,2,2,2,2,2,0,1,0,0],[2,1,2,3,4,4,2,2,2,3,2,4,4,2,1,1,3,3,4,4,3,3,2,3,3,4,2,3],[0,0,0,0,1,1,1,1,0,0,1,1,1,0,1,1,1,0,1,1,1,1,1,0,1,0,1,1]],[3,1,0,0,1,19,[3,2,3,4,4,3,3,3,3,3,4,4,3,3,2,2,2,2,3,-1,-1,-1,-1,-1,-1,-1,-1,-1],[2,2,1,1,0,1,0,2,2,1,0,1,0,1,2,2,2,1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1],[3,1,2,4,4,2,3,3,3,2,3,3,2,3,1,1,1,2,3,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,0,0,1,0,1,1,0,1,0,1,1,1,1,0,0,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[3,2,1,0,1,28,[2,2,3,4,4,4,3,3,2,3,3,4,4,3,2,2,3,3,4,4,3,2,2,3,4,5,4,3],[2,2,0,2,1,1,2,1,0,1,1,0,1,1,0,1,1,2,1,1,0,1,2,2,1,1,0,2],[2,1,3,3,3,4,3,3,2,3,3,4,3,3,1,1,3,3,3,3,3,2,2,3,4,4,4,3],[0,0,0,0,1,1,1,1,0,1,1,0,1,0,0,1,1,0,1,1,0,0,1,0,1,1,0,0]],[3,3,0,0,1,24,[2,2,3,4,4,3,3,2,2,3,3,4,4,3,2,3,3,4,4,4,3,1,1,1,-1,-1,-1,-1],[2,1,2,1,0,0,1,1,1,1,1,1,1,1,2,2,1,1,1,1,1,2,0,1,-1,-1,-1,-1],[1,2,2,4,4,3,2,2,1,2,3,3,4,3,2,2,3,4,4,4,3,1,0,1,-1,-1,-1,-1],[0,1,0,1,1,0,1,0,1,1,1,0,1,0,0,0,1,1,0,1,0,0,0,0,-1,-1,-1,-1]],[3,3,0,0,1,28,[2,3,3,4,4,4,3,2,3,3,4,4,4,3,2,2,3,4,4,4,3,3,3,3,4,4,3,3],[1,2,2,2,1,1,1,0,1,2,1,1,1,1,2,0,2,2,1,1,2,1,2,2,2,1,0,0],[2,3,3,4,4,4,3,1,3,2,3,3,4,3,1,2,3,4,3,4,2,2,3,2,4,4,2,2],[1,1,0,0,1,1,1,1,0,1,0,0,1,1,0,0,1,1,1,0,0,0,1,0,0,1,1,0]],[3,2,0,1,0,28,[2,2,3,4,4,3,3,3,3,3,4,4,4,3,3,3,3,3,4,4,3,3,2,3,4,5,3,3],[0,0,2,2,1,1,2,0,1,1,2,2,2,2,2,0,2,1,2,1,1,1,1,2,1,2,1,1],[2,1,2,4,3,3,2,3,2,3,4,4,3,3,2,2,3,3,3,4,2,3,1,2,3,5,3,3],[1,0,0,1,0,0,1,1,1,0,0,1,0,1,1,1,1,1,0,1,1,0,0,1,1,1,1,0]],[3,3,1,0,1,23,[2,2,3,4,5,3,3,2,3,3,4,4,4,3,2,2,3,4,4,4,1,1,1,-1,-1,-1,-1,-1],[2,2,0,0,2,1,1,1,1,2,1,1,1,2,2,1,2,1,2,0,1,1,0,-1,-1,-1,-1,-1],[1,2,3,4,5,2,2,1,2,3,4,3,4,2,1,1,3,4,4,3,1,1,0,-1,-1,-1,-1,-1],[0,1,0,1,0,1,0,0,1,1,1,1,1,0,0,1,1,1,1,1,0,0,1,-1,-1,-1,-1,-1]],[3,3,1,0,0,28,[3,2,3,3,4,4,3,2,2,3,3,5,4,3,2,2,3,3,4,3,3,2,2,3,4,5,4,3],[2,1,2,1,1,0,0,2,2,2,1,2,0,0,2,2,2,1,2,2,0,2,0,0,2,1,2,1],[2,2,2,3,3,4,3,2,2,2,3,5,3,3,2,2,2,2,3,2,2,1,1,2,4,4,3,2],[0,0,1,1,1,1,1,1,0,1,1,0,1,0,0,1,1,1,1,1,0,0,1,0,1,1,1,1]],[3,2,0,0,0,28,[2,3,3,4,4,3,3,2,2,3,4,5,4,3,2,3,3,3,5,4,3,3,3,3,3,4,4,3],[0,0,1,0,2,1,1,0,0,2,1,1,0,1,0,1,2,1,0,1,2,2,1,1,1,1,1,1],[1,3,3,4,4,2,2,1,1,2,3,4,3,2,1,3,3,2,5,4,2,2,3,3,3,3,3,3],[0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,0,0,1,0,0,0,1,1,0,0,1,0,0]],[3,2,0,1,0,28,[2,3,3,4,5,4,3,2,3,3,4,4,4,3,3,2,3,4,4,4,3,2,2,3,4,4,4,3],[1,0,0,2,2,1,0,0,2,0,1,1,0,2,0,0,0,1,2,1,1,2,1,0,2,2,2,2],[1,3,3,3,5,3,2,2,3,2,4,3,4,2,2,1,2,3,3,4,2,2,2,2,4,3,3,3],[1,1,1,1,1,1,1,0,0,0,0,1,0,1,0,1,1,0,1,1,0,1,1,1,1,1,1,1]],[3,1,1,1,0,28,[2,2,3,4,4,3,3,2,2,3,3,4,3,3,2,3,3,4,4,3,3,3,2,3,4,4,4,3],[0,1,0,0,1,1,2,0,2,1,0,1,1,2,2,1,0,2,2,1,1,2,0,1,1,1,0,1],[1,2,2,4,3,2,3,1,2,2,3,3,3,3,2,3,3,3,4,2,2,2,2,3,4,3,4,3],[1,1,0,0,0,1,1,1,1,0,1,1,1,1,1,0,0,1,0,0,1,0,0,0,1,0,1,0]],[3,2,0,1,0,28,[3,2,3,4,5,3,3,3,2,3,3,4,4,3,2,2,3,4,4,4,3,2,2,3,4,4,4,3],[2,2,1,2,1,2,1,1,2,2,1,1,1,1,1,2,0,1,1,1,2,2,1,1,2,2,1,1],[3,2,3,4,5,3,2,3,2,3,3,3,3,3,1,1,3,4,3,4,3,1,1,3,4,4,4,3],[0,1,0,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,1,0,0,1,1,1,1,1,1,1]],[3,2,0,0,0,27,[2,3,3,4,4,4,3,3,2,3,4,4,4,3,2,2,3,4,4,3,3,2,2,3,2,2,2,-1],[2,1,2,2,1,2,2,1,1,1,2,1,0,0,2,2,2,2,1,1,0,2,0,0,0,0,1,-1],[2,2,2,3,3,3,3,2,1,2,3,4,4,3,1,2,3,4,4,2,3,1,2,3,1,2,1,-1],[0,0,1,0,0,1,1,1,0,1,1,0,0,1,0,1,0,1,1,1,1,1,0,1,1,1,1,-1]],[3,2,0,0,1,26,[3,2,3,4,4,4,3,3,2,3,4,5,3,3,2,2,3,4,4,3,3,3,3,1,2,3,-1,-1],[2,1,0,1,1,0,2,2,0,1,1,2,1,1,2,1,2,1,0,0,1,2,1,2,2,1,-1,-1],[3,1,2,4,4,4,3,3,1,2,3,4,2,2,2,1,2,3,3,3,2,2,3,0,2,3,-1,-1],[0,0,1,0,0,0,1,0,0,1,0,1,1,0,0,1,1,1,1,1,0,1,1,1,1,1,-1,-1]],[3,3,0,1,0,28,[2,2,3,4,4,4,3,2,3,3,4,4,3,3,3,2,3,3,4,3,3,2,3,3,4,4,3,3],[0,1,1,1,1,2,2,1,1,2,2,2,1,1,0,2,2,0,0,2,2,0,1,1,1,1,1,1],[1,1,3,3,4,3,2,1,2,3,4,3,3,2,3,1,3,3,3,3,2,2,2,3,3,3,2,2],[0,1,0,0,1,1,1,0,0,1,0,1,1,0,1,0,0,1,1,0,0,1,0,1,0,1,0,0]],[3,4,0,0,1,28,[3,3,3,4,5,3,3,2,2,3,4,4,3,3,3,2,3,4,4,4,3,2,2,3,3,4,4,3],[0,1,2,1,1,1,1,2,0,2,1,1,0,1,2,2,1,1,0,1,0,2,1,2,0,2,2,1],[2,2,2,3,5,2,2,1,2,3,3,4,3,2,2,1,2,3,3,3,2,2,1,3,2,4,3,3],[0,0,0,0,1,0,0,1,1,1,0,1,1,1,0,0,0,1,1,0,1,1,0,1,1,1,0,0]],[3,1,0,0,1,28,[2,3,3,3,5,3,3,3,2,3,3,4,3,3,2,3,3,3,4,4,3,2,2,3,3,4,4,3],[2,0,2,2,2,1,2,2,1,1,0,1,0,2,1,0,2,0,1,1,1,0,1,2,2,0,2,1],[2,3,2,2,5,2,2,2,2,3,3,3,2,2,1,2,2,3,3,4,2,2,2,3,3,4,4,3],[1,1,1,0,1,1,1,0,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,0,1,1]],[3,2,1,1,1,28,[2,2,3,4,5,4,3,3,3,3,3,4,3,3,2,2,3,4,4,4,3,3,3,3,4,4,4,3],[0,1,1,2,1,0,1,1,0,1,1,1,1,1,1,1,2,0,2,1,0,2,1,0,0,1,0,0],[1,1,2,4,4,4,2,2,2,3,3,4,2,2,2,2,2,4,4,4,2,2,2,2,3,3,3,3],[0,1,0,0,0,1,0,0,0,1,0,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,1]],[3,3,1,0,0,28,[3,2,3,4,5,4,3,3,2,3,4,5,4,3,3,2,3,4,4,4,3,3,3,3,3,4,4,3],[1,2,1,2,1,2,1,0,1,1,0,1,2,2,1,2,1,1,1,2,1,0,1,2,2,1,0,2],[3,2,2,4,5,3,3,3,2,2,4,5,4,3,2,2,3,4,4,3,3,2,3,3,2,3,3,3],[0,0,0,1,1,0,1,0,1,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,0,1,0,0]],[3,2,0,0,1,28,[3,2,3,4,4,3,3,2,2,3,4,4,4,3,3,2,3,3,4,3,3,2,3,3,4,4,4,3],[2,2,1,1,1,1,0,2,1,2,1,2,2,2,2,2,0,1,1,1,0,2,1,1,2,1,1,0],[2,2,2,3,4,3,3,2,2,2,4,4,3,3,2,2,2,2,3,3,2,2,2,2,3,3,4,3],[0,0,1,0,1,0,0,1,0,0,0,0,1,1,1,0,1,1,0,1,1,0,0,1,1,0,1,0]],[3,3,1,0,0,28,[2,2,3,3,4,4,3,2,3,3,4,4,3,3,2,2,3,4,5,4,3,3,2,3,3,4,4,3],[2,0,1,0,1,1,2,1,1,2,1,1,2,1,2,2,1,1,0,1,0,1,1,1,2,0,1,2],[1,1,3,2,3,3,3,1,3,2,3,3,2,3,2,2,2,3,5,4,2,3,1,2,3,3,3,2],[1,0,1,0,0,1,1,0,1,1,1,1,1,0,0,0,0,0,1,1,0,1,1,1,1,1,1,0]],[3,4,0,0,1,25,[2,3,3,3,4,4,3,2,2,3,4,5,4,3,2,2,3,4,5,4,3,2,1,1,2,-1,-1,-1],[1,1,2,2,2,1,0,2,1,1,2,0,2,2,2,1,1,2,1,2,2,1,0,1,1,-1,-1,-1],[1,3,2,3,4,3,2,2,2,3,4,5,4,2,1,1,2,3,4,3,3,1,0,1,2,-1,-1,-1],[1,0,1,0,1,1,1,0,1,1,0,1,1,1,0,0,1,1,1,1,0,0,1,1,1,-1,-1,-1]],[3,2,1,1,1,24,[3,3,3,3,4,4,3,2,2,3,4,4,3,3,3,2,3,3,4,3,3,1,1,2,-1,-1,-1,-1],[1,2,1,1,1,2,1,2,1,1,1,1,2,1,0,1,2,1,0,1,1,1,1,2,-1,-1,-1,-1],[3,3,3,3,4,4,2,2,2,3,3,3,2,3,3,2,3,2,4,3,2,1,0,1,-1,-1,-1,-1],[1,0,0,0,1,0,1,0,1,0,0,1,1,0,0,1,0,1,0,1,1,1,0,0,-1,-1,-1,-1]],[3,2,1,1,0,28,[3,2,3,3,5,4,3,2,2,3,4,4,3,3,3,2,3,4,4,4,3,3,2,3,4,4,4,3],[2,1,0,0,2,1,0,0,2,1,0,0,0,1,1,2,2,1,1,2,0,2,1,2,2,1,2,2],[2,2,3,2,5,3,2,2,2,2,3,4,3,2,3,2,3,4,4,4,3,3,2,3,3,4,3,2],[1,0,1,0,1,0,1,1,1,1,0,0,1,0,1,0,0,1,1,0,0,0,1,0,1,1,0,0]],[3,2,0,0,0,28,[2,2,3,4,4,4,3,2,2,3,3,4,3,3,3,2,3,3,4,4,3,2,3,3,4,4,3,3],[2,1,2,1,2,2,1,1,2,1,1,2,2,0,1,0,1,2,1,1,1,2,1,2,2,1,1,2],[1,2,3,4,4,4,2,2,2,2,2,3,2,2,3,2,2,2,4,4,2,2,3,3,4,4,3,3],[0,1,1,1,0,0,1,1,0,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0]],[3,3,1,1,1,28,[2,2,3,4,4,3,3,2,2,3,4,4,4,3,2,2,3,4,5,3,3,2,3,3,4,4,4,3],[2,1,0,2,1,2,1,2,2,1,1,1,1,1,1,1,1,2,1,2,0,2,1,1,1,1,1,1],[2,1,3,3,3,3,3,1,1,2,4,4,4,3,2,1,2,4,5,3,2,1,2,3,3,3,3,3],[1,0,1,0,1,0,1,1,1,0,1,0,0,1,0,0,0,1,0,0,0,1,1,0,1,1,0,1]],[3,2,1,1,0,25,[3,2,3,4,4,4,3,3,2,3,4,5,4,3,3,3,3,4,4,4,3,2,1,1,2,-1,-1,-1],[2,2,1,0,2,1,1,0,1,0,0,2,2,2,1,1,2,1,0,1,1,0,2,2,2,-1,-1,-1],[3,2,3,4,3,4,2,3,2,3,4,5,4,3,2,3,2,4,3,4,2,1,1,0,2,-1,-1,-1],[1,0,0,0,1,1,1,1,0,0,1,1,0,1,0,0,1,1,1,0,1,0,0,1,0,-1,-1,-1]],[3,1,1,1,1,27,[2,3,3,3,4,4,3,2,2,3,4,4,4,3,2,2,3,4,4,4,3,3,3,3,2,2,2,-1],[0,1,0,1,1,1,1,1,1,2,1,1,2,2,1,0,0,1,1,1,1,1,1,1,2,2,1,-1],[2,3,3,3,3,3,2,1,2,2,4,3,4,2,1,2,3,3,4,3,3,2,2,2,2,2,1,-1],[0,1,0,0,1,0,1,0,1,1,0,1,1,0,1,1,0,0,0,0,1,0,1,1,1,1,1,-1]],[3,1,1,0,0,24,[3,2,3,4,4,3,3,2,2,3,3,4,4,3,3,2,3,4,4,4,3,1,1,1,-1,-1,-1,-1],[2,1,2,2,2,2,0,2,1,0,0,0,1,1,0,0,2,0,2,1,2,2,0,2,-1,-1,-1,-1],[2,2,3,4,3,2,2,2,1,3,3,4,3,2,2,1,3,3,4,4,2,0,1,1,-1,-1,-1,-1],[0,0,0,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,0,0,0,0,0,1,-1,-1,-1,-1]],[3,3,1,1,0,28,[2,2,3,4,4,4,3,3,3,3,4,5,3,3,2,3,3,4,5,4,3,2,2,3,3,4,3,3],[2,1,0,0,0,1,1,2,1,2,0,0,1,0,2,1,0,1,1,1,2,1,1,2,1,1,1,2],[2,1,2,4,4,3,3,2,2,2,4,4,2,2,1,2,3,4,4,3,2,1,1,2,3,4,2,3],[0,1,0,1,1,1,1,1,0,0,1,1,0,0,0,1,1,1,0,1,0,1,1,0,1,1,0,0]],[3,2,0,0,0,20,[2,2,3,3,5,4,3,3,3,3,4,5,3,3,2,2,3,2,2,2,-1,-1,-1,-1,-1,-1,-1,-1],[1,1,2,0,0,1,1,1,2,0,2,1,2,1,1,2,1,2,1,0,-1,-1,-1,-1,-1,-1,-1,-1],[2,1,2,2,5,4,2,3,3,3,3,4,2,3,2,2,3,2,2,2,-1,-1,-1,-1,-1,-1,-1,-1],[0,1,0,1,0,1,0,1,0,0,1,1,1,1,1,0,1,0,0,1,-1,-1,-1,-1,-1,-1,-1,-1]],[3,2,0,1,0,28,[2,3,3,3,5,4,3,2,3,3,4,4,4,3,2,3,3,4,4,3,3,3,3,3,4,5,4,3],[1,1,2,0,2,1,0,1,1,2,1,2,1,1,0,1,1,1,0,2,1,1,0,1,2,0,1,1],[1,2,3,2,4,3,2,1,2,2,4,3,4,2,2,3,2,4,3,3,3,3,2,2,4,4,3,2],[1,1,0,1,0,1,0,1,1,0,1,1,1,1,0,1,0,0,0,0,1,0,0,1,1,0,1,0]],[3,4,0,0,0,28,[3,3,3,3,4,4,3,2,3,3,3,4,3,3,2,3,3,4,4,4,3,2,3,3,4,5,4,3],[1,2,2,1,2,1,2,2,1,1,1,1,1,1,2,1,0,1,0,2,1,1,1,0,2,0,0,1],[3,2,2,2,3,3,2,1,2,3,2,4,3,3,2,2,3,3,3,3,2,2,3,3,4,5,4,2],[0,0,1,1,0,0,1,0,0,1,0,1,0,0,1,1,1,1,0,0,0,1,0,1,0,1,1,1]],[3,3,0,1,0,28,[3,3,3,4,4,4,3,2,3,3,4,5,3,3,2,3,3,3,4,4,3,2,2,3,4,4,4,3],[2,1,1,1,0,1,2,1,1,1,1,1,0,1,1,2,1,0,2,2,1,1,1,1,2,1,1,0],[2,2,2,3,4,3,2,1,2,3,4,4,2,2,1,2,3,2,4,4,3,1,2,2,3,4,4,2],[1,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,1,1,1,0,0,0,1,1,0,0,1]],[3,3,1,1,0,28,[3,2,3,4,4,3,3,3,2,3,4,4,3,3,2,2,3,4,4,3,3,2,2,3,3,4,4,3],[2,0,1,2,2,2,1,1,2,0,2,1,2,1,1,1,2,1,0,1,2,2,1,0,2,1,1,1],[3,2,3,4,4,3,2,2,1,3,3,4,2,3,2,2,2,3,4,3,2,2,1,3,2,4,3,3],[1,0,0,0,1,1,0,1,1,1,1,1,0,0,0,0,1,1,0,1,1,1,0,1,0,1,0,0]],[3,3,1,0,0,28,[3,2,3,4,4,4,3,2,2,3,4,5,4,3,2,2,3,4,5,4,3,2,2,3,4,4,4,3],[0,1,1,2,0,2,2,2,2,1,1,2,1,2,0,0,1,1,1,1,2,2,0,2,0,1,1,1],[3,1,3,3,4,4,3,2,1,2,3,4,3,2,1,2,2,4,5,4,3,2,2,2,3,4,3,2],[0,0,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,0,1,1,0,0,0,0,0,1]],[3,2,0,0,0,17,[2,2,3,3,4,4,3,2,3,3,4,5,3,3,1,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,1,2,1,0,2,0,0,1,0,2,1,1,2,2,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,2,2,3,4,3,2,2,2,2,3,4,2,2,0,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1,0,1,1,1,0,1,0,0,1,0,1,0,1,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]],[3,3,1,1,1,28,[3,2,3,4,4,4,3,2,2,3,4,4,3,3,3,2,3,4,4,4,3,2,2,3,4,5,4,3],[1,0,2,1,1,1,1,1,0,1,2,1,1,0,2,1,1,1,1,2,1,1,2,1,1,1,1,1],[2,1,3,3,3,4,3,1,2,2,4,4,3,3,3,1,3,3,3,3,3,1,2,3,3,4,3,2],[0,0,1,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,1,1,0,1,1,1,1,0,0,1]],[3,3,1,0,0,26,[2,3,3,4,5,4,3,2,2,3,4,4,4,3,2,2,3,4,4,4,3,3,2,2,2,3,-1,-1],[1,1,2,1,1,1,1,1,0,0,2,1,2,2,1,0,2,1,0,0,2,0,1,1,0,1,-1,-1],[2,3,3,4,4,3,3,2,1,3,4,3,3,3,1,2,2,3,4,4,3,2,2,2,1,2,-1,-1],[0,0,0,1,1,1,1,0,0,1,0,1,1,1,1,1,0,0,1,1,1,0,0,1,1,0,-1,-1]],[3,4,0,1,0,28,[2,3,3,3,4,4,3,2,3,3,4,4,4,3,2,2,3,4,5,4,3,2,2,3,4,4,4,3],[1,1,1,1,1,1,0,1,2,1,0,2,2,1,2,1,2,2,2,1,1,1,1,1,2,1,2,2],[2,3,2,3,3,4,2,2,3,2,4,4,3,2,2,1,2,4,4,3,3,2,2,3,3,4,4,3],[1,0,1,0,1,0,0,0,1,0,1,1,1,0,0,0,1,1,1,0,0,0,1,0,1,1,0,0]],[3,2,1,1,0,28,[2,3,3,3,4,4,3,3,2,3,3,4,3,3,2,2,3,3,5,3,3,3,2,3,4,4,4,3],[1,2,0,1,0,1,2,1,1,0,2,0,1,1,1,1,2,2,1,1,1,2,2,0,2,2,2,2],[1,2,2,2,4,3,2,2,1,3,2,3,3,2,1,1,3,2,5,2,3,2,2,3,4,4,4,2],[1,1,1,1,1,0,1,0,0,1,0,0,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,0]]];
+const DAYS = 28;
+const PROMO = [5,12,19,26];                       /* promotion Fridays */
+const S1="#4D3CFF", S2="#EB6834", S3="#1BAF7A", S4="#EDA100";
+const COH = {1:{c:S1,n:"G1 · flat usage"},2:{c:S2,n:"G2 · spike and drop"},3:{c:S3,n:"G3 · weekly cycle"}};
+const PTYPE = [{k:"Main",n:"Maintenance",c:S1},{k:"Prom",n:"Promotions",c:S2},{k:"Serv",n:"Services",c:S4}];
+const AGES = {1:"≤25",2:"26–34",3:"35–50",4:"50+"};
+
+/* columns: 0 cohort · 1 age · 2 sex · 3 device · 4 vehicle · 5 last day
+             6 p_views[28] · 7 major_p_type[28] · 8 engagement_time[28] · 9 drive[28] */
+
+const F = {cohort:"all", veh:"all", dev:"all", sex:"all", age:"all"};
+const $  = s => document.querySelector(s);
+const $$ = s => Array.from(document.querySelectorAll(s));
+
+function rows(){
+  return DATA.filter(r =>
+    (F.cohort==="all" || r[0]===+F.cohort) &&
+    (F.veh==="all"    || r[4]===+F.veh) &&
+    (F.dev==="all"    || r[3]===+F.dev) &&
+    (F.sex==="all"    || r[2]===+F.sex) &&
+    (F.age==="all"    || r[1]===+F.age));
+}
+
+/* ---------- utilities ---------- */
+const mean = a => a.length ? a.reduce((x,y)=>x+y,0)/a.length : 0;
+function median(a){
+  if(!a.length) return 0;
+  const s=[...a].sort((x,y)=>x-y), m=s.length>>1;
+  return s.length%2 ? s[m] : (s[m-1]+s[m])/2;
+}
+const activeOn = (r,d) => d <= r[5];
+const num = v => Number(v).toLocaleString("en-US");
+const pct = v => v.toFixed(0)+"%";
+
+function niceMax(max, steps){
+  if(max<=0) return 1;
+  const raw = max/steps, mag = Math.pow(10, Math.floor(Math.log10(raw)));
+  const norm = raw/mag;
+  const step = (norm<=1?1:norm<=2?2:norm<=2.5?2.5:norm<=5?5:10)*mag;
+  return step*steps;
+}
+
+/* ---------- tooltip ---------- */
+/* dominant period of a series: first local maximum of the autocorrelation.
+   The global maximum will not do: the multiples (14, 21...) also correlate
+   high. If no peak clears the threshold the series has no cycle -> null. */
+function dominantPeriod(serie){
+  const s = serie.filter(v=>v!==null);
+  if(s.length < 10) return null;
+  const m = mean(s), c = s.map(v=>v-m);
+  const acf=[0];
+  for(let k=1;k<=14;k++){
+    let n1=0,d1=0,d2=0;
+    for(let i=0;i+k<c.length;i++){ n1+=c[i]*c[i+k]; d1+=c[i]*c[i]; d2+=c[i+k]*c[i+k]; }
+    acf.push((d1&&d2) ? n1/Math.sqrt(d1*d2) : 0);
+  }
+  for(let k=2;k<14;k++){
+    if(acf[k]>acf[k-1] && acf[k]>acf[k+1] && acf[k]>0.5) return k;
+  }
+  return null;
+}
+
+const tip = $("#tip");
+function showTip(e,html){
+  tip.innerHTML = html; tip.style.opacity = 1;
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = e.clientX + pad, y = e.clientY + pad;
+  if(x + w > innerWidth - 8) x = e.clientX - w - pad;
+  if(y + h > innerHeight - 8) y = e.clientY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+const hideTip = () => tip.style.opacity = 0;
+
+/* ---------- helpers svg ---------- */
+const NS = "http://www.w3.org/2000/svg";
+function el(tag, attrs, parent){
+  const n = document.createElementNS(NS, tag);
+  for(const k in attrs) n.setAttribute(k, attrs[k]);
+  if(parent) parent.appendChild(n);
+  return n;
+}
+function clear(id){ const s = $(id); while(s.firstChild) s.removeChild(s.firstChild); return s; }
+function noData(svg, w, h){
+  const t = el("text",{x:w/2,y:h/2,"text-anchor":"middle",class:"axis"},svg);
+  t.textContent = "No data with these filters";
+}
+function yAxis(svg, x0, x1, y0, y1, max, fmt, steps){
+  steps = steps || 4;
+  for(let i=0;i<=steps;i++){
+    const v = max*i/steps, y = y1 - (y1-y0)*i/steps;
+    el("line",{x1:x0,x2:x1,y1:y,y2:y,class:"gridline"},svg);
+    const t = el("text",{x:x0-8,y:y+3,"text-anchor":"end",class:"axis"},svg);
+    t.textContent = fmt(v);
+  }
+}
+function xDays(svg, x0, x1, y1, ticks){
+  ticks.forEach(d=>{
+    const x = x0 + (x1-x0)*(d-1)/(DAYS-1);
+    const t = el("text",{x,y:y1+18,"text-anchor":"middle",class:"axis"},svg);
+    t.textContent = d;
+  });
+  el("line",{x1:x0,x2:x1,y1:y1,y2:y1,class:"axis"},svg);
+}
+
+/* ---------- 1 · retention curve ---------- */
+function chartRet(R){
+  const svg = clear("#c-ret");
+  const x0=56,x1=680,y0=16,y1=210;
+  if(!R.length){ noData(svg, 700, 260); return; }
+  const ret = [];
+  for(let d=1;d<=DAYS;d++) ret.push(R.filter(r=>activeOn(r,d)).length);
+  yAxis(svg,x0,x1,y0,y1,100,v=>v.toFixed(0)+"%");
+  const sx = d => x0 + (x1-x0)*(d-1)/(DAYS-1);
+  const sy = p => y1 - (y1-y0)*(p/100);
+  const step = (DAYS>1) ? (x1-x0)/(DAYS-1) : 0;
+
+  let d1="", d2=`M${x0} ${y1}`;
+  ret.forEach((n,i)=>{
+    const p = n/R.length*100, x=sx(i+1), y=sy(p);
+    d1 += (i? `L${x.toFixed(1)} ${y.toFixed(1)}` : `M${x.toFixed(1)} ${y.toFixed(1)}`);
+    if(i<ret.length-1) d1 += `L${(x+step).toFixed(1)} ${y.toFixed(1)}`;
+    d2 += `L${x.toFixed(1)} ${y.toFixed(1)}` + (i<ret.length-1 ? `L${(x+step).toFixed(1)} ${y.toFixed(1)}` : "");
+  });
+  d2 += `L${x1} ${y1}Z`;
+  el("path",{d:d2,fill:S1,opacity:.10},svg);
+  el("path",{d:d1,fill:"none",stroke:S1,"stroke-width":2.4,"stroke-linejoin":"round"},svg);
+
+  ret.forEach((n,i)=>{
+    const d=i+1, p=n/R.length*100;
+    const hit = el("rect",{x:sx(d)-step/2,y:y0,width:Math.max(step,6),height:y1-y0,fill:"transparent"},svg);
+    hit.addEventListener("mousemove",e=>showTip(e,
+      `<span class="tk">Day ${d}</span><b>${n}</b> of ${R.length} users active<br>${p.toFixed(1)}% retention`));
+    hit.addEventListener("mouseleave",hideTip);
+  });
+  xDays(svg,x0,x1,y1,[1,7,14,21,28]);
+  const at = el("text",{x:x1,y:y1+36,"text-anchor":"end",class:"axis-title"},svg);
+  at.textContent = "day since install";
+
+  const d28 = ret[DAYS-1], d14 = ret[13];
+  $("#ins-ret").innerHTML = `Almost nobody leaves in the first week: on day 14 there were still <b>${d14}</b> of the <b>${R.length}</b> users. From there on the curve falls sharply and ends at <b>${d28}</b> (<b>${(d28/R.length*100).toFixed(0)}%</b>) on day 28. The fall is <b>monotone</b>: there are no rebounds because nobody comes back, so this staircase is in practice a survival curve.`;
+}
+
+/* ---------- 2 · missingness map ---------- */
+function chartMiss(R){
+  const svg = clear("#c-miss");
+  const x0=8,x1=332,y0=10,y1=250;
+  if(!R.length){ noData(svg, 340, 300); return; }
+  const ord = [...R].sort((a,b)=>b[5]-a[5]);
+  const cw = (x1-x0)/DAYS, rh = (y1-y0)/ord.length;
+  ord.forEach((r,i)=>{
+    const y = y0 + i*rh;
+    // white background = missing
+    el("rect",{x:x0,y,width:x1-x0,height:Math.max(rh,.7),fill:"#ffffff"},svg);
+    // black stretch = days with data
+    const w = (x1-x0)*(r[5]/DAYS);
+    const rc = el("rect",{x:x0,y,width:w,height:Math.max(rh,.7),fill:"#101033"},svg);
+    rc.addEventListener("mousemove",e=>showTip(e,
+      `<span class="tk">${COH[r[0]].n}</span>Active <b>${r[5]}</b> of ${DAYS} days<br>` +
+      (r[5]<DAYS ? `Dropped out on day <b>${r[5]}</b>` : `<b>Never dropped out</b>`)));
+    rc.addEventListener("mouseleave",hideTip);
+  });
+  el("rect",{x:x0,y:y0,width:x1-x0,height:y1-y0,fill:"none",stroke:"var(--border-soft)"},svg);
+  [1,14,28].forEach(d=>{
+    const t = el("text",{x:x0+(x1-x0)*(d-.5)/DAYS,y:y1+16,"text-anchor":"middle",class:"axis"},svg);
+    t.textContent = d;
+  });
+  const at = el("text",{x:x0,y:y1+34,class:"axis-title"},svg);
+  at.textContent = "day 1 → day 28 · rows sorted";
+}
+
+/* ---------- 3 · page views per day ---------- */
+function chartPV(R){
+  const svg = clear("#c-pv");
+  const x0=48,x1=500,y0=16,y1=210;
+  if(!R.length){ noData(svg, 520, 270); return; }
+  const avg = [];
+  for(let d=1;d<=DAYS;d++){
+    const v = R.filter(r=>activeOn(r,d)).map(r=>r[6][d-1]);
+    avg.push(v.length ? mean(v) : null);
+  }
+  yAxis(svg,x0,x1,y0,y1,5,v=>v.toFixed(0),5);
+  const sx = d => x0 + (x1-x0)*(d-1)/(DAYS-1);
+  const sy = v => y1 - (y1-y0)*(v/5);
+
+  PROMO.forEach(d=>{
+    el("line",{x1:sx(d),x2:sx(d),y1:y0,y2:y1,stroke:S2,"stroke-width":1,
+               "stroke-dasharray":"4 3",opacity:.55},svg);
+  });
+  const pl = el("text",{x:sx(PROMO[0])+4,y:y0+10,class:"axis",fill:S2},svg);
+  pl.textContent = "Friday";
+
+  let d1="";
+  avg.forEach((v,i)=>{ if(v===null) return;
+    d1 += (d1? "L":"M") + sx(i+1).toFixed(1) + " " + sy(v).toFixed(1); });
+  el("path",{d:d1,fill:"none",stroke:"#101033","stroke-width":2.4,"stroke-linejoin":"round"},svg);
+  avg.forEach((v,i)=>{ if(v===null) return;
+    const isP = PROMO.includes(i+1);
+    const c = el("circle",{cx:sx(i+1),cy:sy(v),r:isP?4.2:2.8,fill:isP?S2:"#101033",
+                           stroke:"#fff","stroke-width":1.2},svg);
+    c.addEventListener("mousemove",e=>showTip(e,
+      `<span class="tk">Day ${i+1}${isP?" · promotion Friday":""}</span>Mean <b>${v.toFixed(2)}</b> of 5<br>${R.filter(r=>activeOn(r,i+1)).length} users active`));
+    c.addEventListener("mouseleave",hideTip);
+  });
+  xDays(svg,x0,x1,y1,[1,7,14,21,28]);
+  const at = el("text",{x:x1,y:y1+36,"text-anchor":"end",class:"axis-title"},svg);
+  at.textContent = "day · ordinal category 1–5";
+
+  const picos = PROMO.filter(d=>avg[d-1]!==null).map(d=>avg[d-1]);
+  const valles = [2,9,16,23].filter(d=>avg[d-1]!==null).map(d=>avg[d-1]);
+  const per = dominantPeriod(avg);
+  $("#ins-pv").innerHTML = !picos.length || !valles.length
+    ? `Not enough users with the current filters to estimate the weekly cycle.`
+    : per
+    ? `The series rises and falls with a period of <b>${per} days</b>: on the marked Fridays the mean reaches <b>${mean(picos).toFixed(2)}</b> against <b>${mean(valles).toFixed(2)}</b> in the troughs. Statistics detect the cycle, but <b>not its cause</b>: promotions are published every Friday and some users browse them over the weekend. That fact is not in the table, but from the colleagues at the company.`
+    : `With this selection <b>no cycle appears</b>: the autocorrelation finds no clear peak. Rising to a maximum and falling is a <b>trend</b>, not a periodicity, since the weekly rhythm belongs to G3 and to the full set, not to every group on its own.`;
+}
+
+/* ---------- 4 · cohorts ---------- */
+function chartCoh(R){
+  const svg = clear("#c-coh");
+  const x0=48,x1=500,y0=16,y1=192;
+  yAxis(svg,x0,x1,y0,y1,5,v=>v.toFixed(0),5);
+  const sx = d => x0 + (x1-x0)*(d-1)/(DAYS-1);
+  const sy = v => y1 - (y1-y0)*(v/5);
+  const resumen = [];
+
+  [1,2,3].forEach(c=>{
+    const g = R.filter(r=>r[0]===c);
+    if(!g.length) return;
+    const avg = [];
+    for(let d=1;d<=DAYS;d++){
+      const v = g.filter(r=>activeOn(r,d)).map(r=>r[6][d-1]);
+      avg.push(v.length ? mean(v) : null);
+    }
+    let path="";
+    avg.forEach((v,i)=>{ if(v===null) return;
+      path += (path? "L":"M") + sx(i+1).toFixed(1) + " " + sy(v).toFixed(1); });
+    el("path",{d:path,fill:"none",stroke:COH[c].c,"stroke-width":2.2,"stroke-linejoin":"round"},svg);
+    avg.forEach((v,i)=>{ if(v===null) return;
+      const dot = el("circle",{cx:sx(i+1),cy:sy(v),r:5,fill:"transparent"},svg);
+      dot.addEventListener("mousemove",e=>showTip(e,
+        `<span class="tk">${COH[c].n} · day ${i+1}</span>Mean <b>${v.toFixed(2)}</b> of 5<br>${g.filter(r=>activeOn(r,i+1)).length} users active`));
+      dot.addEventListener("mouseleave",hideTip);
+    });
+    const vals = avg.filter(v=>v!==null);
+    resumen.push({c, n:g.length, max:Math.max(...vals), min:Math.min(...vals),
+                  peak: avg.indexOf(Math.max(...vals))+1});
+  });
+  xDays(svg,x0,x1,y1,[1,7,14,21,28]);
+  const at = el("text",{x:x1,y:y1+36,"text-anchor":"end",class:"axis-title"},svg);
+  at.textContent = "day";
+
+  const g2 = resumen.find(r=>r.c===2), g3 = resumen.find(r=>r.c===3);
+  $("#ins-coh").innerHTML = (g2 && g3)
+    ? `<b>G1</b> stays flat around category 3, with no recognizable pattern. <b>G2</b> climbs to a peak of <b>${g2.max.toFixed(2)}</b> on day <b>${g2.peak}</b> and collapses right afterwards: the classic “install it, squeeze it, delete it” profile. <b>G3</b> oscillates between <b>${g3.min.toFixed(2)}</b> and <b>${g3.max.toFixed(2)}</b> following the weekly cycle. The three groups come out of a clustering, not from an observed variable.`
+    : `Select more than one cohort to compare the three usage shapes.`;
+}
+
+/* ---------- 5 · dropout distribution ---------- */
+function chartDrop(R){
+  const svg = clear("#c-drop");
+  const x0=42,x1=326,y0=16,y1=196;
+  const drops = R.filter(r=>r[5]<DAYS).map(r=>r[5]);
+  const bins = new Array(DAYS).fill(0);
+  drops.forEach(d=>bins[d-1]++);
+  const max = niceMax(Math.max(...bins,1), 4);
+  yAxis(svg,x0,x1,y0,y1,max,v=>v.toFixed(0));
+  const bw = (x1-x0)/DAYS;
+  // band of days 15–20
+  el("rect",{x:x0+bw*14,y:y0,width:bw*6,height:y1-y0,fill:S2,opacity:.10},svg);
+  bins.forEach((n,i)=>{
+    if(!n) return;
+    const h = (y1-y0)*(n/max);
+    const inBand = (i+1)>=15 && (i+1)<=20;
+    const r = el("rect",{x:x0+i*bw+1,y:y1-h,width:Math.max(bw-2,1),height:Math.max(h,1),
+                         fill:inBand?S2:S1,rx:2},svg);
+    r.addEventListener("mousemove",e=>showTip(e,
+      `<span class="tk">Day ${i+1}</span><b>${n}</b> user${n===1?"":"s"} dropped out`));
+    r.addEventListener("mouseleave",hideTip);
+  });
+  [1,14,28].forEach(d=>{
+    const t = el("text",{x:x0+bw*(d-.5),y:y1+18,"text-anchor":"middle",class:"axis"},svg);
+    t.textContent = d;
+  });
+  el("line",{x1:x0,x2:x1,y1:y1,y2:y1,class:"axis"},svg);
+  const at = el("text",{x:x1,y:y1+34,"text-anchor":"end",class:"axis-title"},svg);
+  at.textContent = "dropout day";
+
+  const early = drops.filter(d=>d<=7).length;
+  const band = drops.filter(d=>d>=15 && d<=20).length;
+  $("#ins-drop").innerHTML = drops.length
+    ? `Only <b>${early}</b> user${early===1?"":"s"} leaves in the first week, against <b>${band}</b> between days 15 and 20. Before interpreting the red dots of the dropout plot this is exactly what has to be checked: if the new chart contradicted the staircase, the error would be in the code, not in reality.`
+    : `Under the current filters no user who dropped out is left.`;
+}
+
+/* ---------- 6 · page type by cohort ---------- */
+function chartType(R){
+  const svg = clear("#c-type");
+  const x0=44,x1=330,y0=14,y1=200;
+  const grupos = [1,2,3].map(c=>{
+    const g = R.filter(r=>r[0]===c);
+    const cnt = [0,0,0];
+    g.forEach(r=>{ for(let d=0;d<DAYS;d++){ const t=r[7][d]; if(t>=0) cnt[t]++; } });
+    const tot = cnt.reduce((a,b)=>a+b,0);
+    return {c, n:g.length, tot, share: tot ? cnt.map(v=>v/tot*100) : [0,0,0]};
+  }).filter(g=>g.tot>0);
+
+  if(!grupos.length){ noData(svg, 340, 214); return; }
+  const rowH = (y1-y0)/grupos.length, bh = Math.min(rowH-22, 34);
+  grupos.forEach((g,i)=>{
+    const y = y0 + i*rowH + (rowH-bh)/2;
+    const lab = el("text",{x:x0-8,y:y+bh/2+4,"text-anchor":"end",class:"axis"},svg);
+    lab.textContent = "G"+g.c;
+    let acc = 0;
+    g.share.forEach((p,k)=>{
+      const w = (x1-x0)*(p/100);
+      if(w<=0) return;
+      const r = el("rect",{x:x0+acc+ (k?1:0), y, width:Math.max(w-(k?1:0),1), height:bh,
+                           fill:PTYPE[k].c, rx:k===0||k===2?2:0},svg);
+      if(p>=13){
+        // amber does not give enough contrast with white: ink label
+        const t = el("text",{x:x0+acc+w/2, y:y+bh/2+4, "text-anchor":"middle",
+                             class:"bar-label", fill: k===2 ? "#5a3d00" : "#fff"},svg);
+        t.textContent = p.toFixed(0)+"%";
+      }
+      r.addEventListener("mousemove",e=>showTip(e,
+        `<span class="tk">${COH[g.c].n}</span>${PTYPE[k].n}: <b>${p.toFixed(1)}%</b><br>${g.n} users · ${g.tot} active days`));
+      r.addEventListener("mouseleave",hideTip);
+      acc += w;
+    });
+  });
+  const g3 = grupos.find(g=>g.c===3), otros = grupos.filter(g=>g.c!==3);
+  $("#ins-type").innerHTML = (g3 && otros.length)
+    ? `<b>G3 spends ${g3.share[1].toFixed(0)}%</b> of its days on promotion pages, against ${mean(otros.map(g=>g.share[1])).toFixed(0)}% for the other cohorts. This does not follow from the page-view curves, which only show a weekly cycle. The bridge between “weekly cycle” and “looks at promotions” is built by the domain expert when they say that the promos go out on Fridays.`
+    : `Select more than one cohort to compare the page type breakdown.`;
+}
+
+/* ---------- 7 · signal before dropout ---------- */
+function chartSig(R){
+  const svg = clear("#c-sig");
+  const x0=44,x1=326,y0=16,y1=190;
+  const grupos = [1,2,3].map(c=>{
+    const g = R.filter(r=>r[0]===c && r[5]<DAYS);
+    if(!g.length) return null;
+    const last = mean(g.map(r=>r[6][r[5]-1]));
+    const pers = mean(g.map(r=>mean(r[6].filter(v=>v>0))));
+    return {c, n:g.length, last, pers, gap: last-pers};
+  }).filter(Boolean);
+
+  if(!grupos.length){ noData(svg, 340, 250); return; }
+  yAxis(svg,x0,x1,y0,y1,5,v=>v.toFixed(0),5);
+  const bandW = (x1-x0)/grupos.length, bw = Math.min(bandW/2-10, 34);
+  grupos.forEach((g,i)=>{
+    const cx = x0 + bandW*(i+.5);
+    [[g.pers,"#bdb8d6","personal mean"],[g.last,COH[g.c].c,"last day"]].forEach((d,k)=>{
+      const h = (y1-y0)*(d[0]/5);
+      const x = cx - bw - 3 + k*(bw+6);
+      const r = el("rect",{x,y:y1-h,width:bw,height:Math.max(h,1),fill:d[1],rx:3},svg);
+      r.addEventListener("mousemove",e=>showTip(e,
+        `<span class="tk">${COH[g.c].n}</span>${d[2]}: <b>${d[0].toFixed(2)}</b> of 5<br>${g.n} users who dropped out`));
+      r.addEventListener("mouseleave",hideTip);
+    });
+    const lab = el("text",{x:cx,y:y1+18,"text-anchor":"middle",class:"axis"},svg);
+    lab.textContent = "G"+g.c;
+    const gap = el("text",{x:cx,y:y1+32,"text-anchor":"middle",class:"bar-label",
+                           fill: g.gap < -.4 ? S2 : "var(--muted)"},svg);
+    gap.textContent = (g.gap>=0?"+":"") + g.gap.toFixed(2);
+  });
+  el("line",{x1:x0,x2:x1,y1:y1,y2:y1,class:"axis"},svg);
+  const at = el("text",{x:x1,y:y1+48,"text-anchor":"end",class:"axis-title"},svg);
+  at.textContent = "light = personal mean · solid = last day";
+
+  const g1 = grupos.find(g=>g.c===1);
+  const fuertes = grupos.filter(g=>g.c!==1);
+  $("#ins-sig").innerHTML = fuertes.length
+    ? `In <b>G2 and G3</b> the last day sees far less browsing than usual (${fuertes.map(g=>"G"+g.c+" "+g.gap.toFixed(2)).join(", ")}): a drop in page views <b>works as an early warning</b>. ${g1 ? `In <b>G1</b> the difference is only ${g1.gap.toFixed(2)}: there is no signal in this variable there, and the intervention has to go by calendar.` : ""}`
+    : `No users who dropped out in the selected cohorts.`;
+}
+
+/* ---------- table ---------- */
+let sortCol=6, sortDir=-1, page=0, query="";
+function tableRows(R){
+  return R.map((r,i)=>{
+    const vals = r[6].filter(v=>v>0);
+    const drives = r[9].filter(v=>v>=0);
+    return {
+      id: DATA.indexOf(r)+1,
+      cohort: r[0], age: r[1], sex: r[2], dev: r[3], veh: r[4],
+      days: r[5], last: r[5]<DAYS ? r[5] : null,
+      pv: vals.length ? mean(vals) : 0,
+      drive: drives.length ? drives.reduce((a,b)=>a+b,0)/drives.length*100 : 0,
+    };
+  });
+}
+function renderTable(R){
+  let d = tableRows(R);
+  if(query){
+    const q = query.toLowerCase();
+    d = d.filter(o => [o.id,"g"+o.cohort,AGES[o.age],o.sex?"male":"female",
+                       o.dev?"os x":"android",o.veh?"standard":"luxury",
+                       o.days,o.last===null?"active":o.last]
+                        .join(" ").toLowerCase().includes(q));
+  }
+  const key = ["id","cohort","age","sex","dev","veh","days","last","pv","drive"][sortCol];
+  d = [...d].sort((a,b)=>{
+    const x = a[key]===null ? 99 : a[key], y = b[key]===null ? 99 : b[key];
+    return (x-y)*sortDir;
+  });
+  $("#tbl-n").textContent = num(d.length);
+  const per=12, pages=Math.max(Math.ceil(d.length/per),1);
+  if(page>=pages) page=pages-1;
+  const tb=$("#tbl-body"); tb.innerHTML="";
+  d.slice(page*per,(page+1)*per).forEach(o=>{
+    const tr=document.createElement("tr");
+    tr.innerHTML = `<td>#${o.id}</td>
+      <td><span class="pill g${o.cohort}">G${o.cohort}</span></td>
+      <td>${AGES[o.age]}</td><td>${o.sex?"Male":"Female"}</td>
+      <td>${o.dev?"OS X":"Android"}</td><td>${o.veh?"Standard":"Luxury"}</td>
+      <td>${o.days}</td>
+      <td>${o.last===null?'<span class="pill on">Never</span>':'<span class="pill off">day '+o.last+'</span>'}</td>
+      <td>${o.pv.toFixed(2)}</td><td>${o.drive.toFixed(0)}%</td>`;
+    tb.appendChild(tr);
+  });
+  $("#pg-info").textContent = `Page ${page+1} of ${pages}`;
+  $("#pg-prev").disabled = page===0;
+  $("#pg-next").disabled = page>=pages-1;
+}
+
+/* ---------- KPIs ---------- */
+function kpis(R){
+  const n = R.length;
+  $("#k-n").textContent = n ? num(n) : "—";
+  $("#k-n-sub").textContent = n ? `of ${num(DATA.length)} in the study` : "no users";
+  if(!n){ ["k-ret","k-miss","k-days","k-med","k-per"].forEach(i=>$("#"+i).textContent="—"); return; }
+
+  const act28 = R.filter(r=>r[5]>=DAYS).length;
+  $("#k-ret").textContent = num(act28);
+  $("#k-ret-sub").textContent = `${(act28/n*100).toFixed(0)}% of the filtered set`;
+
+  const miss = n - act28;
+  $("#k-miss").textContent = (miss/n*100).toFixed(0)+"%";
+
+  const days = R.map(r=>r[5]);
+  $("#k-days").textContent = mean(days).toFixed(1);
+  $("#k-days-sub").textContent = `of ${DAYS} possible`;
+
+  const drops = days.filter(d=>d<DAYS);
+  $("#k-med").textContent = drops.length ? num(median(drops)) : "—";
+  $("#k-med-sub").textContent = drops.length ? `over ${num(drops.length)} dropouts` : "nobody dropped out";
+
+  // dominant period of the daily mean
+  const avg=[];
+  for(let d=1;d<=DAYS;d++){
+    const v=R.filter(r=>activeOn(r,d)).map(r=>r[6][d-1]);
+    avg.push(v.length?mean(v):null);
+  }
+  const best = dominantPeriod(avg);
+  $("#k-per").textContent = best ? best+" days" : "No cycle";
+  $("#k-per-sub").textContent = best ? "promotions every Friday" : "no clear periodicity";
+}
+
+/* ---------- render ---------- */
+function render(){
+  const R = rows();
+  $("#n-rows").textContent = num(R.length);
+  kpis(R);
+  chartRet(R);
+  chartMiss(R);
+  chartPV(R);
+  chartCoh(R);
+  chartDrop(R);
+  chartType(R);
+  chartSig(R);
+  renderTable(R);
+}
+
+/* ---------- events ---------- */
+function wireSeg(id,key){
+  $$(id+" button").forEach(b=>b.addEventListener("click",()=>{
+    $$(id+" button").forEach(o=>o.setAttribute("aria-pressed","false"));
+    b.setAttribute("aria-pressed","true");
+    F[key]=b.dataset.v; page=0; render();
+  }));
+}
+wireSeg("#f-cohort","cohort"); wireSeg("#f-veh","veh");
+wireSeg("#f-dev","dev"); wireSeg("#f-sex","sex"); wireSeg("#f-age","age");
+$("#reset").addEventListener("click",()=>{
+  F.cohort="all";F.veh="all";F.dev="all";F.sex="all";F.age="all";
+  query=""; $("#tbl-q").value="";
+  ["#f-cohort","#f-veh","#f-dev","#f-sex","#f-age"].forEach(id=>{
+    $$(id+" button").forEach((b,i)=>b.setAttribute("aria-pressed", i===0 ? "true":"false"));
+  });
+  page=0; render();
+});
+$("#tbl-q").addEventListener("input",e=>{ query=e.target.value; page=0; renderTable(rows()); });
+$("#pg-prev").addEventListener("click",()=>{ page--; renderTable(rows()); });
+$("#pg-next").addEventListener("click",()=>{ page++; renderTable(rows()); });
+$$("th[data-c]").forEach(th=>th.addEventListener("click",()=>{
+  const c=+th.dataset.c;
+  if(c===sortCol) sortDir*=-1; else { sortCol=c; sortDir=-1; }
+  renderTable(rows());
+}));
+
+render();
+</script>
+</body>
+</html>

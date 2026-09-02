@@ -1,0 +1,2941 @@
+user_id,cohort,age_band,sex,device,vehicle,last_active_day,day,is_promo_day,page_views,major_page_type,engagement_time,drive
+1,G1 flat usage,<=25,Female,Android,Luxury,28,1,0,2,Maintenance,2,0
+1,G1 flat usage,<=25,Female,Android,Luxury,28,2,0,3,Services,3,0
+1,G1 flat usage,<=25,Female,Android,Luxury,28,3,0,3,Promotions,3,0
+1,G1 flat usage,<=25,Female,Android,Luxury,28,4,0,3,Maintenance,2,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,5,1,3,Promotions,2,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,6,0,2,Maintenance,2,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,7,0,3,Services,3,0
+1,G1 flat usage,<=25,Female,Android,Luxury,28,8,0,3,Services,3,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,9,0,3,Promotions,2,0
+1,G1 flat usage,<=25,Female,Android,Luxury,28,10,0,4,Promotions,3,0
+1,G1 flat usage,<=25,Female,Android,Luxury,28,11,0,2,Maintenance,1,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,12,1,3,Services,3,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,13,0,3,Services,3,0
+1,G1 flat usage,<=25,Female,Android,Luxury,28,14,0,4,Promotions,3,0
+1,G1 flat usage,<=25,Female,Android,Luxury,28,15,0,3,Maintenance,3,0
+1,G1 flat usage,<=25,Female,Android,Luxury,28,16,0,2,Services,2,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,17,0,3,Promotions,3,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,18,0,4,Services,4,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,19,1,4,Maintenance,4,0
+1,G1 flat usage,<=25,Female,Android,Luxury,28,20,0,4,Promotions,3,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,21,0,3,Promotions,3,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,22,0,3,Services,3,0
+1,G1 flat usage,<=25,Female,Android,Luxury,28,23,0,3,Maintenance,3,0
+1,G1 flat usage,<=25,Female,Android,Luxury,28,24,0,2,Services,2,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,25,0,2,Services,2,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,26,1,3,Promotions,3,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,27,0,3,Services,3,1
+1,G1 flat usage,<=25,Female,Android,Luxury,28,28,0,3,Services,2,1
+2,G1 flat usage,50+,Female,OS X,Standard,19,1,0,4,Maintenance,4,0
+2,G1 flat usage,50+,Female,OS X,Standard,19,2,0,4,Promotions,4,0
+2,G1 flat usage,50+,Female,OS X,Standard,19,3,0,3,Promotions,2,0
+2,G1 flat usage,50+,Female,OS X,Standard,19,4,0,3,Promotions,3,0
+2,G1 flat usage,50+,Female,OS X,Standard,19,5,1,4,Maintenance,3,1
+2,G1 flat usage,50+,Female,OS X,Standard,19,6,0,3,Maintenance,2,0
+2,G1 flat usage,50+,Female,OS X,Standard,19,7,0,3,Promotions,3,1
+2,G1 flat usage,50+,Female,OS X,Standard,19,8,0,3,Services,2,1
+2,G1 flat usage,50+,Female,OS X,Standard,19,9,0,4,Maintenance,4,1
+2,G1 flat usage,50+,Female,OS X,Standard,19,10,0,4,Promotions,3,1
+2,G1 flat usage,50+,Female,OS X,Standard,19,11,0,3,Services,2,0
+2,G1 flat usage,50+,Female,OS X,Standard,19,12,1,2,Maintenance,1,0
+2,G1 flat usage,50+,Female,OS X,Standard,19,13,0,4,Maintenance,3,0
+2,G1 flat usage,50+,Female,OS X,Standard,19,14,0,4,Services,4,1
+2,G1 flat usage,50+,Female,OS X,Standard,19,15,0,3,Services,3,0
+2,G1 flat usage,50+,Female,OS X,Standard,19,16,0,3,Services,3,0
+2,G1 flat usage,50+,Female,OS X,Standard,19,17,0,3,Maintenance,2,1
+2,G1 flat usage,50+,Female,OS X,Standard,19,18,0,3,Services,2,0
+2,G1 flat usage,50+,Female,OS X,Standard,19,19,1,3,Services,2,1
+2,G1 flat usage,50+,Female,OS X,Standard,19,20,0,,,,
+2,G1 flat usage,50+,Female,OS X,Standard,19,21,0,,,,
+2,G1 flat usage,50+,Female,OS X,Standard,19,22,0,,,,
+2,G1 flat usage,50+,Female,OS X,Standard,19,23,0,,,,
+2,G1 flat usage,50+,Female,OS X,Standard,19,24,0,,,,
+2,G1 flat usage,50+,Female,OS X,Standard,19,25,0,,,,
+2,G1 flat usage,50+,Female,OS X,Standard,19,26,1,,,,
+2,G1 flat usage,50+,Female,OS X,Standard,19,27,0,,,,
+2,G1 flat usage,50+,Female,OS X,Standard,19,28,0,,,,
+3,G1 flat usage,26-34,Female,Android,Standard,28,1,0,3,Services,3,0
+3,G1 flat usage,26-34,Female,Android,Standard,28,2,0,3,Maintenance,3,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,3,0,4,Services,4,0
+3,G1 flat usage,26-34,Female,Android,Standard,28,4,0,3,Promotions,3,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,5,1,2,Services,1,0
+3,G1 flat usage,26-34,Female,Android,Standard,28,6,0,3,Services,3,0
+3,G1 flat usage,26-34,Female,Android,Standard,28,7,0,3,Promotions,2,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,8,0,3,Maintenance,2,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,9,0,3,Promotions,2,0
+3,G1 flat usage,26-34,Female,Android,Standard,28,10,0,2,Maintenance,1,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,11,0,3,Maintenance,2,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,12,1,3,Services,2,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,13,0,3,Services,3,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,14,0,4,Services,4,0
+3,G1 flat usage,26-34,Female,Android,Standard,28,15,0,2,Maintenance,1,0
+3,G1 flat usage,26-34,Female,Android,Standard,28,16,0,4,Services,4,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,17,0,4,Maintenance,3,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,18,0,3,Services,3,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,19,1,2,Maintenance,2,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,20,0,2,Services,1,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,21,0,2,Maintenance,1,0
+3,G1 flat usage,26-34,Female,Android,Standard,28,22,0,2,Services,2,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,23,0,3,Promotions,2,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,24,0,3,Maintenance,3,0
+3,G1 flat usage,26-34,Female,Android,Standard,28,25,0,4,Services,3,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,26,1,4,Promotions,3,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,27,0,2,Services,2,1
+3,G1 flat usage,26-34,Female,Android,Standard,28,28,0,3,Services,3,1
+4,G1 flat usage,35-50,Male,Android,Standard,13,1,0,2,Services,2,0
+4,G1 flat usage,35-50,Male,Android,Standard,13,2,0,2,Services,1,1
+4,G1 flat usage,35-50,Male,Android,Standard,13,3,0,3,Maintenance,3,1
+4,G1 flat usage,35-50,Male,Android,Standard,13,4,0,3,Promotions,2,0
+4,G1 flat usage,35-50,Male,Android,Standard,13,5,1,2,Maintenance,2,0
+4,G1 flat usage,35-50,Male,Android,Standard,13,6,0,3,Maintenance,2,1
+4,G1 flat usage,35-50,Male,Android,Standard,13,7,0,3,Services,3,1
+4,G1 flat usage,35-50,Male,Android,Standard,13,8,0,3,Promotions,3,0
+4,G1 flat usage,35-50,Male,Android,Standard,13,9,0,3,Services,2,0
+4,G1 flat usage,35-50,Male,Android,Standard,13,10,0,3,Services,2,0
+4,G1 flat usage,35-50,Male,Android,Standard,13,11,0,4,Services,3,0
+4,G1 flat usage,35-50,Male,Android,Standard,13,12,1,3,Promotions,3,0
+4,G1 flat usage,35-50,Male,Android,Standard,13,13,0,3,Maintenance,2,0
+4,G1 flat usage,35-50,Male,Android,Standard,13,14,0,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,15,0,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,16,0,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,17,0,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,18,0,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,19,1,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,20,0,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,21,0,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,22,0,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,23,0,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,24,0,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,25,0,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,26,1,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,27,0,,,,
+4,G1 flat usage,35-50,Male,Android,Standard,13,28,0,,,,
+5,G1 flat usage,50+,Female,OS X,Luxury,17,1,0,3,Services,3,0
+5,G1 flat usage,50+,Female,OS X,Luxury,17,2,0,3,Services,2,1
+5,G1 flat usage,50+,Female,OS X,Luxury,17,3,0,3,Services,2,0
+5,G1 flat usage,50+,Female,OS X,Luxury,17,4,0,2,Promotions,1,1
+5,G1 flat usage,50+,Female,OS X,Luxury,17,5,1,2,Services,1,0
+5,G1 flat usage,50+,Female,OS X,Luxury,17,6,0,3,Maintenance,2,1
+5,G1 flat usage,50+,Female,OS X,Luxury,17,7,0,3,Services,2,1
+5,G1 flat usage,50+,Female,OS X,Luxury,17,8,0,4,Services,4,1
+5,G1 flat usage,50+,Female,OS X,Luxury,17,9,0,3,Promotions,3,0
+5,G1 flat usage,50+,Female,OS X,Luxury,17,10,0,2,Maintenance,2,1
+5,G1 flat usage,50+,Female,OS X,Luxury,17,11,0,3,Maintenance,2,1
+5,G1 flat usage,50+,Female,OS X,Luxury,17,12,1,3,Maintenance,3,1
+5,G1 flat usage,50+,Female,OS X,Luxury,17,13,0,3,Maintenance,3,0
+5,G1 flat usage,50+,Female,OS X,Luxury,17,14,0,3,Promotions,2,0
+5,G1 flat usage,50+,Female,OS X,Luxury,17,15,0,3,Services,3,0
+5,G1 flat usage,50+,Female,OS X,Luxury,17,16,0,3,Promotions,3,1
+5,G1 flat usage,50+,Female,OS X,Luxury,17,17,0,4,Maintenance,4,1
+5,G1 flat usage,50+,Female,OS X,Luxury,17,18,0,,,,
+5,G1 flat usage,50+,Female,OS X,Luxury,17,19,1,,,,
+5,G1 flat usage,50+,Female,OS X,Luxury,17,20,0,,,,
+5,G1 flat usage,50+,Female,OS X,Luxury,17,21,0,,,,
+5,G1 flat usage,50+,Female,OS X,Luxury,17,22,0,,,,
+5,G1 flat usage,50+,Female,OS X,Luxury,17,23,0,,,,
+5,G1 flat usage,50+,Female,OS X,Luxury,17,24,0,,,,
+5,G1 flat usage,50+,Female,OS X,Luxury,17,25,0,,,,
+5,G1 flat usage,50+,Female,OS X,Luxury,17,26,1,,,,
+5,G1 flat usage,50+,Female,OS X,Luxury,17,27,0,,,,
+5,G1 flat usage,50+,Female,OS X,Luxury,17,28,0,,,,
+6,G1 flat usage,26-34,Male,Android,Standard,23,1,0,4,Services,3,0
+6,G1 flat usage,26-34,Male,Android,Standard,23,2,0,2,Services,1,0
+6,G1 flat usage,26-34,Male,Android,Standard,23,3,0,3,Promotions,3,0
+6,G1 flat usage,26-34,Male,Android,Standard,23,4,0,4,Promotions,3,1
+6,G1 flat usage,26-34,Male,Android,Standard,23,5,1,4,Maintenance,3,1
+6,G1 flat usage,26-34,Male,Android,Standard,23,6,0,3,Services,3,0
+6,G1 flat usage,26-34,Male,Android,Standard,23,7,0,3,Maintenance,2,1
+6,G1 flat usage,26-34,Male,Android,Standard,23,8,0,4,Maintenance,3,1
+6,G1 flat usage,26-34,Male,Android,Standard,23,9,0,2,Promotions,2,0
+6,G1 flat usage,26-34,Male,Android,Standard,23,10,0,3,Services,2,1
+6,G1 flat usage,26-34,Male,Android,Standard,23,11,0,3,Maintenance,3,1
+6,G1 flat usage,26-34,Male,Android,Standard,23,12,1,3,Maintenance,2,1
+6,G1 flat usage,26-34,Male,Android,Standard,23,13,0,3,Promotions,2,1
+6,G1 flat usage,26-34,Male,Android,Standard,23,14,0,2,Services,1,0
+6,G1 flat usage,26-34,Male,Android,Standard,23,15,0,3,Maintenance,3,0
+6,G1 flat usage,26-34,Male,Android,Standard,23,16,0,3,Maintenance,3,0
+6,G1 flat usage,26-34,Male,Android,Standard,23,17,0,4,Services,3,1
+6,G1 flat usage,26-34,Male,Android,Standard,23,18,0,2,Maintenance,2,0
+6,G1 flat usage,26-34,Male,Android,Standard,23,19,1,4,Promotions,3,1
+6,G1 flat usage,26-34,Male,Android,Standard,23,20,0,2,Promotions,1,0
+6,G1 flat usage,26-34,Male,Android,Standard,23,21,0,4,Promotions,4,0
+6,G1 flat usage,26-34,Male,Android,Standard,23,22,0,2,Maintenance,2,0
+6,G1 flat usage,26-34,Male,Android,Standard,23,23,0,4,Services,3,1
+6,G1 flat usage,26-34,Male,Android,Standard,23,24,0,,,,
+6,G1 flat usage,26-34,Male,Android,Standard,23,25,0,,,,
+6,G1 flat usage,26-34,Male,Android,Standard,23,26,1,,,,
+6,G1 flat usage,26-34,Male,Android,Standard,23,27,0,,,,
+6,G1 flat usage,26-34,Male,Android,Standard,23,28,0,,,,
+7,G1 flat usage,26-34,Female,Android,Standard,28,1,0,3,Services,3,0
+7,G1 flat usage,26-34,Female,Android,Standard,28,2,0,3,Services,2,0
+7,G1 flat usage,26-34,Female,Android,Standard,28,3,0,3,Promotions,3,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,4,0,4,Services,3,0
+7,G1 flat usage,26-34,Female,Android,Standard,28,5,1,4,Services,4,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,6,0,2,Promotions,2,0
+7,G1 flat usage,26-34,Female,Android,Standard,28,7,0,3,Maintenance,3,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,8,0,3,Promotions,2,0
+7,G1 flat usage,26-34,Female,Android,Standard,28,9,0,3,Promotions,2,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,10,0,4,Promotions,4,0
+7,G1 flat usage,26-34,Female,Android,Standard,28,11,0,3,Promotions,2,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,12,1,3,Promotions,3,0
+7,G1 flat usage,26-34,Female,Android,Standard,28,13,0,4,Maintenance,3,0
+7,G1 flat usage,26-34,Female,Android,Standard,28,14,0,3,Services,3,0
+7,G1 flat usage,26-34,Female,Android,Standard,28,15,0,3,Services,2,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,16,0,3,Promotions,2,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,17,0,3,Services,2,0
+7,G1 flat usage,26-34,Female,Android,Standard,28,18,0,3,Maintenance,3,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,19,1,3,Services,3,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,20,0,3,Services,3,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,21,0,3,Services,3,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,22,0,2,Maintenance,1,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,23,0,3,Services,2,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,24,0,4,Services,4,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,25,0,4,Promotions,3,0
+7,G1 flat usage,26-34,Female,Android,Standard,28,26,1,3,Services,2,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,27,0,4,Services,4,1
+7,G1 flat usage,26-34,Female,Android,Standard,28,28,0,3,Promotions,3,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,1,0,3,Services,2,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,2,0,3,Services,3,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,3,0,3,Promotions,2,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,4,0,3,Services,2,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,5,1,3,Maintenance,2,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,6,0,3,Services,3,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,7,0,3,Services,3,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,8,0,3,Promotions,3,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,9,0,3,Services,2,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,10,0,2,Promotions,1,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,11,0,2,Promotions,1,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,12,1,4,Services,3,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,13,0,3,Services,3,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,14,0,3,Maintenance,2,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,15,0,3,Promotions,2,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,16,0,3,Maintenance,3,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,17,0,2,Services,2,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,18,0,3,Promotions,3,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,19,1,2,Services,2,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,20,0,4,Maintenance,3,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,21,0,3,Promotions,3,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,22,0,3,Maintenance,2,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,23,0,3,Maintenance,3,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,24,0,4,Services,3,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,25,0,3,Services,2,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,26,1,3,Maintenance,3,1
+8,G1 flat usage,35-50,Female,Android,Luxury,28,27,0,4,Services,4,0
+8,G1 flat usage,35-50,Female,Android,Luxury,28,28,0,4,Promotions,3,1
+9,G1 flat usage,50+,Female,OS X,Luxury,13,1,0,2,Promotions,1,0
+9,G1 flat usage,50+,Female,OS X,Luxury,13,2,0,3,Services,3,1
+9,G1 flat usage,50+,Female,OS X,Luxury,13,3,0,2,Promotions,2,0
+9,G1 flat usage,50+,Female,OS X,Luxury,13,4,0,3,Maintenance,2,0
+9,G1 flat usage,50+,Female,OS X,Luxury,13,5,1,4,Services,4,1
+9,G1 flat usage,50+,Female,OS X,Luxury,13,6,0,3,Promotions,3,1
+9,G1 flat usage,50+,Female,OS X,Luxury,13,7,0,3,Services,2,1
+9,G1 flat usage,50+,Female,OS X,Luxury,13,8,0,3,Promotions,3,0
+9,G1 flat usage,50+,Female,OS X,Luxury,13,9,0,3,Services,3,0
+9,G1 flat usage,50+,Female,OS X,Luxury,13,10,0,4,Services,3,1
+9,G1 flat usage,50+,Female,OS X,Luxury,13,11,0,2,Maintenance,2,1
+9,G1 flat usage,50+,Female,OS X,Luxury,13,12,1,3,Promotions,2,1
+9,G1 flat usage,50+,Female,OS X,Luxury,13,13,0,4,Services,3,0
+9,G1 flat usage,50+,Female,OS X,Luxury,13,14,0,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,15,0,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,16,0,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,17,0,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,18,0,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,19,1,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,20,0,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,21,0,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,22,0,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,23,0,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,24,0,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,25,0,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,26,1,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,27,0,,,,
+9,G1 flat usage,50+,Female,OS X,Luxury,13,28,0,,,,
+10,G1 flat usage,50+,Female,OS X,Luxury,28,1,0,2,Promotions,2,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,2,0,2,Maintenance,1,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,3,0,3,Promotions,2,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,4,0,3,Services,3,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,5,1,3,Services,2,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,6,0,4,Maintenance,3,0
+10,G1 flat usage,50+,Female,OS X,Luxury,28,7,0,2,Promotions,2,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,8,0,2,Maintenance,1,0
+10,G1 flat usage,50+,Female,OS X,Luxury,28,9,0,2,Promotions,2,0
+10,G1 flat usage,50+,Female,OS X,Luxury,28,10,0,4,Promotions,4,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,11,0,4,Promotions,3,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,12,1,2,Promotions,2,0
+10,G1 flat usage,50+,Female,OS X,Luxury,28,13,0,3,Promotions,2,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,14,0,3,Services,2,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,15,0,3,Services,3,0
+10,G1 flat usage,50+,Female,OS X,Luxury,28,16,0,3,Services,3,0
+10,G1 flat usage,50+,Female,OS X,Luxury,28,17,0,4,Services,4,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,18,0,3,Maintenance,3,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,19,1,4,Services,4,0
+10,G1 flat usage,50+,Female,OS X,Luxury,28,20,0,2,Maintenance,1,0
+10,G1 flat usage,50+,Female,OS X,Luxury,28,21,0,3,Services,3,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,22,0,2,Maintenance,2,0
+10,G1 flat usage,50+,Female,OS X,Luxury,28,23,0,4,Promotions,4,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,24,0,2,Services,1,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,25,0,3,Maintenance,3,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,26,1,2,Maintenance,1,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,27,0,3,Promotions,3,1
+10,G1 flat usage,50+,Female,OS X,Luxury,28,28,0,4,Maintenance,4,1
+11,G1 flat usage,26-34,Male,Android,Standard,11,1,0,3,Maintenance,3,1
+11,G1 flat usage,26-34,Male,Android,Standard,11,2,0,3,Maintenance,2,1
+11,G1 flat usage,26-34,Male,Android,Standard,11,3,0,4,Services,4,0
+11,G1 flat usage,26-34,Male,Android,Standard,11,4,0,3,Services,3,1
+11,G1 flat usage,26-34,Male,Android,Standard,11,5,1,3,Maintenance,2,1
+11,G1 flat usage,26-34,Male,Android,Standard,11,6,0,2,Maintenance,2,0
+11,G1 flat usage,26-34,Male,Android,Standard,11,7,0,2,Promotions,2,1
+11,G1 flat usage,26-34,Male,Android,Standard,11,8,0,3,Services,3,1
+11,G1 flat usage,26-34,Male,Android,Standard,11,9,0,4,Services,3,1
+11,G1 flat usage,26-34,Male,Android,Standard,11,10,0,3,Services,2,0
+11,G1 flat usage,26-34,Male,Android,Standard,11,11,0,4,Services,4,1
+11,G1 flat usage,26-34,Male,Android,Standard,11,12,1,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,13,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,14,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,15,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,16,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,17,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,18,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,19,1,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,20,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,21,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,22,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,23,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,24,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,25,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,26,1,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,27,0,,,,
+11,G1 flat usage,26-34,Male,Android,Standard,11,28,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,1,0,3,Services,3,1
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,2,0,4,Promotions,4,1
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,3,0,4,Maintenance,4,1
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,4,0,2,Promotions,1,0
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,5,1,2,Maintenance,1,1
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,6,0,3,Promotions,2,0
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,7,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,8,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,9,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,10,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,11,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,12,1,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,13,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,14,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,15,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,16,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,17,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,18,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,19,1,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,20,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,21,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,22,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,23,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,24,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,25,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,26,1,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,27,0,,,,
+12,G1 flat usage,<=25,Female,OS X,Luxury,6,28,0,,,,
+13,G1 flat usage,26-34,Male,Android,Luxury,28,1,0,3,Promotions,2,0
+13,G1 flat usage,26-34,Male,Android,Luxury,28,2,0,3,Services,2,0
+13,G1 flat usage,26-34,Male,Android,Luxury,28,3,0,2,Services,1,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,4,0,4,Maintenance,3,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,5,1,4,Services,3,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,6,0,3,Promotions,3,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,7,0,4,Maintenance,4,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,8,0,3,Services,2,0
+13,G1 flat usage,26-34,Male,Android,Luxury,28,9,0,3,Promotions,3,0
+13,G1 flat usage,26-34,Male,Android,Luxury,28,10,0,3,Promotions,3,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,11,0,3,Promotions,2,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,12,1,3,Maintenance,3,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,13,0,2,Promotions,2,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,14,0,2,Maintenance,1,0
+13,G1 flat usage,26-34,Male,Android,Luxury,28,15,0,3,Maintenance,2,0
+13,G1 flat usage,26-34,Male,Android,Luxury,28,16,0,3,Services,3,0
+13,G1 flat usage,26-34,Male,Android,Luxury,28,17,0,3,Services,3,0
+13,G1 flat usage,26-34,Male,Android,Luxury,28,18,0,3,Services,2,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,19,1,4,Promotions,3,0
+13,G1 flat usage,26-34,Male,Android,Luxury,28,20,0,3,Promotions,3,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,21,0,2,Promotions,1,0
+13,G1 flat usage,26-34,Male,Android,Luxury,28,22,0,3,Maintenance,2,0
+13,G1 flat usage,26-34,Male,Android,Luxury,28,23,0,4,Services,3,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,24,0,4,Services,4,0
+13,G1 flat usage,26-34,Male,Android,Luxury,28,25,0,2,Maintenance,1,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,26,1,3,Services,3,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,27,0,3,Maintenance,3,1
+13,G1 flat usage,26-34,Male,Android,Luxury,28,28,0,2,Maintenance,1,1
+14,G1 flat usage,50+,Female,OS X,Luxury,16,1,0,2,Services,1,1
+14,G1 flat usage,50+,Female,OS X,Luxury,16,2,0,4,Promotions,4,1
+14,G1 flat usage,50+,Female,OS X,Luxury,16,3,0,2,Services,2,1
+14,G1 flat usage,50+,Female,OS X,Luxury,16,4,0,2,Services,2,0
+14,G1 flat usage,50+,Female,OS X,Luxury,16,5,1,3,Services,3,0
+14,G1 flat usage,50+,Female,OS X,Luxury,16,6,0,2,Services,2,1
+14,G1 flat usage,50+,Female,OS X,Luxury,16,7,0,3,Promotions,3,0
+14,G1 flat usage,50+,Female,OS X,Luxury,16,8,0,3,Services,2,1
+14,G1 flat usage,50+,Female,OS X,Luxury,16,9,0,3,Services,3,0
+14,G1 flat usage,50+,Female,OS X,Luxury,16,10,0,3,Maintenance,3,0
+14,G1 flat usage,50+,Female,OS X,Luxury,16,11,0,2,Services,2,1
+14,G1 flat usage,50+,Female,OS X,Luxury,16,12,1,3,Services,2,0
+14,G1 flat usage,50+,Female,OS X,Luxury,16,13,0,4,Maintenance,4,0
+14,G1 flat usage,50+,Female,OS X,Luxury,16,14,0,2,Promotions,2,1
+14,G1 flat usage,50+,Female,OS X,Luxury,16,15,0,2,Services,2,0
+14,G1 flat usage,50+,Female,OS X,Luxury,16,16,0,3,Maintenance,3,1
+14,G1 flat usage,50+,Female,OS X,Luxury,16,17,0,,,,
+14,G1 flat usage,50+,Female,OS X,Luxury,16,18,0,,,,
+14,G1 flat usage,50+,Female,OS X,Luxury,16,19,1,,,,
+14,G1 flat usage,50+,Female,OS X,Luxury,16,20,0,,,,
+14,G1 flat usage,50+,Female,OS X,Luxury,16,21,0,,,,
+14,G1 flat usage,50+,Female,OS X,Luxury,16,22,0,,,,
+14,G1 flat usage,50+,Female,OS X,Luxury,16,23,0,,,,
+14,G1 flat usage,50+,Female,OS X,Luxury,16,24,0,,,,
+14,G1 flat usage,50+,Female,OS X,Luxury,16,25,0,,,,
+14,G1 flat usage,50+,Female,OS X,Luxury,16,26,1,,,,
+14,G1 flat usage,50+,Female,OS X,Luxury,16,27,0,,,,
+14,G1 flat usage,50+,Female,OS X,Luxury,16,28,0,,,,
+15,G1 flat usage,26-34,Female,Android,Standard,17,1,0,3,Promotions,2,0
+15,G1 flat usage,26-34,Female,Android,Standard,17,2,0,4,Promotions,3,0
+15,G1 flat usage,26-34,Female,Android,Standard,17,3,0,4,Services,3,0
+15,G1 flat usage,26-34,Female,Android,Standard,17,4,0,3,Maintenance,2,0
+15,G1 flat usage,26-34,Female,Android,Standard,17,5,1,2,Services,1,1
+15,G1 flat usage,26-34,Female,Android,Standard,17,6,0,2,Services,1,0
+15,G1 flat usage,26-34,Female,Android,Standard,17,7,0,4,Promotions,3,0
+15,G1 flat usage,26-34,Female,Android,Standard,17,8,0,3,Maintenance,3,0
+15,G1 flat usage,26-34,Female,Android,Standard,17,9,0,3,Promotions,3,0
+15,G1 flat usage,26-34,Female,Android,Standard,17,10,0,2,Services,2,1
+15,G1 flat usage,26-34,Female,Android,Standard,17,11,0,3,Services,3,1
+15,G1 flat usage,26-34,Female,Android,Standard,17,12,1,3,Promotions,3,1
+15,G1 flat usage,26-34,Female,Android,Standard,17,13,0,3,Promotions,2,0
+15,G1 flat usage,26-34,Female,Android,Standard,17,14,0,3,Promotions,2,1
+15,G1 flat usage,26-34,Female,Android,Standard,17,15,0,4,Services,4,1
+15,G1 flat usage,26-34,Female,Android,Standard,17,16,0,3,Services,3,1
+15,G1 flat usage,26-34,Female,Android,Standard,17,17,0,3,Promotions,3,0
+15,G1 flat usage,26-34,Female,Android,Standard,17,18,0,,,,
+15,G1 flat usage,26-34,Female,Android,Standard,17,19,1,,,,
+15,G1 flat usage,26-34,Female,Android,Standard,17,20,0,,,,
+15,G1 flat usage,26-34,Female,Android,Standard,17,21,0,,,,
+15,G1 flat usage,26-34,Female,Android,Standard,17,22,0,,,,
+15,G1 flat usage,26-34,Female,Android,Standard,17,23,0,,,,
+15,G1 flat usage,26-34,Female,Android,Standard,17,24,0,,,,
+15,G1 flat usage,26-34,Female,Android,Standard,17,25,0,,,,
+15,G1 flat usage,26-34,Female,Android,Standard,17,26,1,,,,
+15,G1 flat usage,26-34,Female,Android,Standard,17,27,0,,,,
+15,G1 flat usage,26-34,Female,Android,Standard,17,28,0,,,,
+16,G1 flat usage,<=25,Male,Android,Luxury,28,1,0,3,Maintenance,3,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,2,0,3,Services,3,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,3,0,3,Promotions,2,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,4,0,2,Maintenance,2,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,5,1,2,Maintenance,2,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,6,0,3,Maintenance,2,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,7,0,3,Promotions,2,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,8,0,4,Services,4,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,9,0,3,Maintenance,3,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,10,0,3,Maintenance,3,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,11,0,2,Services,1,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,12,1,3,Promotions,2,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,13,0,3,Services,2,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,14,0,3,Maintenance,3,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,15,0,3,Services,3,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,16,0,3,Maintenance,3,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,17,0,3,Maintenance,2,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,18,0,2,Promotions,2,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,19,1,2,Maintenance,2,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,20,0,3,Services,2,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,21,0,2,Maintenance,2,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,22,0,4,Maintenance,4,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,23,0,3,Promotions,2,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,24,0,3,Promotions,2,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,25,0,3,Maintenance,3,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,26,1,4,Promotions,3,1
+16,G1 flat usage,<=25,Male,Android,Luxury,28,27,0,2,Services,2,0
+16,G1 flat usage,<=25,Male,Android,Luxury,28,28,0,3,Promotions,3,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,1,0,2,Maintenance,1,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,2,0,3,Services,3,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,3,0,2,Services,2,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,4,0,4,Services,4,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,5,1,3,Services,3,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,6,0,2,Services,2,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,7,0,3,Promotions,3,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,8,0,4,Services,4,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,9,0,2,Promotions,2,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,10,0,3,Maintenance,3,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,11,0,3,Maintenance,2,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,12,1,3,Services,2,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,13,0,3,Services,3,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,14,0,3,Maintenance,3,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,15,0,3,Promotions,3,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,16,0,3,Maintenance,2,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,17,0,3,Promotions,2,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,18,0,3,Services,2,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,19,1,2,Maintenance,2,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,20,0,3,Services,3,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,21,0,4,Maintenance,3,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,22,0,3,Promotions,2,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,23,0,3,Maintenance,2,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,24,0,2,Promotions,1,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,25,0,3,Services,2,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,26,1,3,Promotions,3,0
+17,G1 flat usage,35-50,Female,OS X,Standard,28,27,0,4,Promotions,4,1
+17,G1 flat usage,35-50,Female,OS X,Standard,28,28,0,3,Maintenance,3,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,1,0,2,Maintenance,2,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,2,0,2,Promotions,1,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,3,0,3,Services,3,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,4,0,3,Promotions,2,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,5,1,4,Services,4,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,6,0,3,Maintenance,3,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,7,0,3,Services,3,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,8,0,3,Services,2,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,9,0,2,Promotions,2,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,10,0,3,Services,3,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,11,0,4,Services,4,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,12,1,3,Promotions,3,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,13,0,4,Promotions,3,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,14,0,2,Promotions,1,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,15,0,2,Services,2,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,16,0,3,Maintenance,2,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,17,0,3,Services,2,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,18,0,3,Promotions,2,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,19,1,3,Services,2,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,20,0,2,Promotions,2,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,21,0,3,Services,3,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,22,0,4,Services,3,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,23,0,4,Services,4,0
+18,G1 flat usage,26-34,Female,Android,Standard,28,24,0,3,Services,3,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,25,0,2,Promotions,1,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,26,1,3,Promotions,3,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,27,0,3,Maintenance,3,1
+18,G1 flat usage,26-34,Female,Android,Standard,28,28,0,3,Services,2,0
+19,G1 flat usage,26-34,Female,Android,Luxury,11,1,0,3,Promotions,3,0
+19,G1 flat usage,26-34,Female,Android,Luxury,11,2,0,4,Promotions,4,1
+19,G1 flat usage,26-34,Female,Android,Luxury,11,3,0,3,Promotions,2,1
+19,G1 flat usage,26-34,Female,Android,Luxury,11,4,0,3,Maintenance,2,0
+19,G1 flat usage,26-34,Female,Android,Luxury,11,5,1,3,Services,3,1
+19,G1 flat usage,26-34,Female,Android,Luxury,11,6,0,3,Services,2,1
+19,G1 flat usage,26-34,Female,Android,Luxury,11,7,0,2,Promotions,2,1
+19,G1 flat usage,26-34,Female,Android,Luxury,11,8,0,3,Maintenance,3,0
+19,G1 flat usage,26-34,Female,Android,Luxury,11,9,0,3,Services,3,0
+19,G1 flat usage,26-34,Female,Android,Luxury,11,10,0,3,Promotions,2,0
+19,G1 flat usage,26-34,Female,Android,Luxury,11,11,0,3,Services,2,1
+19,G1 flat usage,26-34,Female,Android,Luxury,11,12,1,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,13,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,14,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,15,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,16,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,17,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,18,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,19,1,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,20,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,21,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,22,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,23,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,24,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,25,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,26,1,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,27,0,,,,
+19,G1 flat usage,26-34,Female,Android,Luxury,11,28,0,,,,
+20,G1 flat usage,35-50,Female,OS X,Standard,22,1,0,3,Promotions,2,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,2,0,2,Maintenance,2,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,3,0,3,Maintenance,3,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,4,0,3,Maintenance,2,0
+20,G1 flat usage,35-50,Female,OS X,Standard,22,5,1,3,Promotions,2,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,6,0,4,Promotions,3,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,7,0,2,Services,2,0
+20,G1 flat usage,35-50,Female,OS X,Standard,22,8,0,2,Maintenance,1,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,9,0,2,Services,1,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,10,0,3,Promotions,3,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,11,0,3,Maintenance,2,0
+20,G1 flat usage,35-50,Female,OS X,Standard,22,12,1,2,Promotions,1,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,13,0,2,Promotions,1,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,14,0,2,Maintenance,1,0
+20,G1 flat usage,35-50,Female,OS X,Standard,22,15,0,3,Promotions,3,0
+20,G1 flat usage,35-50,Female,OS X,Standard,22,16,0,3,Services,3,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,17,0,2,Services,2,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,18,0,3,Promotions,3,0
+20,G1 flat usage,35-50,Female,OS X,Standard,22,19,1,3,Promotions,2,0
+20,G1 flat usage,35-50,Female,OS X,Standard,22,20,0,4,Maintenance,4,0
+20,G1 flat usage,35-50,Female,OS X,Standard,22,21,0,3,Services,2,1
+20,G1 flat usage,35-50,Female,OS X,Standard,22,22,0,4,Services,3,0
+20,G1 flat usage,35-50,Female,OS X,Standard,22,23,0,,,,
+20,G1 flat usage,35-50,Female,OS X,Standard,22,24,0,,,,
+20,G1 flat usage,35-50,Female,OS X,Standard,22,25,0,,,,
+20,G1 flat usage,35-50,Female,OS X,Standard,22,26,1,,,,
+20,G1 flat usage,35-50,Female,OS X,Standard,22,27,0,,,,
+20,G1 flat usage,35-50,Female,OS X,Standard,22,28,0,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,1,0,3,Maintenance,3,1
+21,G1 flat usage,50+,Male,Android,Luxury,14,2,0,2,Maintenance,1,0
+21,G1 flat usage,50+,Male,Android,Luxury,14,3,0,2,Services,1,1
+21,G1 flat usage,50+,Male,Android,Luxury,14,4,0,3,Maintenance,3,0
+21,G1 flat usage,50+,Male,Android,Luxury,14,5,1,3,Services,3,1
+21,G1 flat usage,50+,Male,Android,Luxury,14,6,0,2,Services,2,1
+21,G1 flat usage,50+,Male,Android,Luxury,14,7,0,4,Maintenance,4,1
+21,G1 flat usage,50+,Male,Android,Luxury,14,8,0,3,Promotions,3,0
+21,G1 flat usage,50+,Male,Android,Luxury,14,9,0,2,Services,1,0
+21,G1 flat usage,50+,Male,Android,Luxury,14,10,0,4,Services,3,0
+21,G1 flat usage,50+,Male,Android,Luxury,14,11,0,3,Services,3,1
+21,G1 flat usage,50+,Male,Android,Luxury,14,12,1,3,Promotions,3,1
+21,G1 flat usage,50+,Male,Android,Luxury,14,13,0,3,Services,2,0
+21,G1 flat usage,50+,Male,Android,Luxury,14,14,0,2,Services,2,1
+21,G1 flat usage,50+,Male,Android,Luxury,14,15,0,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,16,0,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,17,0,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,18,0,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,19,1,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,20,0,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,21,0,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,22,0,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,23,0,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,24,0,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,25,0,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,26,1,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,27,0,,,,
+21,G1 flat usage,50+,Male,Android,Luxury,14,28,0,,,,
+22,G1 flat usage,26-34,Female,Android,Luxury,25,1,0,2,Services,1,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,2,0,3,Services,2,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,3,0,3,Services,3,1
+22,G1 flat usage,26-34,Female,Android,Luxury,25,4,0,3,Promotions,3,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,5,1,4,Maintenance,3,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,6,0,3,Maintenance,2,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,7,0,3,Promotions,2,1
+22,G1 flat usage,26-34,Female,Android,Luxury,25,8,0,2,Maintenance,1,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,9,0,2,Maintenance,1,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,10,0,2,Services,1,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,11,0,3,Promotions,2,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,12,1,4,Services,4,1
+22,G1 flat usage,26-34,Female,Android,Luxury,25,13,0,3,Promotions,2,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,14,0,3,Services,3,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,15,0,4,Promotions,4,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,16,0,4,Promotions,4,1
+22,G1 flat usage,26-34,Female,Android,Luxury,25,17,0,3,Services,2,1
+22,G1 flat usage,26-34,Female,Android,Luxury,25,18,0,3,Maintenance,3,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,19,1,4,Promotions,3,1
+22,G1 flat usage,26-34,Female,Android,Luxury,25,20,0,3,Maintenance,3,1
+22,G1 flat usage,26-34,Female,Android,Luxury,25,21,0,3,Maintenance,3,1
+22,G1 flat usage,26-34,Female,Android,Luxury,25,22,0,4,Maintenance,4,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,23,0,2,Services,2,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,24,0,3,Services,2,0
+22,G1 flat usage,26-34,Female,Android,Luxury,25,25,0,2,Promotions,1,1
+22,G1 flat usage,26-34,Female,Android,Luxury,25,26,1,,,,
+22,G1 flat usage,26-34,Female,Android,Luxury,25,27,0,,,,
+22,G1 flat usage,26-34,Female,Android,Luxury,25,28,0,,,,
+23,G1 flat usage,35-50,Female,Android,Standard,19,1,0,2,Promotions,2,0
+23,G1 flat usage,35-50,Female,Android,Standard,19,2,0,3,Maintenance,3,0
+23,G1 flat usage,35-50,Female,Android,Standard,19,3,0,4,Promotions,3,0
+23,G1 flat usage,35-50,Female,Android,Standard,19,4,0,2,Services,2,1
+23,G1 flat usage,35-50,Female,Android,Standard,19,5,1,4,Services,3,1
+23,G1 flat usage,35-50,Female,Android,Standard,19,6,0,4,Services,4,0
+23,G1 flat usage,35-50,Female,Android,Standard,19,7,0,2,Maintenance,2,0
+23,G1 flat usage,35-50,Female,Android,Standard,19,8,0,4,Services,4,1
+23,G1 flat usage,35-50,Female,Android,Standard,19,9,0,3,Services,3,0
+23,G1 flat usage,35-50,Female,Android,Standard,19,10,0,3,Services,3,0
+23,G1 flat usage,35-50,Female,Android,Standard,19,11,0,3,Promotions,2,1
+23,G1 flat usage,35-50,Female,Android,Standard,19,12,1,2,Maintenance,2,0
+23,G1 flat usage,35-50,Female,Android,Standard,19,13,0,3,Services,2,1
+23,G1 flat usage,35-50,Female,Android,Standard,19,14,0,2,Services,2,0
+23,G1 flat usage,35-50,Female,Android,Standard,19,15,0,3,Services,2,0
+23,G1 flat usage,35-50,Female,Android,Standard,19,16,0,3,Maintenance,3,0
+23,G1 flat usage,35-50,Female,Android,Standard,19,17,0,4,Services,3,0
+23,G1 flat usage,35-50,Female,Android,Standard,19,18,0,2,Services,1,1
+23,G1 flat usage,35-50,Female,Android,Standard,19,19,1,3,Promotions,2,1
+23,G1 flat usage,35-50,Female,Android,Standard,19,20,0,,,,
+23,G1 flat usage,35-50,Female,Android,Standard,19,21,0,,,,
+23,G1 flat usage,35-50,Female,Android,Standard,19,22,0,,,,
+23,G1 flat usage,35-50,Female,Android,Standard,19,23,0,,,,
+23,G1 flat usage,35-50,Female,Android,Standard,19,24,0,,,,
+23,G1 flat usage,35-50,Female,Android,Standard,19,25,0,,,,
+23,G1 flat usage,35-50,Female,Android,Standard,19,26,1,,,,
+23,G1 flat usage,35-50,Female,Android,Standard,19,27,0,,,,
+23,G1 flat usage,35-50,Female,Android,Standard,19,28,0,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,1,0,4,Promotions,3,0
+24,G1 flat usage,26-34,Female,OS X,Standard,14,2,0,4,Maintenance,3,1
+24,G1 flat usage,26-34,Female,OS X,Standard,14,3,0,2,Maintenance,2,1
+24,G1 flat usage,26-34,Female,OS X,Standard,14,4,0,4,Promotions,4,0
+24,G1 flat usage,26-34,Female,OS X,Standard,14,5,1,4,Promotions,3,1
+24,G1 flat usage,26-34,Female,OS X,Standard,14,6,0,3,Maintenance,2,1
+24,G1 flat usage,26-34,Female,OS X,Standard,14,7,0,3,Services,3,1
+24,G1 flat usage,26-34,Female,OS X,Standard,14,8,0,3,Promotions,2,1
+24,G1 flat usage,26-34,Female,OS X,Standard,14,9,0,3,Maintenance,2,0
+24,G1 flat usage,26-34,Female,OS X,Standard,14,10,0,2,Promotions,1,0
+24,G1 flat usage,26-34,Female,OS X,Standard,14,11,0,4,Services,3,1
+24,G1 flat usage,26-34,Female,OS X,Standard,14,12,1,4,Maintenance,3,1
+24,G1 flat usage,26-34,Female,OS X,Standard,14,13,0,3,Services,3,1
+24,G1 flat usage,26-34,Female,OS X,Standard,14,14,0,2,Promotions,2,1
+24,G1 flat usage,26-34,Female,OS X,Standard,14,15,0,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,16,0,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,17,0,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,18,0,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,19,1,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,20,0,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,21,0,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,22,0,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,23,0,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,24,0,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,25,0,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,26,1,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,27,0,,,,
+24,G1 flat usage,26-34,Female,OS X,Standard,14,28,0,,,,
+25,G1 flat usage,50+,Female,Android,Standard,18,1,0,2,Maintenance,1,0
+25,G1 flat usage,50+,Female,Android,Standard,18,2,0,3,Maintenance,3,1
+25,G1 flat usage,50+,Female,Android,Standard,18,3,0,3,Services,2,0
+25,G1 flat usage,50+,Female,Android,Standard,18,4,0,3,Maintenance,2,1
+25,G1 flat usage,50+,Female,Android,Standard,18,5,1,4,Services,3,1
+25,G1 flat usage,50+,Female,Android,Standard,18,6,0,3,Maintenance,3,0
+25,G1 flat usage,50+,Female,Android,Standard,18,7,0,3,Promotions,3,0
+25,G1 flat usage,50+,Female,Android,Standard,18,8,0,3,Maintenance,3,0
+25,G1 flat usage,50+,Female,Android,Standard,18,9,0,4,Services,3,1
+25,G1 flat usage,50+,Female,Android,Standard,18,10,0,4,Maintenance,4,1
+25,G1 flat usage,50+,Female,Android,Standard,18,11,0,3,Promotions,2,1
+25,G1 flat usage,50+,Female,Android,Standard,18,12,1,4,Services,4,1
+25,G1 flat usage,50+,Female,Android,Standard,18,13,0,2,Promotions,1,1
+25,G1 flat usage,50+,Female,Android,Standard,18,14,0,3,Promotions,2,1
+25,G1 flat usage,50+,Female,Android,Standard,18,15,0,3,Services,3,0
+25,G1 flat usage,50+,Female,Android,Standard,18,16,0,3,Maintenance,2,1
+25,G1 flat usage,50+,Female,Android,Standard,18,17,0,2,Maintenance,2,0
+25,G1 flat usage,50+,Female,Android,Standard,18,18,0,4,Maintenance,3,1
+25,G1 flat usage,50+,Female,Android,Standard,18,19,1,,,,
+25,G1 flat usage,50+,Female,Android,Standard,18,20,0,,,,
+25,G1 flat usage,50+,Female,Android,Standard,18,21,0,,,,
+25,G1 flat usage,50+,Female,Android,Standard,18,22,0,,,,
+25,G1 flat usage,50+,Female,Android,Standard,18,23,0,,,,
+25,G1 flat usage,50+,Female,Android,Standard,18,24,0,,,,
+25,G1 flat usage,50+,Female,Android,Standard,18,25,0,,,,
+25,G1 flat usage,50+,Female,Android,Standard,18,26,1,,,,
+25,G1 flat usage,50+,Female,Android,Standard,18,27,0,,,,
+25,G1 flat usage,50+,Female,Android,Standard,18,28,0,,,,
+26,G1 flat usage,26-34,Female,Android,Luxury,28,1,0,2,Promotions,2,0
+26,G1 flat usage,26-34,Female,Android,Luxury,28,2,0,3,Services,2,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,3,0,3,Maintenance,3,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,4,0,3,Maintenance,2,0
+26,G1 flat usage,26-34,Female,Android,Luxury,28,5,1,3,Promotions,3,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,6,0,2,Promotions,2,0
+26,G1 flat usage,26-34,Female,Android,Luxury,28,7,0,4,Services,3,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,8,0,3,Promotions,2,0
+26,G1 flat usage,26-34,Female,Android,Luxury,28,9,0,3,Promotions,2,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,10,0,2,Maintenance,1,0
+26,G1 flat usage,26-34,Female,Android,Luxury,28,11,0,2,Maintenance,1,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,12,1,3,Maintenance,3,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,13,0,2,Services,2,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,14,0,3,Services,3,0
+26,G1 flat usage,26-34,Female,Android,Luxury,28,15,0,2,Services,1,0
+26,G1 flat usage,26-34,Female,Android,Luxury,28,16,0,4,Services,3,0
+26,G1 flat usage,26-34,Female,Android,Luxury,28,17,0,2,Services,1,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,18,0,2,Maintenance,1,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,19,1,3,Services,3,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,20,0,2,Maintenance,1,0
+26,G1 flat usage,26-34,Female,Android,Luxury,28,21,0,3,Services,2,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,22,0,3,Maintenance,3,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,23,0,2,Services,1,0
+26,G1 flat usage,26-34,Female,Android,Luxury,28,24,0,3,Promotions,3,0
+26,G1 flat usage,26-34,Female,Android,Luxury,28,25,0,3,Services,2,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,26,1,3,Maintenance,2,1
+26,G1 flat usage,26-34,Female,Android,Luxury,28,27,0,3,Services,3,0
+26,G1 flat usage,26-34,Female,Android,Luxury,28,28,0,3,Maintenance,2,1
+27,G1 flat usage,<=25,Female,Android,Standard,14,1,0,4,Services,4,0
+27,G1 flat usage,<=25,Female,Android,Standard,14,2,0,2,Promotions,2,0
+27,G1 flat usage,<=25,Female,Android,Standard,14,3,0,4,Promotions,3,1
+27,G1 flat usage,<=25,Female,Android,Standard,14,4,0,3,Maintenance,3,0
+27,G1 flat usage,<=25,Female,Android,Standard,14,5,1,2,Maintenance,2,1
+27,G1 flat usage,<=25,Female,Android,Standard,14,6,0,4,Services,3,1
+27,G1 flat usage,<=25,Female,Android,Standard,14,7,0,3,Maintenance,2,1
+27,G1 flat usage,<=25,Female,Android,Standard,14,8,0,3,Maintenance,2,0
+27,G1 flat usage,<=25,Female,Android,Standard,14,9,0,3,Promotions,3,1
+27,G1 flat usage,<=25,Female,Android,Standard,14,10,0,3,Maintenance,2,1
+27,G1 flat usage,<=25,Female,Android,Standard,14,11,0,3,Services,2,1
+27,G1 flat usage,<=25,Female,Android,Standard,14,12,1,2,Services,2,1
+27,G1 flat usage,<=25,Female,Android,Standard,14,13,0,4,Services,3,1
+27,G1 flat usage,<=25,Female,Android,Standard,14,14,0,3,Promotions,2,0
+27,G1 flat usage,<=25,Female,Android,Standard,14,15,0,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,16,0,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,17,0,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,18,0,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,19,1,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,20,0,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,21,0,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,22,0,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,23,0,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,24,0,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,25,0,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,26,1,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,27,0,,,,
+27,G1 flat usage,<=25,Female,Android,Standard,14,28,0,,,,
+28,G1 flat usage,<=25,Male,Android,Standard,22,1,0,3,Maintenance,3,1
+28,G1 flat usage,<=25,Male,Android,Standard,22,2,0,4,Maintenance,4,1
+28,G1 flat usage,<=25,Male,Android,Standard,22,3,0,3,Maintenance,3,1
+28,G1 flat usage,<=25,Male,Android,Standard,22,4,0,2,Maintenance,1,1
+28,G1 flat usage,<=25,Male,Android,Standard,22,5,1,3,Services,2,0
+28,G1 flat usage,<=25,Male,Android,Standard,22,6,0,2,Promotions,2,0
+28,G1 flat usage,<=25,Male,Android,Standard,22,7,0,3,Promotions,3,0
+28,G1 flat usage,<=25,Male,Android,Standard,22,8,0,2,Maintenance,2,0
+28,G1 flat usage,<=25,Male,Android,Standard,22,9,0,3,Maintenance,2,0
+28,G1 flat usage,<=25,Male,Android,Standard,22,10,0,4,Services,3,1
+28,G1 flat usage,<=25,Male,Android,Standard,22,11,0,3,Maintenance,2,0
+28,G1 flat usage,<=25,Male,Android,Standard,22,12,1,4,Promotions,4,1
+28,G1 flat usage,<=25,Male,Android,Standard,22,13,0,2,Promotions,1,0
+28,G1 flat usage,<=25,Male,Android,Standard,22,14,0,3,Services,3,1
+28,G1 flat usage,<=25,Male,Android,Standard,22,15,0,3,Services,3,1
+28,G1 flat usage,<=25,Male,Android,Standard,22,16,0,4,Services,3,0
+28,G1 flat usage,<=25,Male,Android,Standard,22,17,0,3,Promotions,3,1
+28,G1 flat usage,<=25,Male,Android,Standard,22,18,0,3,Services,3,0
+28,G1 flat usage,<=25,Male,Android,Standard,22,19,1,3,Maintenance,2,0
+28,G1 flat usage,<=25,Male,Android,Standard,22,20,0,3,Services,2,0
+28,G1 flat usage,<=25,Male,Android,Standard,22,21,0,2,Services,1,1
+28,G1 flat usage,<=25,Male,Android,Standard,22,22,0,2,Promotions,1,0
+28,G1 flat usage,<=25,Male,Android,Standard,22,23,0,,,,
+28,G1 flat usage,<=25,Male,Android,Standard,22,24,0,,,,
+28,G1 flat usage,<=25,Male,Android,Standard,22,25,0,,,,
+28,G1 flat usage,<=25,Male,Android,Standard,22,26,1,,,,
+28,G1 flat usage,<=25,Male,Android,Standard,22,27,0,,,,
+28,G1 flat usage,<=25,Male,Android,Standard,22,28,0,,,,
+29,G1 flat usage,50+,Female,OS X,Standard,17,1,0,4,Services,3,1
+29,G1 flat usage,50+,Female,OS X,Standard,17,2,0,3,Services,3,1
+29,G1 flat usage,50+,Female,OS X,Standard,17,3,0,3,Services,3,0
+29,G1 flat usage,50+,Female,OS X,Standard,17,4,0,3,Promotions,2,0
+29,G1 flat usage,50+,Female,OS X,Standard,17,5,1,4,Promotions,4,0
+29,G1 flat usage,50+,Female,OS X,Standard,17,6,0,2,Services,1,1
+29,G1 flat usage,50+,Female,OS X,Standard,17,7,0,3,Promotions,3,1
+29,G1 flat usage,50+,Female,OS X,Standard,17,8,0,3,Promotions,2,0
+29,G1 flat usage,50+,Female,OS X,Standard,17,9,0,4,Services,4,1
+29,G1 flat usage,50+,Female,OS X,Standard,17,10,0,4,Promotions,3,0
+29,G1 flat usage,50+,Female,OS X,Standard,17,11,0,4,Maintenance,3,0
+29,G1 flat usage,50+,Female,OS X,Standard,17,12,1,3,Services,3,0
+29,G1 flat usage,50+,Female,OS X,Standard,17,13,0,3,Services,2,0
+29,G1 flat usage,50+,Female,OS X,Standard,17,14,0,3,Services,3,0
+29,G1 flat usage,50+,Female,OS X,Standard,17,15,0,4,Promotions,3,1
+29,G1 flat usage,50+,Female,OS X,Standard,17,16,0,3,Services,2,1
+29,G1 flat usage,50+,Female,OS X,Standard,17,17,0,3,Maintenance,3,0
+29,G1 flat usage,50+,Female,OS X,Standard,17,18,0,,,,
+29,G1 flat usage,50+,Female,OS X,Standard,17,19,1,,,,
+29,G1 flat usage,50+,Female,OS X,Standard,17,20,0,,,,
+29,G1 flat usage,50+,Female,OS X,Standard,17,21,0,,,,
+29,G1 flat usage,50+,Female,OS X,Standard,17,22,0,,,,
+29,G1 flat usage,50+,Female,OS X,Standard,17,23,0,,,,
+29,G1 flat usage,50+,Female,OS X,Standard,17,24,0,,,,
+29,G1 flat usage,50+,Female,OS X,Standard,17,25,0,,,,
+29,G1 flat usage,50+,Female,OS X,Standard,17,26,1,,,,
+29,G1 flat usage,50+,Female,OS X,Standard,17,27,0,,,,
+29,G1 flat usage,50+,Female,OS X,Standard,17,28,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,1,0,3,Services,2,1
+30,G1 flat usage,26-34,Male,Android,Standard,6,2,0,3,Maintenance,2,1
+30,G1 flat usage,26-34,Male,Android,Standard,6,3,0,3,Maintenance,2,0
+30,G1 flat usage,26-34,Male,Android,Standard,6,4,0,3,Maintenance,2,1
+30,G1 flat usage,26-34,Male,Android,Standard,6,5,1,3,Promotions,2,1
+30,G1 flat usage,26-34,Male,Android,Standard,6,6,0,2,Promotions,2,0
+30,G1 flat usage,26-34,Male,Android,Standard,6,7,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,8,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,9,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,10,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,11,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,12,1,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,13,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,14,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,15,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,16,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,17,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,18,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,19,1,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,20,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,21,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,22,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,23,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,24,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,25,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,26,1,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,27,0,,,,
+30,G1 flat usage,26-34,Male,Android,Standard,6,28,0,,,,
+31,G1 flat usage,26-34,Female,Android,Standard,26,1,0,3,Promotions,3,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,2,0,3,Services,3,0
+31,G1 flat usage,26-34,Female,Android,Standard,26,3,0,2,Maintenance,1,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,4,0,4,Maintenance,3,0
+31,G1 flat usage,26-34,Female,Android,Standard,26,5,1,3,Promotions,3,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,6,0,4,Maintenance,4,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,7,0,4,Services,4,0
+31,G1 flat usage,26-34,Female,Android,Standard,26,8,0,2,Maintenance,2,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,9,0,2,Services,1,0
+31,G1 flat usage,26-34,Female,Android,Standard,26,10,0,3,Promotions,2,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,11,0,3,Maintenance,2,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,12,1,3,Services,2,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,13,0,3,Promotions,2,0
+31,G1 flat usage,26-34,Female,Android,Standard,26,14,0,2,Services,2,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,15,0,3,Promotions,2,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,16,0,4,Services,3,0
+31,G1 flat usage,26-34,Female,Android,Standard,26,17,0,2,Promotions,1,0
+31,G1 flat usage,26-34,Female,Android,Standard,26,18,0,2,Services,1,0
+31,G1 flat usage,26-34,Female,Android,Standard,26,19,1,3,Services,2,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,20,0,3,Promotions,3,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,21,0,3,Maintenance,3,0
+31,G1 flat usage,26-34,Female,Android,Standard,26,22,0,3,Maintenance,3,0
+31,G1 flat usage,26-34,Female,Android,Standard,26,23,0,3,Maintenance,3,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,24,0,4,Maintenance,3,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,25,0,3,Maintenance,3,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,26,1,4,Promotions,3,1
+31,G1 flat usage,26-34,Female,Android,Standard,26,27,0,,,,
+31,G1 flat usage,26-34,Female,Android,Standard,26,28,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,1,0,4,Services,3,1
+32,G1 flat usage,35-50,Male,OS X,Standard,6,2,0,3,Maintenance,3,0
+32,G1 flat usage,35-50,Male,OS X,Standard,6,3,0,3,Services,2,1
+32,G1 flat usage,35-50,Male,OS X,Standard,6,4,0,3,Maintenance,2,0
+32,G1 flat usage,35-50,Male,OS X,Standard,6,5,1,2,Maintenance,1,1
+32,G1 flat usage,35-50,Male,OS X,Standard,6,6,0,3,Services,3,0
+32,G1 flat usage,35-50,Male,OS X,Standard,6,7,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,8,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,9,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,10,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,11,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,12,1,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,13,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,14,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,15,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,16,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,17,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,18,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,19,1,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,20,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,21,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,22,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,23,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,24,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,25,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,26,1,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,27,0,,,,
+32,G1 flat usage,35-50,Male,OS X,Standard,6,28,0,,,,
+33,G1 flat usage,26-34,Male,Android,Luxury,28,1,0,4,Promotions,3,0
+33,G1 flat usage,26-34,Male,Android,Luxury,28,2,0,4,Promotions,4,0
+33,G1 flat usage,26-34,Male,Android,Luxury,28,3,0,3,Services,2,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,4,0,2,Services,2,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,5,1,3,Maintenance,3,0
+33,G1 flat usage,26-34,Male,Android,Luxury,28,6,0,3,Services,2,0
+33,G1 flat usage,26-34,Male,Android,Luxury,28,7,0,3,Promotions,3,0
+33,G1 flat usage,26-34,Male,Android,Luxury,28,8,0,3,Maintenance,3,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,9,0,4,Maintenance,3,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,10,0,3,Promotions,3,0
+33,G1 flat usage,26-34,Male,Android,Luxury,28,11,0,4,Maintenance,3,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,12,1,3,Services,3,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,13,0,3,Promotions,2,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,14,0,4,Maintenance,3,0
+33,G1 flat usage,26-34,Male,Android,Luxury,28,15,0,3,Services,2,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,16,0,4,Maintenance,4,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,17,0,3,Services,2,0
+33,G1 flat usage,26-34,Male,Android,Luxury,28,18,0,3,Promotions,3,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,19,1,3,Services,2,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,20,0,2,Promotions,2,0
+33,G1 flat usage,26-34,Male,Android,Luxury,28,21,0,2,Maintenance,2,0
+33,G1 flat usage,26-34,Male,Android,Luxury,28,22,0,3,Maintenance,2,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,23,0,2,Promotions,2,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,24,0,2,Services,1,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,25,0,2,Services,1,1
+33,G1 flat usage,26-34,Male,Android,Luxury,28,26,1,2,Maintenance,1,0
+33,G1 flat usage,26-34,Male,Android,Luxury,28,27,0,3,Maintenance,3,0
+33,G1 flat usage,26-34,Male,Android,Luxury,28,28,0,4,Maintenance,3,1
+34,G1 flat usage,26-34,Female,OS X,Standard,6,1,0,3,Promotions,3,1
+34,G1 flat usage,26-34,Female,OS X,Standard,6,2,0,3,Promotions,2,0
+34,G1 flat usage,26-34,Female,OS X,Standard,6,3,0,3,Services,3,0
+34,G1 flat usage,26-34,Female,OS X,Standard,6,4,0,3,Services,3,1
+34,G1 flat usage,26-34,Female,OS X,Standard,6,5,1,4,Maintenance,3,0
+34,G1 flat usage,26-34,Female,OS X,Standard,6,6,0,3,Maintenance,3,1
+34,G1 flat usage,26-34,Female,OS X,Standard,6,7,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,8,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,9,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,10,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,11,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,12,1,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,13,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,14,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,15,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,16,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,17,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,18,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,19,1,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,20,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,21,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,22,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,23,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,24,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,25,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,26,1,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,27,0,,,,
+34,G1 flat usage,26-34,Female,OS X,Standard,6,28,0,,,,
+35,G1 flat usage,50+,Male,OS X,Luxury,28,1,0,2,Services,2,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,2,0,4,Services,4,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,3,0,2,Promotions,2,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,4,0,3,Services,3,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,5,1,2,Promotions,2,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,6,0,2,Services,1,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,7,0,4,Services,3,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,8,0,4,Promotions,3,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,9,0,3,Services,2,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,10,0,3,Promotions,2,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,11,0,3,Services,2,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,12,1,3,Promotions,3,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,13,0,4,Maintenance,4,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,14,0,2,Services,1,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,15,0,3,Services,2,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,16,0,3,Services,2,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,17,0,3,Maintenance,3,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,18,0,4,Services,3,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,19,1,3,Promotions,3,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,20,0,3,Maintenance,2,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,21,0,3,Services,2,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,22,0,4,Maintenance,3,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,23,0,3,Maintenance,3,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,24,0,4,Services,4,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,25,0,4,Services,3,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,26,1,3,Promotions,2,1
+35,G1 flat usage,50+,Male,OS X,Luxury,28,27,0,4,Services,3,0
+35,G1 flat usage,50+,Male,OS X,Luxury,28,28,0,4,Promotions,4,1
+36,G2 spike and drop,26-34,Male,Android,Standard,15,1,0,1,Maintenance,1,0
+36,G2 spike and drop,26-34,Male,Android,Standard,15,2,0,2,Services,1,0
+36,G2 spike and drop,26-34,Male,Android,Standard,15,3,0,2,Promotions,2,0
+36,G2 spike and drop,26-34,Male,Android,Standard,15,4,0,2,Maintenance,1,0
+36,G2 spike and drop,26-34,Male,Android,Standard,15,5,1,3,Services,3,1
+36,G2 spike and drop,26-34,Male,Android,Standard,15,6,0,2,Maintenance,2,1
+36,G2 spike and drop,26-34,Male,Android,Standard,15,7,0,3,Services,3,1
+36,G2 spike and drop,26-34,Male,Android,Standard,15,8,0,4,Services,4,1
+36,G2 spike and drop,26-34,Male,Android,Standard,15,9,0,3,Promotions,2,1
+36,G2 spike and drop,26-34,Male,Android,Standard,15,10,0,4,Services,3,1
+36,G2 spike and drop,26-34,Male,Android,Standard,15,11,0,4,Services,4,1
+36,G2 spike and drop,26-34,Male,Android,Standard,15,12,1,4,Maintenance,3,1
+36,G2 spike and drop,26-34,Male,Android,Standard,15,13,0,2,Services,2,1
+36,G2 spike and drop,26-34,Male,Android,Standard,15,14,0,2,Services,2,0
+36,G2 spike and drop,26-34,Male,Android,Standard,15,15,0,1,Services,1,1
+36,G2 spike and drop,26-34,Male,Android,Standard,15,16,0,,,,
+36,G2 spike and drop,26-34,Male,Android,Standard,15,17,0,,,,
+36,G2 spike and drop,26-34,Male,Android,Standard,15,18,0,,,,
+36,G2 spike and drop,26-34,Male,Android,Standard,15,19,1,,,,
+36,G2 spike and drop,26-34,Male,Android,Standard,15,20,0,,,,
+36,G2 spike and drop,26-34,Male,Android,Standard,15,21,0,,,,
+36,G2 spike and drop,26-34,Male,Android,Standard,15,22,0,,,,
+36,G2 spike and drop,26-34,Male,Android,Standard,15,23,0,,,,
+36,G2 spike and drop,26-34,Male,Android,Standard,15,24,0,,,,
+36,G2 spike and drop,26-34,Male,Android,Standard,15,25,0,,,,
+36,G2 spike and drop,26-34,Male,Android,Standard,15,26,1,,,,
+36,G2 spike and drop,26-34,Male,Android,Standard,15,27,0,,,,
+36,G2 spike and drop,26-34,Male,Android,Standard,15,28,0,,,,
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,1,0,2,Services,2,0
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,2,0,2,Services,1,0
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,3,0,2,Maintenance,2,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,4,0,2,Promotions,1,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,5,1,2,Promotions,2,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,6,0,2,Services,2,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,7,0,2,Services,2,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,8,0,3,Services,3,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,9,0,4,Maintenance,3,0
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,10,0,4,Services,3,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,11,0,3,Services,2,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,12,1,4,Maintenance,3,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,13,0,5,Services,5,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,14,0,4,Services,4,0
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,15,0,3,Maintenance,2,0
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,16,0,3,Maintenance,3,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,17,0,3,Maintenance,3,0
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,18,0,2,Promotions,2,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,19,1,2,Services,2,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,20,0,2,Promotions,2,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,21,0,2,Services,2,0
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,22,0,2,Maintenance,2,0
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,23,0,2,Maintenance,2,1
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,24,0,2,Promotions,1,0
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,25,0,2,Services,1,0
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,26,1,2,Services,1,0
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,27,0,2,Services,2,0
+37,G2 spike and drop,35-50,Female,OS X,Standard,28,28,0,2,Services,1,1
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,1,0,2,Maintenance,2,0
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,2,0,2,Promotions,2,0
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,3,0,2,Maintenance,2,1
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,4,0,2,Services,1,1
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,5,1,2,Promotions,1,0
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,6,0,2,Services,2,1
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,7,0,3,Services,2,1
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,8,0,3,Services,2,1
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,9,0,3,Promotions,3,1
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,10,0,4,Promotions,4,0
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,11,0,4,Promotions,3,1
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,12,1,4,Services,4,0
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,13,0,4,Maintenance,4,1
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,14,0,2,Promotions,1,1
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,15,0,2,Services,1,1
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,16,0,1,Services,0,1
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,17,0,,,,
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,18,0,,,,
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,19,1,,,,
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,20,0,,,,
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,21,0,,,,
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,22,0,,,,
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,23,0,,,,
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,24,0,,,,
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,25,0,,,,
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,26,1,,,,
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,27,0,,,,
+38,G2 spike and drop,35-50,Male,OS X,Luxury,16,28,0,,,,
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,1,0,2,Services,2,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,2,0,2,Services,1,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,3,0,2,Maintenance,1,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,4,0,2,Services,1,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,5,1,3,Promotions,3,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,6,0,2,Promotions,2,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,7,0,2,Promotions,2,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,8,0,3,Services,3,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,9,0,3,Maintenance,2,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,10,0,3,Services,3,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,11,0,4,Services,4,0
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,12,1,3,Maintenance,3,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,13,0,4,Services,3,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,14,0,3,Services,3,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,15,0,4,Services,3,0
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,16,0,4,Maintenance,3,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,17,0,5,Maintenance,4,0
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,18,0,3,Maintenance,3,1
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,19,1,1,Maintenance,1,0
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,20,0,1,Maintenance,0,0
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,21,0,,,,
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,22,0,,,,
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,23,0,,,,
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,24,0,,,,
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,25,0,,,,
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,26,1,,,,
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,27,0,,,,
+39,G2 spike and drop,26-34,Female,OS X,Luxury,20,28,0,,,,
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,1,0,1,Maintenance,0,0
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,2,0,2,Services,2,0
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,3,0,2,Services,2,1
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,4,0,2,Maintenance,2,1
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,5,1,2,Maintenance,1,1
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,6,0,2,Maintenance,1,0
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,7,0,3,Promotions,2,0
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,8,0,3,Promotions,3,1
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,9,0,3,Maintenance,2,0
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,10,0,3,Maintenance,2,0
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,11,0,3,Services,3,1
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,12,1,3,Promotions,3,1
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,13,0,4,Services,3,0
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,14,0,4,Services,3,0
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,15,0,4,Services,4,0
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,16,0,3,Maintenance,3,0
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,17,0,2,Services,1,0
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,18,0,1,Promotions,0,1
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,19,1,,,,
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,20,0,,,,
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,21,0,,,,
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,22,0,,,,
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,23,0,,,,
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,24,0,,,,
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,25,0,,,,
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,26,1,,,,
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,27,0,,,,
+40,G2 spike and drop,26-34,Female,Android,Luxury,18,28,0,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,1,0,2,Promotions,2,0
+41,G2 spike and drop,50+,Male,Android,Standard,15,2,0,2,Services,1,0
+41,G2 spike and drop,50+,Male,Android,Standard,15,3,0,2,Maintenance,1,0
+41,G2 spike and drop,50+,Male,Android,Standard,15,4,0,2,Maintenance,2,0
+41,G2 spike and drop,50+,Male,Android,Standard,15,5,1,3,Services,3,1
+41,G2 spike and drop,50+,Male,Android,Standard,15,6,0,2,Services,2,0
+41,G2 spike and drop,50+,Male,Android,Standard,15,7,0,3,Services,3,1
+41,G2 spike and drop,50+,Male,Android,Standard,15,8,0,3,Services,3,0
+41,G2 spike and drop,50+,Male,Android,Standard,15,9,0,3,Maintenance,2,0
+41,G2 spike and drop,50+,Male,Android,Standard,15,10,0,3,Maintenance,2,0
+41,G2 spike and drop,50+,Male,Android,Standard,15,11,0,4,Services,4,1
+41,G2 spike and drop,50+,Male,Android,Standard,15,12,1,5,Services,5,1
+41,G2 spike and drop,50+,Male,Android,Standard,15,13,0,2,Promotions,2,1
+41,G2 spike and drop,50+,Male,Android,Standard,15,14,0,1,Services,1,0
+41,G2 spike and drop,50+,Male,Android,Standard,15,15,0,1,Maintenance,0,0
+41,G2 spike and drop,50+,Male,Android,Standard,15,16,0,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,17,0,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,18,0,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,19,1,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,20,0,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,21,0,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,22,0,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,23,0,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,24,0,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,25,0,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,26,1,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,27,0,,,,
+41,G2 spike and drop,50+,Male,Android,Standard,15,28,0,,,,
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,1,0,2,Services,1,0
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,2,0,1,Maintenance,0,0
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,3,0,2,Services,1,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,4,0,2,Maintenance,2,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,5,1,2,Promotions,1,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,6,0,2,Services,1,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,7,0,3,Promotions,2,0
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,8,0,2,Maintenance,1,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,9,0,2,Maintenance,2,0
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,10,0,2,Services,1,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,11,0,3,Promotions,2,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,12,1,4,Promotions,4,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,13,0,4,Promotions,3,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,14,0,3,Services,3,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,15,0,4,Services,3,0
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,16,0,4,Services,3,0
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,17,0,4,Services,3,0
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,18,0,4,Promotions,4,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,19,1,4,Promotions,4,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,20,0,2,Services,2,1
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,21,0,2,Maintenance,2,0
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,22,0,1,Services,0,0
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,23,0,,,,
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,24,0,,,,
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,25,0,,,,
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,26,1,,,,
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,27,0,,,,
+42,G2 spike and drop,26-34,Male,OS X,Luxury,22,28,0,,,,
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,1,0,2,Services,2,0
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,2,0,1,Promotions,1,0
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,3,0,2,Promotions,1,1
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,4,0,2,Services,2,1
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,5,1,2,Promotions,2,1
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,6,0,2,Services,2,1
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,7,0,3,Services,3,1
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,8,0,3,Promotions,2,1
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,9,0,4,Maintenance,3,0
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,10,0,3,Services,3,1
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,11,0,3,Maintenance,2,1
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,12,1,4,Promotions,4,1
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,13,0,4,Services,4,1
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,14,0,5,Promotions,5,1
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,15,0,2,Promotions,2,0
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,16,0,1,Services,1,0
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,17,0,1,Services,1,1
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,18,0,,,,
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,19,1,,,,
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,20,0,,,,
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,21,0,,,,
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,22,0,,,,
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,23,0,,,,
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,24,0,,,,
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,25,0,,,,
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,26,1,,,,
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,27,0,,,,
+43,G2 spike and drop,50+,Male,OS X,Luxury,17,28,0,,,,
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,1,0,2,Maintenance,1,0
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,2,0,2,Services,2,0
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,3,0,2,Maintenance,1,1
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,4,0,2,Services,2,0
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,5,1,2,Services,2,1
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,6,0,2,Services,1,0
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,7,0,3,Services,3,0
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,8,0,3,Promotions,2,0
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,9,0,3,Maintenance,3,1
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,10,0,3,Services,3,1
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,11,0,4,Promotions,4,0
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,12,1,4,Maintenance,3,0
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,13,0,4,Services,4,1
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,14,0,4,Promotions,4,0
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,15,0,5,Services,4,0
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,16,0,2,Services,1,0
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,17,0,1,Maintenance,1,1
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,18,0,1,Promotions,0,0
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,19,1,,,,
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,20,0,,,,
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,21,0,,,,
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,22,0,,,,
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,23,0,,,,
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,24,0,,,,
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,25,0,,,,
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,26,1,,,,
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,27,0,,,,
+44,G2 spike and drop,<=25,Male,Android,Luxury,18,28,0,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,1,0,2,Promotions,1,0
+45,G2 spike and drop,26-34,Female,Android,Standard,15,2,0,1,Maintenance,1,1
+45,G2 spike and drop,26-34,Female,Android,Standard,15,3,0,2,Promotions,1,0
+45,G2 spike and drop,26-34,Female,Android,Standard,15,4,0,2,Services,1,1
+45,G2 spike and drop,26-34,Female,Android,Standard,15,5,1,3,Maintenance,2,0
+45,G2 spike and drop,26-34,Female,Android,Standard,15,6,0,2,Services,2,1
+45,G2 spike and drop,26-34,Female,Android,Standard,15,7,0,3,Maintenance,2,1
+45,G2 spike and drop,26-34,Female,Android,Standard,15,8,0,4,Services,4,1
+45,G2 spike and drop,26-34,Female,Android,Standard,15,9,0,4,Maintenance,3,0
+45,G2 spike and drop,26-34,Female,Android,Standard,15,10,0,4,Promotions,3,0
+45,G2 spike and drop,26-34,Female,Android,Standard,15,11,0,4,Maintenance,4,1
+45,G2 spike and drop,26-34,Female,Android,Standard,15,12,1,5,Services,5,1
+45,G2 spike and drop,26-34,Female,Android,Standard,15,13,0,2,Services,1,1
+45,G2 spike and drop,26-34,Female,Android,Standard,15,14,0,2,Maintenance,2,0
+45,G2 spike and drop,26-34,Female,Android,Standard,15,15,0,2,Services,1,0
+45,G2 spike and drop,26-34,Female,Android,Standard,15,16,0,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,17,0,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,18,0,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,19,1,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,20,0,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,21,0,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,22,0,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,23,0,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,24,0,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,25,0,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,26,1,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,27,0,,,,
+45,G2 spike and drop,26-34,Female,Android,Standard,15,28,0,,,,
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,1,0,1,Promotions,1,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,2,0,2,Promotions,1,0
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,3,0,2,Maintenance,1,0
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,4,0,2,Services,1,0
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,5,1,2,Services,1,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,6,0,3,Services,2,0
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,7,0,2,Maintenance,1,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,8,0,2,Services,1,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,9,0,3,Services,3,0
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,10,0,2,Services,2,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,11,0,3,Maintenance,2,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,12,1,3,Maintenance,3,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,13,0,3,Promotions,2,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,14,0,4,Promotions,4,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,15,0,3,Maintenance,3,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,16,0,3,Services,2,0
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,17,0,4,Services,4,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,18,0,4,Promotions,3,0
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,19,1,5,Maintenance,5,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,20,0,2,Promotions,1,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,21,0,2,Maintenance,1,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,22,0,1,Services,0,1
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,23,0,,,,
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,24,0,,,,
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,25,0,,,,
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,26,1,,,,
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,27,0,,,,
+46,G2 spike and drop,50+,Male,OS X,Luxury,22,28,0,,,,
+47,G2 spike and drop,50+,Female,OS X,Standard,16,1,0,2,Maintenance,2,0
+47,G2 spike and drop,50+,Female,OS X,Standard,16,2,0,2,Services,2,0
+47,G2 spike and drop,50+,Female,OS X,Standard,16,3,0,2,Promotions,1,0
+47,G2 spike and drop,50+,Female,OS X,Standard,16,4,0,2,Maintenance,2,0
+47,G2 spike and drop,50+,Female,OS X,Standard,16,5,1,2,Promotions,2,1
+47,G2 spike and drop,50+,Female,OS X,Standard,16,6,0,2,Promotions,2,0
+47,G2 spike and drop,50+,Female,OS X,Standard,16,7,0,3,Services,2,0
+47,G2 spike and drop,50+,Female,OS X,Standard,16,8,0,3,Promotions,3,1
+47,G2 spike and drop,50+,Female,OS X,Standard,16,9,0,4,Services,4,1
+47,G2 spike and drop,50+,Female,OS X,Standard,16,10,0,4,Services,4,1
+47,G2 spike and drop,50+,Female,OS X,Standard,16,11,0,4,Services,4,1
+47,G2 spike and drop,50+,Female,OS X,Standard,16,12,1,4,Maintenance,4,0
+47,G2 spike and drop,50+,Female,OS X,Standard,16,13,0,4,Services,4,0
+47,G2 spike and drop,50+,Female,OS X,Standard,16,14,0,2,Promotions,1,0
+47,G2 spike and drop,50+,Female,OS X,Standard,16,15,0,1,Services,1,1
+47,G2 spike and drop,50+,Female,OS X,Standard,16,16,0,1,Services,0,1
+47,G2 spike and drop,50+,Female,OS X,Standard,16,17,0,,,,
+47,G2 spike and drop,50+,Female,OS X,Standard,16,18,0,,,,
+47,G2 spike and drop,50+,Female,OS X,Standard,16,19,1,,,,
+47,G2 spike and drop,50+,Female,OS X,Standard,16,20,0,,,,
+47,G2 spike and drop,50+,Female,OS X,Standard,16,21,0,,,,
+47,G2 spike and drop,50+,Female,OS X,Standard,16,22,0,,,,
+47,G2 spike and drop,50+,Female,OS X,Standard,16,23,0,,,,
+47,G2 spike and drop,50+,Female,OS X,Standard,16,24,0,,,,
+47,G2 spike and drop,50+,Female,OS X,Standard,16,25,0,,,,
+47,G2 spike and drop,50+,Female,OS X,Standard,16,26,1,,,,
+47,G2 spike and drop,50+,Female,OS X,Standard,16,27,0,,,,
+47,G2 spike and drop,50+,Female,OS X,Standard,16,28,0,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,1,0,1,Services,0,1
+48,G2 spike and drop,<=25,Male,Android,Standard,15,2,0,2,Maintenance,2,1
+48,G2 spike and drop,<=25,Male,Android,Standard,15,3,0,2,Promotions,1,0
+48,G2 spike and drop,<=25,Male,Android,Standard,15,4,0,2,Maintenance,2,0
+48,G2 spike and drop,<=25,Male,Android,Standard,15,5,1,2,Services,2,1
+48,G2 spike and drop,<=25,Male,Android,Standard,15,6,0,3,Maintenance,2,0
+48,G2 spike and drop,<=25,Male,Android,Standard,15,7,0,3,Maintenance,3,1
+48,G2 spike and drop,<=25,Male,Android,Standard,15,8,0,3,Maintenance,2,0
+48,G2 spike and drop,<=25,Male,Android,Standard,15,9,0,4,Services,3,1
+48,G2 spike and drop,<=25,Male,Android,Standard,15,10,0,4,Services,4,1
+48,G2 spike and drop,<=25,Male,Android,Standard,15,11,0,4,Promotions,4,1
+48,G2 spike and drop,<=25,Male,Android,Standard,15,12,1,5,Services,4,1
+48,G2 spike and drop,<=25,Male,Android,Standard,15,13,0,2,Promotions,2,0
+48,G2 spike and drop,<=25,Male,Android,Standard,15,14,0,2,Maintenance,1,0
+48,G2 spike and drop,<=25,Male,Android,Standard,15,15,0,1,Services,0,1
+48,G2 spike and drop,<=25,Male,Android,Standard,15,16,0,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,17,0,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,18,0,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,19,1,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,20,0,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,21,0,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,22,0,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,23,0,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,24,0,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,25,0,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,26,1,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,27,0,,,,
+48,G2 spike and drop,<=25,Male,Android,Standard,15,28,0,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,1,0,2,Maintenance,1,0
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,2,0,2,Promotions,1,0
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,3,0,2,Maintenance,2,1
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,4,0,2,Maintenance,2,0
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,5,1,3,Maintenance,2,1
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,6,0,3,Services,2,1
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,7,0,3,Services,3,0
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,8,0,4,Services,3,1
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,9,0,4,Services,4,0
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,10,0,4,Services,4,0
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,11,0,4,Services,4,1
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,12,1,2,Services,1,1
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,13,0,1,Promotions,1,1
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,14,0,1,Services,0,0
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,15,0,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,16,0,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,17,0,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,18,0,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,19,1,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,20,0,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,21,0,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,22,0,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,23,0,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,24,0,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,25,0,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,26,1,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,27,0,,,,
+49,G2 spike and drop,35-50,Female,Android,Luxury,14,28,0,,,,
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,1,0,2,Services,2,0
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,2,0,2,Services,2,1
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,3,0,2,Maintenance,1,0
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,4,0,2,Promotions,1,0
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,5,1,2,Services,2,1
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,6,0,2,Maintenance,2,0
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,7,0,2,Promotions,2,0
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,8,0,3,Services,3,0
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,9,0,3,Services,3,0
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,10,0,3,Services,2,1
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,11,0,3,Services,3,1
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,12,1,4,Services,3,0
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,13,0,4,Maintenance,3,1
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,14,0,4,Promotions,4,1
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,15,0,2,Services,1,1
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,16,0,2,Maintenance,1,0
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,17,0,1,Services,1,1
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,18,0,,,,
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,19,1,,,,
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,20,0,,,,
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,21,0,,,,
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,22,0,,,,
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,23,0,,,,
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,24,0,,,,
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,25,0,,,,
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,26,1,,,,
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,27,0,,,,
+50,G2 spike and drop,35-50,Male,OS X,Luxury,17,28,0,,,,
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,1,0,2,Promotions,1,0
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,2,0,1,Maintenance,1,1
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,3,0,2,Promotions,2,0
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,4,0,2,Promotions,1,1
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,5,1,2,Services,2,0
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,6,0,2,Promotions,2,0
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,7,0,2,Services,1,0
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,8,0,3,Promotions,2,1
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,9,0,3,Promotions,2,0
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,10,0,3,Services,3,0
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,11,0,3,Promotions,2,0
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,12,1,4,Maintenance,3,1
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,13,0,4,Promotions,3,0
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,14,0,4,Maintenance,3,0
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,15,0,4,Promotions,3,1
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,16,0,2,Services,2,1
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,17,0,2,Maintenance,1,1
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,18,0,1,Services,1,0
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,19,1,,,,
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,20,0,,,,
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,21,0,,,,
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,22,0,,,,
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,23,0,,,,
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,24,0,,,,
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,25,0,,,,
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,26,1,,,,
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,27,0,,,,
+51,G2 spike and drop,26-34,Male,Android,Luxury,18,28,0,,,,
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,1,0,2,Services,1,0
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,2,0,2,Maintenance,2,0
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,3,0,2,Services,1,1
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,4,0,2,Promotions,1,1
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,5,1,2,Promotions,1,1
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,6,0,3,Services,3,1
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,7,0,3,Maintenance,2,0
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,8,0,3,Maintenance,3,1
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,9,0,3,Promotions,2,0
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,10,0,4,Services,4,0
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,11,0,3,Maintenance,3,1
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,12,1,4,Services,4,1
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,13,0,4,Services,3,1
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,14,0,5,Maintenance,5,1
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,15,0,2,Maintenance,1,0
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,16,0,1,Maintenance,1,1
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,17,0,1,Services,0,0
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,18,0,,,,
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,19,1,,,,
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,20,0,,,,
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,21,0,,,,
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,22,0,,,,
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,23,0,,,,
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,24,0,,,,
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,25,0,,,,
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,26,1,,,,
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,27,0,,,,
+52,G2 spike and drop,26-34,Male,OS X,Luxury,17,28,0,,,,
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,1,0,1,Services,1,0
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,2,0,2,Services,2,0
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,3,0,2,Services,2,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,4,0,2,Maintenance,2,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,5,1,3,Promotions,3,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,6,0,2,Promotions,1,0
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,7,0,3,Promotions,3,0
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,8,0,3,Promotions,2,0
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,9,0,3,Promotions,2,0
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,10,0,3,Promotions,3,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,11,0,4,Promotions,3,0
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,12,1,4,Maintenance,4,0
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,13,0,4,Maintenance,3,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,14,0,4,Services,4,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,15,0,4,Services,4,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,16,0,3,Maintenance,2,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,17,0,2,Services,2,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,18,0,2,Services,1,0
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,19,1,2,Maintenance,2,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,20,0,2,Maintenance,2,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,21,0,2,Promotions,1,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,22,0,2,Maintenance,1,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,23,0,2,Maintenance,2,0
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,24,0,2,Promotions,2,0
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,25,0,2,Services,2,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,26,1,2,Services,1,1
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,27,0,2,Maintenance,2,0
+53,G2 spike and drop,26-34,Male,OS X,Luxury,28,28,0,2,Services,1,1
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,1,0,1,Maintenance,1,1
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,2,0,1,Maintenance,1,1
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,3,0,2,Promotions,2,0
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,4,0,2,Services,1,0
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,5,1,2,Services,1,1
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,6,0,2,Maintenance,2,0
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,7,0,3,Maintenance,3,0
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,8,0,3,Services,2,1
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,9,0,3,Services,2,0
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,10,0,4,Services,4,0
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,11,0,3,Services,3,0
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,12,1,4,Promotions,4,1
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,13,0,3,Promotions,2,1
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,14,0,4,Promotions,4,1
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,15,0,4,Services,4,0
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,16,0,4,Maintenance,4,0
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,17,0,2,Services,2,1
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,18,0,1,Maintenance,1,1
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,19,1,2,Services,1,0
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,20,0,,,,
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,21,0,,,,
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,22,0,,,,
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,23,0,,,,
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,24,0,,,,
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,25,0,,,,
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,26,1,,,,
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,27,0,,,,
+54,G2 spike and drop,35-50,Male,Android,Luxury,19,28,0,,,,
+55,G2 spike and drop,50+,Male,Android,Luxury,18,1,0,2,Services,2,0
+55,G2 spike and drop,50+,Male,Android,Luxury,18,2,0,1,Maintenance,0,0
+55,G2 spike and drop,50+,Male,Android,Luxury,18,3,0,2,Services,2,1
+55,G2 spike and drop,50+,Male,Android,Luxury,18,4,0,2,Services,1,1
+55,G2 spike and drop,50+,Male,Android,Luxury,18,5,1,2,Services,2,1
+55,G2 spike and drop,50+,Male,Android,Luxury,18,6,0,2,Services,2,0
+55,G2 spike and drop,50+,Male,Android,Luxury,18,7,0,2,Services,2,1
+55,G2 spike and drop,50+,Male,Android,Luxury,18,8,0,3,Services,3,0
+55,G2 spike and drop,50+,Male,Android,Luxury,18,9,0,3,Promotions,2,1
+55,G2 spike and drop,50+,Male,Android,Luxury,18,10,0,3,Promotions,2,1
+55,G2 spike and drop,50+,Male,Android,Luxury,18,11,0,4,Services,3,0
+55,G2 spike and drop,50+,Male,Android,Luxury,18,12,1,3,Promotions,2,0
+55,G2 spike and drop,50+,Male,Android,Luxury,18,13,0,4,Services,4,1
+55,G2 spike and drop,50+,Male,Android,Luxury,18,14,0,4,Maintenance,4,1
+55,G2 spike and drop,50+,Male,Android,Luxury,18,15,0,5,Services,5,1
+55,G2 spike and drop,50+,Male,Android,Luxury,18,16,0,3,Maintenance,3,0
+55,G2 spike and drop,50+,Male,Android,Luxury,18,17,0,1,Services,1,1
+55,G2 spike and drop,50+,Male,Android,Luxury,18,18,0,1,Maintenance,1,1
+55,G2 spike and drop,50+,Male,Android,Luxury,18,19,1,,,,
+55,G2 spike and drop,50+,Male,Android,Luxury,18,20,0,,,,
+55,G2 spike and drop,50+,Male,Android,Luxury,18,21,0,,,,
+55,G2 spike and drop,50+,Male,Android,Luxury,18,22,0,,,,
+55,G2 spike and drop,50+,Male,Android,Luxury,18,23,0,,,,
+55,G2 spike and drop,50+,Male,Android,Luxury,18,24,0,,,,
+55,G2 spike and drop,50+,Male,Android,Luxury,18,25,0,,,,
+55,G2 spike and drop,50+,Male,Android,Luxury,18,26,1,,,,
+55,G2 spike and drop,50+,Male,Android,Luxury,18,27,0,,,,
+55,G2 spike and drop,50+,Male,Android,Luxury,18,28,0,,,,
+56,G2 spike and drop,26-34,Male,Android,Standard,18,1,0,2,Promotions,1,0
+56,G2 spike and drop,26-34,Male,Android,Standard,18,2,0,2,Maintenance,1,0
+56,G2 spike and drop,26-34,Male,Android,Standard,18,3,0,2,Maintenance,2,0
+56,G2 spike and drop,26-34,Male,Android,Standard,18,4,0,2,Services,2,0
+56,G2 spike and drop,26-34,Male,Android,Standard,18,5,1,3,Promotions,3,0
+56,G2 spike and drop,26-34,Male,Android,Standard,18,6,0,3,Services,3,1
+56,G2 spike and drop,26-34,Male,Android,Standard,18,7,0,3,Maintenance,2,0
+56,G2 spike and drop,26-34,Male,Android,Standard,18,8,0,3,Services,3,0
+56,G2 spike and drop,26-34,Male,Android,Standard,18,9,0,3,Services,3,1
+56,G2 spike and drop,26-34,Male,Android,Standard,18,10,0,3,Maintenance,3,1
+56,G2 spike and drop,26-34,Male,Android,Standard,18,11,0,4,Services,4,1
+56,G2 spike and drop,26-34,Male,Android,Standard,18,12,1,3,Services,3,1
+56,G2 spike and drop,26-34,Male,Android,Standard,18,13,0,4,Promotions,3,1
+56,G2 spike and drop,26-34,Male,Android,Standard,18,14,0,4,Maintenance,3,1
+56,G2 spike and drop,26-34,Male,Android,Standard,18,15,0,4,Promotions,3,0
+56,G2 spike and drop,26-34,Male,Android,Standard,18,16,0,2,Services,2,0
+56,G2 spike and drop,26-34,Male,Android,Standard,18,17,0,2,Services,1,1
+56,G2 spike and drop,26-34,Male,Android,Standard,18,18,0,1,Services,0,0
+56,G2 spike and drop,26-34,Male,Android,Standard,18,19,1,,,,
+56,G2 spike and drop,26-34,Male,Android,Standard,18,20,0,,,,
+56,G2 spike and drop,26-34,Male,Android,Standard,18,21,0,,,,
+56,G2 spike and drop,26-34,Male,Android,Standard,18,22,0,,,,
+56,G2 spike and drop,26-34,Male,Android,Standard,18,23,0,,,,
+56,G2 spike and drop,26-34,Male,Android,Standard,18,24,0,,,,
+56,G2 spike and drop,26-34,Male,Android,Standard,18,25,0,,,,
+56,G2 spike and drop,26-34,Male,Android,Standard,18,26,1,,,,
+56,G2 spike and drop,26-34,Male,Android,Standard,18,27,0,,,,
+56,G2 spike and drop,26-34,Male,Android,Standard,18,28,0,,,,
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,1,0,2,Services,1,0
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,2,0,2,Services,2,1
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,3,0,2,Services,1,0
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,4,0,2,Promotions,1,1
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,5,1,3,Promotions,2,1
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,6,0,3,Services,3,1
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,7,0,3,Services,2,1
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,8,0,3,Maintenance,3,0
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,9,0,3,Maintenance,2,1
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,10,0,4,Promotions,3,0
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,11,0,4,Services,3,1
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,12,1,4,Services,3,1
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,13,0,4,Promotions,4,0
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,14,0,3,Services,2,0
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,15,0,1,Services,0,1
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,16,0,1,Services,1,1
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,17,0,,,,
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,18,0,,,,
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,19,1,,,,
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,20,0,,,,
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,21,0,,,,
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,22,0,,,,
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,23,0,,,,
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,24,0,,,,
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,25,0,,,,
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,26,1,,,,
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,27,0,,,,
+57,G2 spike and drop,35-50,Female,OS X,Luxury,16,28,0,,,,
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,1,0,2,Promotions,1,0
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,2,0,2,Services,1,1
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,3,0,2,Promotions,1,0
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,4,0,2,Maintenance,2,0
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,5,1,2,Maintenance,2,1
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,6,0,2,Maintenance,1,1
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,7,0,3,Promotions,2,0
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,8,0,2,Maintenance,2,0
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,9,0,2,Services,1,0
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,10,0,3,Services,2,1
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,11,0,3,Promotions,3,0
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,12,1,3,Services,3,1
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,13,0,4,Services,4,1
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,14,0,4,Promotions,3,1
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,15,0,4,Services,3,1
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,16,0,5,Services,5,0
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,17,0,5,Services,4,0
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,18,0,2,Promotions,2,0
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,19,1,2,Promotions,1,1
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,20,0,1,Maintenance,0,0
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,21,0,,,,
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,22,0,,,,
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,23,0,,,,
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,24,0,,,,
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,25,0,,,,
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,26,1,,,,
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,27,0,,,,
+58,G2 spike and drop,35-50,Male,OS X,Luxury,20,28,0,,,,
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,1,0,2,Maintenance,1,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,2,0,2,Maintenance,2,0
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,3,0,2,Services,1,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,4,0,2,Services,1,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,5,1,2,Promotions,1,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,6,0,2,Maintenance,2,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,7,0,2,Promotions,2,0
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,8,0,2,Services,2,0
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,9,0,3,Maintenance,2,0
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,10,0,3,Promotions,2,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,11,0,3,Services,2,0
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,12,1,3,Promotions,3,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,13,0,3,Services,3,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,14,0,3,Maintenance,2,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,15,0,3,Services,2,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,16,0,3,Maintenance,3,0
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,17,0,3,Promotions,2,0
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,18,0,3,Maintenance,3,0
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,19,1,4,Services,3,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,20,0,4,Services,4,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,21,0,5,Maintenance,4,0
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,22,0,2,Services,1,1
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,23,0,2,Promotions,2,0
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,24,0,2,Services,1,0
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,25,0,,,,
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,26,1,,,,
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,27,0,,,,
+59,G2 spike and drop,35-50,Male,OS X,Standard,24,28,0,,,,
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,1,0,2,Services,2,0
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,2,0,2,Services,1,0
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,3,0,2,Services,2,0
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,4,0,2,Services,2,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,5,1,2,Promotions,1,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,6,0,2,Promotions,2,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,7,0,2,Promotions,2,0
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,8,0,2,Services,2,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,9,0,3,Promotions,2,0
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,10,0,3,Promotions,3,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,11,0,3,Services,3,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,12,1,4,Services,4,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,13,0,4,Promotions,3,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,14,0,3,Services,2,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,15,0,4,Maintenance,3,0
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,16,0,4,Maintenance,3,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,17,0,4,Maintenance,4,0
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,18,0,4,Maintenance,3,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,19,1,5,Promotions,5,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,20,0,2,Services,1,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,21,0,1,Services,0,1
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,22,0,1,Maintenance,1,0
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,23,0,,,,
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,24,0,,,,
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,25,0,,,,
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,26,1,,,,
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,27,0,,,,
+60,G2 spike and drop,26-34,Male,Android,Luxury,22,28,0,,,,
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,1,0,1,Services,1,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,2,0,1,Services,1,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,3,0,1,Services,1,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,4,0,2,Maintenance,2,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,5,1,3,Services,3,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,6,0,3,Promotions,3,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,7,0,3,Promotions,3,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,8,0,3,Services,2,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,9,0,4,Services,4,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,10,0,4,Services,4,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,11,0,4,Maintenance,3,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,12,1,4,Services,3,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,13,0,5,Maintenance,5,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,14,0,4,Services,4,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,15,0,3,Services,2,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,16,0,2,Services,1,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,17,0,2,Maintenance,2,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,18,0,2,Services,1,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,19,1,2,Promotions,2,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,20,0,2,Maintenance,1,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,21,0,2,Maintenance,2,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,22,0,2,Services,1,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,23,0,2,Promotions,1,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,24,0,2,Services,1,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,25,0,2,Maintenance,1,0
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,26,1,2,Promotions,1,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,27,0,2,Services,2,1
+61,G2 spike and drop,26-34,Female,Android,Luxury,28,28,0,2,Maintenance,1,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,1,0,2,Maintenance,2,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,2,0,2,Services,1,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,3,0,2,Services,1,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,4,0,2,Services,2,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,5,1,2,Maintenance,1,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,6,0,3,Maintenance,2,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,7,0,3,Services,2,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,8,0,3,Services,3,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,9,0,3,Maintenance,2,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,10,0,3,Maintenance,2,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,11,0,4,Maintenance,4,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,12,1,4,Services,4,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,13,0,5,Services,5,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,14,0,4,Services,4,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,15,0,3,Maintenance,3,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,16,0,3,Promotions,2,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,17,0,2,Promotions,2,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,18,0,2,Maintenance,2,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,19,1,3,Promotions,3,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,20,0,2,Services,2,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,21,0,2,Services,1,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,22,0,2,Services,1,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,23,0,1,Services,0,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,24,0,2,Services,1,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,25,0,2,Services,1,0
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,26,1,2,Promotions,2,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,27,0,2,Promotions,1,1
+62,G2 spike and drop,35-50,Female,OS X,Standard,28,28,0,2,Promotions,1,0
+63,G2 spike and drop,26-34,Male,Android,Standard,18,1,0,2,Maintenance,1,1
+63,G2 spike and drop,26-34,Male,Android,Standard,18,2,0,2,Promotions,1,0
+63,G2 spike and drop,26-34,Male,Android,Standard,18,3,0,2,Promotions,1,1
+63,G2 spike and drop,26-34,Male,Android,Standard,18,4,0,2,Services,1,0
+63,G2 spike and drop,26-34,Male,Android,Standard,18,5,1,2,Services,1,1
+63,G2 spike and drop,26-34,Male,Android,Standard,18,6,0,2,Promotions,1,0
+63,G2 spike and drop,26-34,Male,Android,Standard,18,7,0,3,Promotions,3,0
+63,G2 spike and drop,26-34,Male,Android,Standard,18,8,0,3,Maintenance,3,1
+63,G2 spike and drop,26-34,Male,Android,Standard,18,9,0,3,Maintenance,2,0
+63,G2 spike and drop,26-34,Male,Android,Standard,18,10,0,3,Services,2,1
+63,G2 spike and drop,26-34,Male,Android,Standard,18,11,0,4,Services,3,1
+63,G2 spike and drop,26-34,Male,Android,Standard,18,12,1,4,Services,3,1
+63,G2 spike and drop,26-34,Male,Android,Standard,18,13,0,4,Services,3,0
+63,G2 spike and drop,26-34,Male,Android,Standard,18,14,0,4,Promotions,3,0
+63,G2 spike and drop,26-34,Male,Android,Standard,18,15,0,5,Services,5,0
+63,G2 spike and drop,26-34,Male,Android,Standard,18,16,0,2,Maintenance,1,0
+63,G2 spike and drop,26-34,Male,Android,Standard,18,17,0,1,Services,0,1
+63,G2 spike and drop,26-34,Male,Android,Standard,18,18,0,1,Services,1,1
+63,G2 spike and drop,26-34,Male,Android,Standard,18,19,1,,,,
+63,G2 spike and drop,26-34,Male,Android,Standard,18,20,0,,,,
+63,G2 spike and drop,26-34,Male,Android,Standard,18,21,0,,,,
+63,G2 spike and drop,26-34,Male,Android,Standard,18,22,0,,,,
+63,G2 spike and drop,26-34,Male,Android,Standard,18,23,0,,,,
+63,G2 spike and drop,26-34,Male,Android,Standard,18,24,0,,,,
+63,G2 spike and drop,26-34,Male,Android,Standard,18,25,0,,,,
+63,G2 spike and drop,26-34,Male,Android,Standard,18,26,1,,,,
+63,G2 spike and drop,26-34,Male,Android,Standard,18,27,0,,,,
+63,G2 spike and drop,26-34,Male,Android,Standard,18,28,0,,,,
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,1,0,2,Maintenance,2,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,2,0,2,Maintenance,2,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,3,0,3,Promotions,3,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,4,0,4,Services,3,0
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,5,1,4,Maintenance,4,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,6,0,4,Promotions,4,0
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,7,0,3,Promotions,3,0
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,8,0,2,Services,2,0
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,9,0,3,Maintenance,2,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,10,0,3,Services,3,0
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,11,0,4,Promotions,3,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,12,1,5,Promotions,5,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,13,0,4,Promotions,3,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,14,0,3,Promotions,2,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,15,0,2,Promotions,2,0
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,16,0,2,Promotions,2,0
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,17,0,3,Maintenance,2,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,18,0,4,Promotions,3,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,19,1,4,Promotions,4,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,20,0,2,Services,1,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,21,0,2,Promotions,1,0
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,22,0,1,Maintenance,0,1
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,23,0,,,,
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,24,0,,,,
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,25,0,,,,
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,26,1,,,,
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,27,0,,,,
+64,G3 weekly cycle,<=25,Male,Android,Standard,22,28,0,,,,
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,1,0,3,Promotions,2,0
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,2,0,2,Services,1,0
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,3,0,3,Services,2,0
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,4,0,4,Maintenance,3,0
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,5,1,4,Promotions,4,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,6,0,4,Services,4,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,7,0,3,Promotions,2,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,8,0,3,Services,2,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,9,0,2,Services,2,0
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,10,0,3,Services,3,0
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,11,0,3,Promotions,2,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,12,1,5,Promotions,4,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,13,0,4,Maintenance,4,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,14,0,3,Promotions,2,0
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,15,0,2,Services,1,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,16,0,2,Promotions,1,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,17,0,3,Services,3,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,18,0,4,Maintenance,3,0
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,19,1,4,Promotions,4,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,20,0,4,Services,4,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,21,0,3,Services,3,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,22,0,3,Services,3,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,23,0,2,Services,2,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,24,0,3,Services,3,0
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,25,0,4,Maintenance,3,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,26,1,4,Promotions,4,0
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,27,0,3,Maintenance,2,1
+65,G3 weekly cycle,35-50,Female,OS X,Luxury,28,28,0,3,Maintenance,3,1
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,1,0,3,Services,3,0
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,2,0,2,Services,1,1
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,3,0,3,Promotions,2,0
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,4,0,4,Promotions,4,0
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,5,1,4,Maintenance,4,1
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,6,0,3,Promotions,2,0
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,7,0,3,Maintenance,3,1
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,8,0,3,Services,3,1
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,9,0,3,Services,3,0
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,10,0,3,Promotions,2,1
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,11,0,4,Maintenance,3,0
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,12,1,4,Promotions,3,1
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,13,0,3,Maintenance,2,1
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,14,0,3,Promotions,3,1
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,15,0,2,Services,1,1
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,16,0,2,Services,1,0
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,17,0,2,Services,1,0
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,18,0,2,Promotions,2,0
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,19,1,3,Maintenance,3,1
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,20,0,,,,
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,21,0,,,,
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,22,0,,,,
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,23,0,,,,
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,24,0,,,,
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,25,0,,,,
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,26,1,,,,
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,27,0,,,,
+66,G3 weekly cycle,<=25,Female,Android,Standard,19,28,0,,,,
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,1,0,2,Services,2,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,2,0,2,Services,1,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,3,0,3,Maintenance,3,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,4,0,4,Services,3,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,5,1,4,Promotions,3,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,6,0,4,Promotions,4,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,7,0,3,Services,3,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,8,0,3,Promotions,3,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,9,0,2,Maintenance,2,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,10,0,3,Promotions,3,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,11,0,3,Promotions,3,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,12,1,4,Maintenance,4,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,13,0,4,Promotions,3,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,14,0,3,Promotions,3,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,15,0,2,Maintenance,1,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,16,0,2,Promotions,1,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,17,0,3,Promotions,3,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,18,0,3,Services,3,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,19,1,4,Promotions,3,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,20,0,4,Promotions,3,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,21,0,3,Maintenance,3,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,22,0,2,Promotions,2,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,23,0,2,Services,2,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,24,0,3,Services,3,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,25,0,4,Promotions,4,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,26,1,5,Promotions,4,1
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,27,0,4,Maintenance,4,0
+67,G3 weekly cycle,26-34,Male,Android,Standard,28,28,0,3,Services,3,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,1,0,2,Services,1,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,2,0,2,Promotions,2,1
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,3,0,3,Services,2,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,4,0,4,Promotions,4,1
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,5,1,4,Maintenance,4,1
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,6,0,3,Maintenance,3,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,7,0,3,Promotions,2,1
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,8,0,2,Promotions,2,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,9,0,2,Promotions,1,1
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,10,0,3,Promotions,2,1
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,11,0,3,Promotions,3,1
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,12,1,4,Promotions,3,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,13,0,4,Promotions,4,1
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,14,0,3,Promotions,3,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,15,0,2,Services,2,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,16,0,3,Services,2,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,17,0,3,Promotions,3,1
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,18,0,4,Promotions,4,1
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,19,1,4,Promotions,4,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,20,0,4,Promotions,4,1
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,21,0,3,Promotions,3,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,22,0,1,Services,1,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,23,0,1,Maintenance,0,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,24,0,1,Promotions,1,0
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,25,0,,,,
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,26,1,,,,
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,27,0,,,,
+68,G3 weekly cycle,35-50,Female,Android,Standard,24,28,0,,,,
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,1,0,2,Promotions,2,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,2,0,3,Services,3,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,3,0,3,Services,3,0
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,4,0,4,Services,4,0
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,5,1,4,Promotions,4,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,6,0,4,Promotions,4,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,7,0,3,Promotions,3,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,8,0,2,Maintenance,1,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,9,0,3,Promotions,3,0
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,10,0,3,Services,2,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,11,0,4,Promotions,3,0
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,12,1,4,Promotions,3,0
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,13,0,4,Promotions,4,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,14,0,3,Promotions,3,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,15,0,2,Services,1,0
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,16,0,2,Maintenance,2,0
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,17,0,3,Services,3,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,18,0,4,Services,4,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,19,1,4,Promotions,3,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,20,0,4,Promotions,4,0
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,21,0,3,Services,2,0
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,22,0,3,Promotions,2,0
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,23,0,3,Services,3,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,24,0,3,Services,2,0
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,25,0,4,Services,4,0
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,26,1,4,Promotions,4,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,27,0,3,Maintenance,2,1
+69,G3 weekly cycle,35-50,Female,Android,Standard,28,28,0,3,Maintenance,2,0
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,1,0,2,Maintenance,2,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,2,0,2,Maintenance,1,0
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,3,0,3,Services,2,0
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,4,0,4,Services,4,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,5,1,4,Promotions,3,0
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,6,0,3,Promotions,3,0
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,7,0,3,Services,2,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,8,0,3,Maintenance,3,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,9,0,3,Promotions,2,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,10,0,3,Promotions,3,0
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,11,0,4,Services,4,0
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,12,1,4,Services,4,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,13,0,4,Services,3,0
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,14,0,3,Services,3,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,15,0,3,Services,2,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,16,0,3,Maintenance,2,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,17,0,3,Services,3,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,18,0,3,Promotions,3,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,19,1,4,Services,3,0
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,20,0,4,Promotions,4,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,21,0,3,Promotions,2,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,22,0,3,Promotions,3,0
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,23,0,2,Promotions,1,0
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,24,0,3,Services,2,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,25,0,4,Promotions,3,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,26,1,5,Services,5,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,27,0,3,Promotions,3,1
+70,G3 weekly cycle,26-34,Female,OS X,Luxury,28,28,0,3,Promotions,3,0
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,1,0,2,Services,1,0
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,2,0,2,Services,2,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,3,0,3,Maintenance,3,0
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,4,0,4,Maintenance,4,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,5,1,5,Services,5,0
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,6,0,3,Promotions,2,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,7,0,3,Promotions,2,0
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,8,0,2,Promotions,1,0
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,9,0,3,Promotions,2,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,10,0,3,Services,3,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,11,0,4,Promotions,4,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,12,1,4,Promotions,3,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,13,0,4,Promotions,4,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,14,0,3,Services,2,0
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,15,0,2,Services,1,0
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,16,0,2,Promotions,1,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,17,0,3,Services,3,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,18,0,4,Promotions,4,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,19,1,4,Services,4,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,20,0,4,Maintenance,3,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,21,0,1,Promotions,1,0
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,22,0,1,Promotions,1,0
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,23,0,1,Maintenance,0,1
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,24,0,,,,
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,25,0,,,,
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,26,1,,,,
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,27,0,,,,
+71,G3 weekly cycle,35-50,Male,Android,Standard,23,28,0,,,,
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,1,0,3,Services,2,0
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,2,0,2,Promotions,2,0
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,3,0,3,Services,2,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,4,0,3,Promotions,3,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,5,1,4,Promotions,3,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,6,0,4,Maintenance,4,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,7,0,3,Maintenance,3,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,8,0,2,Services,2,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,9,0,2,Services,2,0
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,10,0,3,Services,2,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,11,0,3,Promotions,3,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,12,1,5,Services,5,0
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,13,0,4,Maintenance,3,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,14,0,3,Maintenance,3,0
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,15,0,2,Services,2,0
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,16,0,2,Services,2,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,17,0,3,Services,2,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,18,0,3,Promotions,2,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,19,1,4,Services,3,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,20,0,3,Services,2,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,21,0,3,Maintenance,2,0
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,22,0,2,Services,1,0
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,23,0,2,Maintenance,1,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,24,0,3,Maintenance,2,0
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,25,0,4,Services,4,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,26,1,5,Promotions,4,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,27,0,4,Services,3,1
+72,G3 weekly cycle,35-50,Male,Android,Luxury,28,28,0,3,Promotions,2,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,1,0,2,Maintenance,1,0
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,2,0,3,Maintenance,3,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,3,0,3,Promotions,3,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,4,0,4,Maintenance,4,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,5,1,4,Services,4,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,6,0,3,Promotions,2,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,7,0,3,Promotions,2,0
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,8,0,2,Maintenance,1,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,9,0,2,Maintenance,1,0
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,10,0,3,Services,2,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,11,0,4,Promotions,3,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,12,1,5,Promotions,4,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,13,0,4,Maintenance,3,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,14,0,3,Promotions,2,0
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,15,0,2,Maintenance,1,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,16,0,3,Promotions,3,0
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,17,0,3,Services,3,0
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,18,0,3,Promotions,2,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,19,1,5,Maintenance,5,0
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,20,0,4,Promotions,4,0
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,21,0,3,Services,2,0
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,22,0,3,Services,2,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,23,0,3,Promotions,3,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,24,0,3,Promotions,3,0
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,25,0,3,Promotions,3,0
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,26,1,4,Promotions,3,1
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,27,0,4,Promotions,3,0
+73,G3 weekly cycle,26-34,Female,Android,Luxury,28,28,0,3,Promotions,3,0
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,1,0,2,Promotions,1,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,2,0,3,Maintenance,3,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,3,0,3,Maintenance,3,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,4,0,4,Services,3,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,5,1,5,Services,5,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,6,0,4,Promotions,3,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,7,0,3,Maintenance,2,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,8,0,2,Maintenance,2,0
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,9,0,3,Services,3,0
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,10,0,3,Maintenance,2,0
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,11,0,4,Promotions,4,0
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,12,1,4,Promotions,3,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,13,0,4,Maintenance,4,0
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,14,0,3,Services,2,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,15,0,3,Maintenance,2,0
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,16,0,2,Maintenance,1,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,17,0,3,Maintenance,2,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,18,0,4,Promotions,3,0
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,19,1,4,Services,3,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,20,0,4,Promotions,4,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,21,0,3,Promotions,2,0
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,22,0,2,Services,2,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,23,0,2,Promotions,2,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,24,0,3,Maintenance,2,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,25,0,4,Services,4,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,26,1,4,Services,3,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,27,0,4,Services,3,1
+74,G3 weekly cycle,26-34,Female,OS X,Luxury,28,28,0,3,Services,3,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,1,0,2,Maintenance,1,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,2,0,2,Promotions,2,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,3,0,3,Maintenance,2,0
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,4,0,4,Maintenance,4,0
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,5,1,4,Promotions,3,0
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,6,0,3,Promotions,2,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,7,0,3,Services,3,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,8,0,2,Maintenance,1,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,9,0,2,Services,2,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,10,0,3,Promotions,2,0
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,11,0,3,Maintenance,3,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,12,1,4,Promotions,3,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,13,0,3,Promotions,3,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,14,0,3,Services,3,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,15,0,2,Services,2,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,16,0,3,Promotions,3,0
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,17,0,3,Maintenance,3,0
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,18,0,4,Services,3,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,19,1,4,Services,4,0
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,20,0,3,Promotions,2,0
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,21,0,3,Promotions,2,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,22,0,3,Services,2,0
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,23,0,2,Maintenance,2,0
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,24,0,3,Promotions,3,0
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,25,0,4,Promotions,4,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,26,1,4,Promotions,3,0
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,27,0,4,Maintenance,4,1
+75,G3 weekly cycle,<=25,Male,OS X,Luxury,28,28,0,3,Promotions,3,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,1,0,3,Services,3,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,2,0,2,Services,2,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,3,0,3,Promotions,3,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,4,0,4,Services,4,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,5,1,5,Promotions,5,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,6,0,3,Services,3,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,7,0,3,Promotions,2,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,8,0,3,Promotions,3,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,9,0,2,Services,2,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,10,0,3,Services,3,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,11,0,3,Promotions,3,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,12,1,4,Promotions,3,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,13,0,4,Promotions,3,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,14,0,3,Promotions,3,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,15,0,2,Promotions,1,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,16,0,2,Services,1,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,17,0,3,Maintenance,3,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,18,0,4,Promotions,4,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,19,1,4,Promotions,3,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,20,0,4,Promotions,4,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,21,0,3,Services,3,0
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,22,0,2,Services,1,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,23,0,2,Promotions,1,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,24,0,3,Promotions,3,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,25,0,4,Services,4,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,26,1,4,Services,4,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,27,0,4,Promotions,4,1
+76,G3 weekly cycle,26-34,Female,OS X,Luxury,28,28,0,3,Promotions,3,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,1,0,2,Services,2,0
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,2,0,3,Promotions,2,0
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,3,0,3,Services,2,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,4,0,4,Services,3,0
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,5,1,4,Promotions,3,0
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,6,0,4,Services,3,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,7,0,3,Services,3,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,8,0,3,Promotions,2,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,9,0,2,Promotions,1,0
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,10,0,3,Promotions,2,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,11,0,4,Services,3,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,12,1,4,Promotions,4,0
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,13,0,4,Maintenance,4,0
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,14,0,3,Maintenance,3,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,15,0,2,Services,1,0
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,16,0,2,Services,2,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,17,0,3,Services,3,0
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,18,0,4,Services,4,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,19,1,4,Promotions,4,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,20,0,3,Promotions,2,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,21,0,3,Maintenance,3,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,22,0,2,Services,1,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,23,0,2,Maintenance,2,0
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,24,0,3,Maintenance,3,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,25,0,2,Maintenance,1,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,26,1,2,Maintenance,2,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,27,0,2,Promotions,1,1
+77,G3 weekly cycle,26-34,Female,Android,Luxury,27,28,0,,,,
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,1,0,3,Services,3,0
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,2,0,2,Promotions,1,0
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,3,0,3,Maintenance,2,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,4,0,4,Promotions,4,0
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,5,1,4,Promotions,4,0
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,6,0,4,Maintenance,4,0
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,7,0,3,Services,3,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,8,0,3,Services,3,0
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,9,0,2,Maintenance,1,0
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,10,0,3,Promotions,2,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,11,0,4,Promotions,3,0
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,12,1,5,Services,4,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,13,0,3,Promotions,2,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,14,0,3,Promotions,2,0
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,15,0,2,Services,2,0
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,16,0,2,Promotions,1,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,17,0,3,Services,2,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,18,0,4,Promotions,3,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,19,1,4,Maintenance,3,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,20,0,3,Maintenance,3,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,21,0,3,Promotions,2,0
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,22,0,3,Services,2,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,23,0,3,Promotions,3,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,24,0,1,Services,0,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,25,0,2,Services,2,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,26,1,3,Promotions,3,1
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,27,0,,,,
+78,G3 weekly cycle,26-34,Female,Android,Standard,26,28,0,,,,
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,1,0,2,Maintenance,1,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,2,0,2,Promotions,1,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,3,0,3,Promotions,3,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,4,0,4,Promotions,3,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,5,1,4,Promotions,4,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,6,0,4,Services,3,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,7,0,3,Services,2,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,8,0,2,Promotions,1,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,9,0,3,Promotions,2,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,10,0,3,Services,3,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,11,0,4,Services,4,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,12,1,4,Services,3,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,13,0,3,Promotions,3,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,14,0,3,Promotions,2,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,15,0,3,Maintenance,3,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,16,0,2,Services,1,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,17,0,3,Services,3,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,18,0,3,Maintenance,3,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,19,1,4,Maintenance,3,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,20,0,3,Services,3,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,21,0,3,Services,2,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,22,0,2,Maintenance,2,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,23,0,3,Promotions,2,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,24,0,3,Promotions,3,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,25,0,4,Promotions,3,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,26,1,4,Promotions,3,1
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,27,0,3,Promotions,2,0
+79,G3 weekly cycle,35-50,Female,OS X,Luxury,28,28,0,3,Promotions,2,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,1,0,3,Maintenance,2,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,2,0,3,Promotions,2,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,3,0,3,Services,2,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,4,0,4,Promotions,3,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,5,1,5,Promotions,5,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,6,0,3,Promotions,2,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,7,0,3,Promotions,2,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,8,0,2,Services,1,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,9,0,2,Maintenance,2,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,10,0,3,Services,3,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,11,0,4,Promotions,3,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,12,1,4,Promotions,4,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,13,0,3,Maintenance,3,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,14,0,3,Promotions,2,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,15,0,3,Services,2,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,16,0,2,Services,1,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,17,0,3,Promotions,2,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,18,0,4,Promotions,3,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,19,1,4,Maintenance,3,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,20,0,4,Promotions,3,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,21,0,3,Maintenance,2,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,22,0,2,Services,2,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,23,0,2,Promotions,1,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,24,0,3,Services,3,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,25,0,3,Maintenance,2,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,26,1,4,Services,4,1
+80,G3 weekly cycle,50+,Female,Android,Standard,28,27,0,4,Services,3,0
+80,G3 weekly cycle,50+,Female,Android,Standard,28,28,0,3,Promotions,3,0
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,1,0,2,Services,2,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,2,0,3,Maintenance,3,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,3,0,3,Services,2,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,4,0,3,Services,2,0
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,5,1,5,Services,5,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,6,0,3,Promotions,2,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,7,0,3,Services,2,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,8,0,3,Services,2,0
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,9,0,2,Promotions,2,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,10,0,3,Promotions,3,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,11,0,3,Maintenance,3,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,12,1,4,Promotions,3,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,13,0,3,Maintenance,2,0
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,14,0,3,Services,2,0
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,15,0,2,Promotions,1,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,16,0,3,Maintenance,2,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,17,0,3,Services,2,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,18,0,3,Maintenance,3,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,19,1,4,Promotions,3,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,20,0,4,Promotions,4,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,21,0,3,Promotions,2,0
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,22,0,2,Maintenance,2,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,23,0,2,Promotions,2,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,24,0,3,Services,3,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,25,0,3,Services,3,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,26,1,4,Maintenance,4,0
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,27,0,4,Services,4,1
+81,G3 weekly cycle,<=25,Female,Android,Standard,28,28,0,3,Promotions,3,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,1,0,2,Maintenance,1,0
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,2,0,2,Promotions,1,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,3,0,3,Promotions,2,0
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,4,0,4,Services,4,0
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,5,1,5,Promotions,4,0
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,6,0,4,Maintenance,4,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,7,0,3,Promotions,2,0
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,8,0,3,Promotions,2,0
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,9,0,3,Maintenance,2,0
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,10,0,3,Promotions,3,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,11,0,3,Promotions,3,0
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,12,1,4,Promotions,4,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,13,0,3,Promotions,2,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,14,0,3,Promotions,2,0
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,15,0,2,Promotions,2,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,16,0,2,Promotions,2,0
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,17,0,3,Services,2,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,18,0,4,Maintenance,4,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,19,1,4,Services,4,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,20,0,4,Promotions,4,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,21,0,3,Maintenance,2,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,22,0,3,Services,2,0
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,23,0,3,Promotions,2,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,24,0,3,Maintenance,2,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,25,0,4,Maintenance,3,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,26,1,4,Promotions,3,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,27,0,4,Maintenance,3,1
+82,G3 weekly cycle,26-34,Male,OS X,Standard,28,28,0,3,Maintenance,3,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,1,0,3,Promotions,3,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,2,0,2,Services,2,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,3,0,3,Promotions,2,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,4,0,4,Services,4,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,5,1,5,Promotions,5,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,6,0,4,Services,3,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,7,0,3,Promotions,3,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,8,0,3,Maintenance,3,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,9,0,2,Promotions,2,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,10,0,3,Promotions,2,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,11,0,4,Maintenance,4,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,12,1,5,Promotions,5,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,13,0,4,Services,4,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,14,0,3,Services,3,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,15,0,3,Promotions,2,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,16,0,2,Services,2,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,17,0,3,Promotions,3,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,18,0,4,Promotions,4,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,19,1,4,Promotions,4,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,20,0,4,Services,3,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,21,0,3,Promotions,3,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,22,0,3,Maintenance,2,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,23,0,3,Promotions,3,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,24,0,3,Services,3,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,25,0,3,Services,2,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,26,1,4,Promotions,3,1
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,27,0,4,Maintenance,3,0
+83,G3 weekly cycle,35-50,Male,Android,Luxury,28,28,0,3,Services,3,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,1,0,3,Services,2,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,2,0,2,Services,2,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,3,0,3,Promotions,2,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,4,0,4,Promotions,3,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,5,1,4,Promotions,4,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,6,0,3,Promotions,3,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,7,0,3,Maintenance,3,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,8,0,2,Services,2,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,9,0,2,Promotions,2,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,10,0,3,Services,2,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,11,0,4,Promotions,4,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,12,1,4,Services,4,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,13,0,4,Services,3,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,14,0,3,Services,3,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,15,0,3,Services,2,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,16,0,2,Services,2,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,17,0,3,Maintenance,2,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,18,0,3,Promotions,2,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,19,1,4,Promotions,3,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,20,0,3,Promotions,3,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,21,0,3,Maintenance,2,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,22,0,2,Services,2,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,23,0,3,Promotions,2,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,24,0,3,Promotions,2,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,25,0,4,Services,3,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,26,1,4,Promotions,3,0
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,27,0,4,Promotions,4,1
+84,G3 weekly cycle,26-34,Female,Android,Standard,28,28,0,3,Maintenance,3,0
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,1,0,2,Services,1,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,2,0,2,Maintenance,1,0
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,3,0,3,Promotions,3,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,4,0,3,Maintenance,2,0
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,5,1,4,Promotions,3,0
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,6,0,4,Promotions,3,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,7,0,3,Services,3,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,8,0,2,Promotions,1,0
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,9,0,3,Promotions,3,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,10,0,3,Services,2,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,11,0,4,Promotions,3,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,12,1,4,Promotions,3,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,13,0,3,Services,2,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,14,0,3,Promotions,3,0
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,15,0,2,Services,2,0
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,16,0,2,Services,2,0
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,17,0,3,Promotions,2,0
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,18,0,4,Promotions,3,0
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,19,1,5,Maintenance,5,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,20,0,4,Promotions,4,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,21,0,3,Maintenance,2,0
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,22,0,3,Promotions,3,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,23,0,2,Promotions,1,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,24,0,3,Promotions,2,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,25,0,3,Services,3,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,26,1,4,Maintenance,3,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,27,0,4,Promotions,3,1
+85,G3 weekly cycle,35-50,Male,Android,Luxury,28,28,0,3,Services,2,0
+86,G3 weekly cycle,50+,Female,Android,Standard,25,1,0,2,Promotions,1,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,2,0,3,Promotions,3,0
+86,G3 weekly cycle,50+,Female,Android,Standard,25,3,0,3,Services,2,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,4,0,3,Services,3,0
+86,G3 weekly cycle,50+,Female,Android,Standard,25,5,1,4,Services,4,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,6,0,4,Promotions,3,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,7,0,3,Maintenance,2,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,8,0,2,Services,2,0
+86,G3 weekly cycle,50+,Female,Android,Standard,25,9,0,2,Promotions,2,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,10,0,3,Promotions,3,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,11,0,4,Services,4,0
+86,G3 weekly cycle,50+,Female,Android,Standard,25,12,1,5,Maintenance,5,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,13,0,4,Services,4,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,14,0,3,Services,2,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,15,0,2,Services,1,0
+86,G3 weekly cycle,50+,Female,Android,Standard,25,16,0,2,Promotions,1,0
+86,G3 weekly cycle,50+,Female,Android,Standard,25,17,0,3,Promotions,2,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,18,0,4,Services,3,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,19,1,5,Promotions,4,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,20,0,4,Services,3,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,21,0,3,Services,3,0
+86,G3 weekly cycle,50+,Female,Android,Standard,25,22,0,2,Promotions,1,0
+86,G3 weekly cycle,50+,Female,Android,Standard,25,23,0,1,Maintenance,0,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,24,0,1,Promotions,1,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,25,0,2,Promotions,2,1
+86,G3 weekly cycle,50+,Female,Android,Standard,25,26,1,,,,
+86,G3 weekly cycle,50+,Female,Android,Standard,25,27,0,,,,
+86,G3 weekly cycle,50+,Female,Android,Standard,25,28,0,,,,
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,1,0,3,Promotions,3,1
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,2,0,3,Services,3,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,3,0,3,Promotions,3,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,4,0,3,Promotions,3,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,5,1,4,Promotions,4,1
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,6,0,4,Services,4,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,7,0,3,Promotions,2,1
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,8,0,2,Services,2,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,9,0,2,Promotions,2,1
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,10,0,3,Promotions,3,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,11,0,4,Promotions,3,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,12,1,4,Promotions,3,1
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,13,0,3,Services,2,1
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,14,0,3,Promotions,3,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,15,0,3,Maintenance,3,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,16,0,2,Promotions,2,1
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,17,0,3,Services,3,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,18,0,3,Promotions,2,1
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,19,1,4,Maintenance,4,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,20,0,3,Promotions,3,1
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,21,0,3,Promotions,2,1
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,22,0,1,Promotions,1,1
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,23,0,1,Promotions,0,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,24,0,2,Services,1,0
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,25,0,,,,
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,26,1,,,,
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,27,0,,,,
+87,G3 weekly cycle,26-34,Male,OS X,Standard,24,28,0,,,,
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,1,0,3,Services,2,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,2,0,2,Promotions,2,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,3,0,3,Maintenance,3,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,4,0,3,Maintenance,2,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,5,1,5,Services,5,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,6,0,4,Promotions,3,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,7,0,3,Maintenance,2,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,8,0,2,Maintenance,2,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,9,0,2,Services,2,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,10,0,3,Promotions,2,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,11,0,4,Maintenance,3,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,12,1,4,Maintenance,4,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,13,0,3,Maintenance,3,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,14,0,3,Promotions,2,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,15,0,3,Promotions,3,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,16,0,2,Services,2,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,17,0,3,Services,3,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,18,0,4,Promotions,4,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,19,1,4,Promotions,4,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,20,0,4,Services,4,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,21,0,3,Maintenance,3,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,22,0,3,Services,3,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,23,0,2,Promotions,2,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,24,0,3,Services,3,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,25,0,4,Services,3,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,26,1,4,Promotions,4,1
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,27,0,4,Services,3,0
+88,G3 weekly cycle,26-34,Male,OS X,Luxury,28,28,0,3,Services,2,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,1,0,2,Services,1,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,2,0,2,Promotions,2,1
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,3,0,3,Services,3,1
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,4,0,4,Promotions,4,1
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,5,1,4,Services,4,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,6,0,4,Services,4,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,7,0,3,Promotions,2,1
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,8,0,2,Promotions,2,1
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,9,0,2,Services,2,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,10,0,3,Promotions,2,1
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,11,0,3,Promotions,2,1
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,12,1,4,Services,3,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,13,0,3,Services,2,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,14,0,3,Maintenance,2,1
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,15,0,3,Promotions,3,1
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,16,0,2,Maintenance,2,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,17,0,3,Promotions,2,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,18,0,3,Services,2,1
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,19,1,4,Promotions,4,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,20,0,4,Promotions,4,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,21,0,3,Promotions,2,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,22,0,2,Services,2,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,23,0,3,Promotions,3,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,24,0,3,Services,3,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,25,0,4,Services,4,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,26,1,4,Promotions,4,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,27,0,3,Promotions,3,0
+89,G3 weekly cycle,26-34,Female,Android,Luxury,28,28,0,3,Services,3,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,1,0,2,Services,2,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,2,0,2,Promotions,1,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,3,0,3,Maintenance,3,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,4,0,4,Services,3,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,5,1,4,Promotions,3,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,6,0,3,Services,3,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,7,0,3,Promotions,3,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,8,0,2,Services,1,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,9,0,2,Services,1,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,10,0,3,Promotions,2,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,11,0,4,Promotions,4,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,12,1,4,Promotions,4,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,13,0,4,Promotions,4,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,14,0,3,Promotions,3,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,15,0,2,Promotions,2,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,16,0,2,Promotions,1,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,17,0,3,Promotions,2,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,18,0,4,Services,4,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,19,1,5,Promotions,5,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,20,0,3,Services,3,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,21,0,3,Maintenance,2,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,22,0,2,Services,1,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,23,0,3,Promotions,2,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,24,0,3,Promotions,3,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,25,0,4,Promotions,3,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,26,1,4,Promotions,3,1
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,27,0,4,Promotions,3,0
+90,G3 weekly cycle,35-50,Male,OS X,Standard,28,28,0,3,Promotions,3,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,1,0,3,Services,3,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,2,0,2,Services,2,0
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,3,0,3,Promotions,3,0
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,4,0,4,Maintenance,4,0
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,5,1,4,Services,3,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,6,0,4,Promotions,4,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,7,0,3,Promotions,2,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,8,0,3,Maintenance,3,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,9,0,2,Promotions,2,0
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,10,0,3,Maintenance,3,0
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,11,0,4,Maintenance,4,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,12,1,5,Services,5,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,13,0,4,Services,4,0
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,14,0,3,Services,3,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,15,0,3,Promotions,2,0
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,16,0,3,Promotions,3,0
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,17,0,3,Services,2,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,18,0,4,Promotions,4,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,19,1,4,Maintenance,3,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,20,0,4,Promotions,4,0
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,21,0,3,Promotions,2,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,22,0,2,Maintenance,1,0
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,23,0,1,Services,1,0
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,24,0,1,Services,0,1
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,25,0,2,Services,2,0
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,26,1,,,,
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,27,0,,,,
+91,G3 weekly cycle,26-34,Male,OS X,Luxury,25,28,0,,,,
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,1,0,2,Maintenance,2,0
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,2,0,3,Promotions,3,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,3,0,3,Maintenance,3,0
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,4,0,3,Promotions,3,0
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,5,1,4,Promotions,3,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,6,0,4,Promotions,3,0
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,7,0,3,Promotions,2,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,8,0,2,Promotions,1,0
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,9,0,2,Promotions,2,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,10,0,3,Services,2,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,11,0,4,Promotions,4,0
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,12,1,4,Promotions,3,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,13,0,4,Services,4,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,14,0,3,Services,2,0
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,15,0,2,Promotions,1,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,16,0,2,Maintenance,2,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,17,0,3,Maintenance,3,0
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,18,0,4,Promotions,3,0
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,19,1,4,Promotions,4,0
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,20,0,4,Promotions,3,0
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,21,0,3,Promotions,3,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,22,0,3,Promotions,2,0
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,23,0,3,Promotions,2,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,24,0,3,Promotions,2,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,25,0,2,Services,2,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,26,1,2,Services,2,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,27,0,2,Promotions,1,1
+92,G3 weekly cycle,<=25,Male,OS X,Standard,27,28,0,,,,
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,1,0,3,Services,2,0
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,2,0,2,Promotions,2,0
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,3,0,3,Services,3,0
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,4,0,4,Services,4,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,5,1,4,Services,3,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,6,0,3,Services,2,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,7,0,3,Maintenance,2,0
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,8,0,2,Services,2,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,9,0,2,Promotions,1,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,10,0,3,Maintenance,3,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,11,0,3,Maintenance,3,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,12,1,4,Maintenance,4,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,13,0,4,Promotions,3,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,14,0,3,Promotions,2,0
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,15,0,3,Maintenance,2,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,16,0,2,Maintenance,1,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,17,0,3,Services,3,0
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,18,0,4,Maintenance,3,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,19,1,4,Services,4,0
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,20,0,4,Promotions,4,0
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,21,0,3,Services,2,0
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,22,0,1,Services,0,0
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,23,0,1,Maintenance,1,0
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,24,0,1,Services,1,1
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,25,0,,,,
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,26,1,,,,
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,27,0,,,,
+93,G3 weekly cycle,<=25,Male,Android,Luxury,24,28,0,,,,
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,1,0,2,Services,2,0
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,2,0,2,Promotions,1,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,3,0,3,Maintenance,2,0
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,4,0,4,Maintenance,4,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,5,1,4,Maintenance,4,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,6,0,4,Promotions,3,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,7,0,3,Promotions,3,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,8,0,3,Services,2,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,9,0,3,Promotions,2,0
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,10,0,3,Services,2,0
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,11,0,4,Maintenance,4,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,12,1,5,Maintenance,4,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,13,0,3,Promotions,2,0
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,14,0,3,Maintenance,2,0
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,15,0,2,Services,1,0
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,16,0,3,Promotions,2,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,17,0,3,Maintenance,3,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,18,0,4,Promotions,4,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,19,1,5,Promotions,4,0
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,20,0,4,Promotions,3,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,21,0,3,Services,2,0
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,22,0,2,Promotions,1,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,23,0,2,Promotions,1,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,24,0,3,Services,2,0
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,25,0,3,Promotions,3,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,26,1,4,Promotions,4,1
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,27,0,3,Promotions,2,0
+94,G3 weekly cycle,35-50,Male,OS X,Luxury,28,28,0,3,Services,3,0
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,1,0,2,Promotions,2,0
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,2,0,2,Promotions,1,1
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,3,0,3,Services,2,0
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,4,0,3,Maintenance,2,1
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,5,1,5,Maintenance,5,0
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,6,0,4,Promotions,4,1
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,7,0,3,Promotions,2,0
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,8,0,3,Promotions,3,1
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,9,0,3,Services,3,0
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,10,0,3,Maintenance,3,0
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,11,0,4,Services,3,1
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,12,1,5,Promotions,4,1
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,13,0,3,Services,2,1
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,14,0,3,Promotions,3,1
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,15,0,2,Promotions,2,1
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,16,0,2,Services,2,0
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,17,0,3,Promotions,3,1
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,18,0,2,Services,2,0
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,19,1,2,Promotions,2,0
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,20,0,2,Maintenance,2,1
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,21,0,,,,
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,22,0,,,,
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,23,0,,,,
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,24,0,,,,
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,25,0,,,,
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,26,1,,,,
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,27,0,,,,
+95,G3 weekly cycle,26-34,Female,Android,Luxury,20,28,0,,,,
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,1,0,2,Promotions,1,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,2,0,3,Promotions,2,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,3,0,3,Services,3,0
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,4,0,3,Maintenance,2,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,5,1,5,Services,4,0
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,6,0,4,Promotions,3,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,7,0,3,Maintenance,2,0
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,8,0,2,Promotions,1,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,9,0,3,Promotions,2,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,10,0,3,Services,2,0
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,11,0,4,Promotions,4,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,12,1,4,Services,3,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,13,0,4,Promotions,4,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,14,0,3,Promotions,2,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,15,0,2,Maintenance,2,0
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,16,0,3,Promotions,3,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,17,0,3,Promotions,2,0
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,18,0,4,Promotions,4,0
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,19,1,4,Maintenance,3,0
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,20,0,3,Services,3,0
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,21,0,3,Promotions,3,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,22,0,3,Promotions,3,0
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,23,0,3,Maintenance,2,0
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,24,0,3,Promotions,2,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,25,0,4,Services,4,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,26,1,5,Maintenance,4,0
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,27,0,4,Promotions,3,1
+96,G3 weekly cycle,26-34,Female,OS X,Luxury,28,28,0,3,Promotions,2,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,1,0,3,Promotions,3,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,2,0,3,Services,2,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,3,0,3,Services,2,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,4,0,3,Promotions,2,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,5,1,4,Services,3,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,6,0,4,Promotions,3,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,7,0,3,Services,2,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,8,0,2,Services,1,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,9,0,3,Promotions,2,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,10,0,3,Promotions,3,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,11,0,3,Promotions,2,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,12,1,4,Promotions,4,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,13,0,3,Promotions,3,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,14,0,3,Promotions,3,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,15,0,2,Services,2,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,16,0,3,Promotions,2,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,17,0,3,Maintenance,3,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,18,0,4,Promotions,3,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,19,1,4,Maintenance,3,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,20,0,4,Services,3,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,21,0,3,Promotions,2,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,22,0,2,Promotions,2,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,23,0,3,Promotions,3,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,24,0,3,Maintenance,3,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,25,0,4,Services,4,0
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,26,1,5,Maintenance,5,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,27,0,4,Maintenance,4,1
+97,G3 weekly cycle,50+,Female,Android,Luxury,28,28,0,3,Promotions,2,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,1,0,3,Services,2,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,2,0,3,Promotions,2,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,3,0,3,Promotions,2,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,4,0,4,Promotions,3,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,5,1,4,Maintenance,4,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,6,0,4,Promotions,3,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,7,0,3,Services,2,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,8,0,2,Promotions,1,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,9,0,3,Promotions,2,0
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,10,0,3,Promotions,3,0
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,11,0,4,Promotions,4,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,12,1,5,Promotions,4,0
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,13,0,3,Maintenance,2,0
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,14,0,3,Promotions,2,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,15,0,2,Promotions,1,0
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,16,0,3,Services,2,0
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,17,0,3,Promotions,3,0
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,18,0,3,Maintenance,2,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,19,1,4,Services,4,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,20,0,4,Services,4,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,21,0,3,Promotions,3,0
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,22,0,2,Promotions,1,0
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,23,0,2,Promotions,2,0
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,24,0,3,Promotions,2,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,25,0,4,Services,3,1
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,26,1,4,Promotions,4,0
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,27,0,4,Promotions,4,0
+98,G3 weekly cycle,35-50,Female,OS X,Luxury,28,28,0,3,Maintenance,2,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,1,0,3,Services,3,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,2,0,2,Maintenance,2,0
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,3,0,3,Promotions,3,0
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,4,0,4,Services,4,0
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,5,1,4,Services,4,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,6,0,3,Services,3,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,7,0,3,Promotions,2,0
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,8,0,3,Promotions,2,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,9,0,2,Services,1,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,10,0,3,Maintenance,3,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,11,0,4,Services,3,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,12,1,4,Promotions,4,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,13,0,3,Services,2,0
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,14,0,3,Promotions,3,0
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,15,0,2,Promotions,2,0
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,16,0,2,Promotions,2,0
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,17,0,3,Services,2,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,18,0,4,Promotions,3,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,19,1,4,Maintenance,4,0
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,20,0,3,Promotions,3,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,21,0,3,Services,2,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,22,0,2,Services,2,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,23,0,2,Promotions,1,0
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,24,0,3,Maintenance,3,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,25,0,3,Services,2,0
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,26,1,4,Promotions,4,1
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,27,0,4,Promotions,3,0
+99,G3 weekly cycle,35-50,Male,OS X,Luxury,28,28,0,3,Promotions,3,0
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,1,0,3,Maintenance,3,0
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,2,0,2,Promotions,1,0
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,3,0,3,Promotions,3,0
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,4,0,4,Services,3,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,5,1,4,Maintenance,4,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,6,0,4,Services,4,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,7,0,3,Services,3,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,8,0,2,Services,2,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,9,0,2,Services,1,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,10,0,3,Promotions,2,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,11,0,4,Promotions,3,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,12,1,5,Services,4,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,13,0,4,Promotions,3,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,14,0,3,Services,2,0
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,15,0,2,Maintenance,1,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,16,0,2,Maintenance,2,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,17,0,3,Promotions,2,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,18,0,4,Promotions,4,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,19,1,5,Promotions,5,0
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,20,0,4,Promotions,4,0
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,21,0,3,Services,3,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,22,0,2,Services,2,1
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,23,0,2,Maintenance,2,0
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,24,0,3,Services,2,0
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,25,0,4,Maintenance,3,0
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,26,1,4,Promotions,4,0
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,27,0,4,Promotions,3,0
+100,G3 weekly cycle,35-50,Male,Android,Luxury,28,28,0,3,Promotions,2,1
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,1,0,2,Maintenance,1,1
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,2,0,2,Maintenance,2,0
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,3,0,3,Promotions,2,1
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,4,0,3,Services,3,1
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,5,1,4,Promotions,4,1
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,6,0,4,Maintenance,3,0
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,7,0,3,Services,2,1
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,8,0,2,Maintenance,2,0
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,9,0,3,Maintenance,2,0
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,10,0,3,Promotions,2,1
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,11,0,4,Maintenance,3,0
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,12,1,5,Services,4,1
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,13,0,3,Promotions,2,0
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,14,0,3,Promotions,2,1
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,15,0,1,Services,0,0
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,16,0,1,Services,1,0
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,17,0,2,Services,2,0
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,18,0,,,,
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,19,1,,,,
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,20,0,,,,
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,21,0,,,,
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,22,0,,,,
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,23,0,,,,
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,24,0,,,,
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,25,0,,,,
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,26,1,,,,
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,27,0,,,,
+101,G3 weekly cycle,26-34,Female,Android,Luxury,17,28,0,,,,
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,1,0,3,Promotions,2,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,2,0,2,Maintenance,1,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,3,0,3,Services,3,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,4,0,4,Promotions,3,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,5,1,4,Promotions,3,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,6,0,4,Promotions,4,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,7,0,3,Promotions,3,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,8,0,2,Promotions,1,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,9,0,2,Maintenance,2,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,10,0,3,Promotions,2,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,11,0,4,Services,4,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,12,1,4,Promotions,4,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,13,0,3,Promotions,3,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,14,0,3,Maintenance,3,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,15,0,3,Services,3,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,16,0,2,Promotions,1,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,17,0,3,Promotions,3,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,18,0,4,Promotions,3,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,19,1,4,Promotions,3,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,20,0,4,Services,3,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,21,0,3,Promotions,3,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,22,0,2,Promotions,1,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,23,0,2,Services,2,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,24,0,3,Promotions,3,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,25,0,4,Promotions,3,1
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,26,1,5,Promotions,4,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,27,0,4,Promotions,3,0
+102,G3 weekly cycle,35-50,Male,OS X,Standard,28,28,0,3,Promotions,2,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,1,0,2,Promotions,2,0
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,2,0,3,Promotions,3,0
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,3,0,3,Services,3,0
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,4,0,4,Promotions,4,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,5,1,5,Promotions,4,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,6,0,4,Promotions,3,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,7,0,3,Promotions,3,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,8,0,2,Promotions,2,0
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,9,0,2,Maintenance,1,0
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,10,0,3,Maintenance,3,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,11,0,4,Services,4,0
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,12,1,4,Promotions,3,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,13,0,4,Services,3,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,14,0,3,Services,3,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,15,0,2,Promotions,1,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,16,0,2,Maintenance,2,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,17,0,3,Services,2,0
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,18,0,4,Promotions,3,0
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,19,1,4,Maintenance,4,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,20,0,4,Maintenance,4,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,21,0,3,Services,3,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,22,0,3,Maintenance,2,0
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,23,0,2,Promotions,2,0
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,24,0,2,Promotions,2,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,25,0,2,Maintenance,1,1
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,26,1,3,Promotions,2,0
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,27,0,,,,
+103,G3 weekly cycle,35-50,Male,Android,Luxury,26,28,0,,,,
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,1,0,2,Promotions,2,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,2,0,3,Promotions,3,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,3,0,3,Promotions,2,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,4,0,3,Promotions,3,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,5,1,4,Promotions,3,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,6,0,4,Promotions,4,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,7,0,3,Maintenance,2,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,8,0,2,Promotions,2,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,9,0,3,Services,3,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,10,0,3,Promotions,2,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,11,0,4,Maintenance,4,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,12,1,4,Services,4,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,13,0,4,Services,3,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,14,0,3,Promotions,2,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,15,0,2,Services,2,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,16,0,2,Promotions,1,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,17,0,3,Services,2,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,18,0,4,Services,4,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,19,1,5,Services,4,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,20,0,4,Promotions,3,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,21,0,3,Promotions,3,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,22,0,2,Promotions,2,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,23,0,2,Promotions,2,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,24,0,3,Promotions,3,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,25,0,4,Services,3,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,26,1,4,Promotions,4,1
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,27,0,4,Services,4,0
+104,G3 weekly cycle,50+,Female,OS X,Luxury,28,28,0,3,Services,3,0
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,1,0,2,Promotions,1,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,2,0,3,Services,2,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,3,0,3,Maintenance,2,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,4,0,3,Promotions,2,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,5,1,4,Maintenance,4,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,6,0,4,Promotions,3,0
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,7,0,3,Services,2,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,8,0,3,Promotions,2,0
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,9,0,2,Promotions,1,0
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,10,0,3,Maintenance,3,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,11,0,3,Services,2,0
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,12,1,4,Maintenance,3,0
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,13,0,3,Promotions,3,0
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,14,0,3,Promotions,2,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,15,0,2,Promotions,1,0
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,16,0,2,Promotions,1,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,17,0,3,Services,3,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,18,0,3,Services,2,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,19,1,5,Promotions,5,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,20,0,3,Promotions,2,0
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,21,0,3,Promotions,3,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,22,0,3,Services,2,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,23,0,2,Services,2,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,24,0,3,Maintenance,3,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,25,0,4,Services,4,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,26,1,4,Services,4,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,27,0,4,Services,4,1
+105,G3 weekly cycle,26-34,Male,OS X,Luxury,28,28,0,3,Services,2,0
